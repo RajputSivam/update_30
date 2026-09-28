@@ -1,45 +1,44 @@
-# IBM HR Employee Attrition Experiment
+# IBM HR Employee Attrition Research Workflow
 
-This project compares Logistic Regression, Random Forest, XGBoost, and a stacked ensemble on the IBM HR Analytics Employee Attrition dataset, before and after applying SMOTE to the training data.
+This project compares leakage-aware attrition classifiers and imbalance strategies on the IBM HR Analytics dataset. The implementation is in `src/employee_attrition.py`; the runnable, paper-oriented interface is `notebooks/employee_attrition_research.ipynb`.
 
-## Requirements
+## Setup
 
-Python 3.10 or newer. Install dependencies with:
+Use Python 3.10 or newer. Install the dependencies from this directory:
 
 ```powershell
 python -m pip install -r requirements.txt
 ```
 
-## Dataset
-
-Download the IBM HR Analytics Employee Attrition dataset from Kaggle and place `WA_Fn-UseC_-HR-Employee-Attrition.csv` in a local folder. The raw CSV is not included in this repository.
+Download `WA_Fn-UseC_-HR-Employee-Attrition.csv` separately and place it in this directory, or change `DATA_PATH` in the notebook. The raw dataset is not included.
 
 ## Run
 
-From this directory, run:
+Open `notebooks/employee_attrition_research.ipynb` and run all cells. Set `QUICK_RUN = True` for a short smoke run; leave it `False` for the specified 5-fold x 10-repeat nested CV and randomized search. The quick setting is for debugging only and is not suitable for paper results.
+
+The script can also be run from this directory:
 
 ```powershell
-python employee_attrition_experiment.py "C:\path\to\WA_Fn-UseC_-HR-Employee-Attrition.csv" --output employee_attrition_results.csv
+python employee_attrition_experiment.py --data .\WA_Fn-UseC_-HR-Employee-Attrition.csv
+python employee_attrition_experiment.py --data .\WA_Fn-UseC_-HR-Employee-Attrition.csv --quick
 ```
 
-The experiment uses a stratified 80/20 split with random seed 42. SMOTE is applied to training data only; metrics are evaluated on the unchanged test set. The output CSV contains accuracy, precision, recall, and F1-score for each model and condition. The script also prints confusion matrices.
+## Protocol
 
-## Results
+- Drops the four constant/identifier columns and retains nominal categories for one-hot encoding.
+- Keeps imputation, one-hot encoding, scaling, and resampling inside the estimator pipeline. SMOTE-NC temporarily codes categories only for its categorical-aware sampler and restores their nominal labels before one-hot encoding.
+- Tunes each model/strategy on inner folds with average precision; repeated stratified outer folds estimate performance. The fixed seed is 42.
+- Chooses one configuration by development nested-CV mean PR-AUC. Only that selected configuration is evaluated on the untouched stratified 20% final hold-out. Cost minima for strategy comparisons therefore come from development CV; hold-out cost is reported for the selected model only.
+- A separate development-only split supports a leakage demonstration and paired McNemar comparisons; neither can change the final configuration or touch the final hold-out.
 
-In the included run, Logistic Regression after SMOTE achieved the highest recall (0.787) and F1-score (0.525). XGBoost achieved the highest post-SMOTE accuracy (0.850). Results are from one fixed holdout split and should not be treated as cross-validation estimates.
+Confidence intervals are conventional t intervals across repeated-CV fold scores. Repeated fold results are dependent, so these intervals are descriptive and should not be interpreted as independent-sample confidence intervals. Wilcoxon tests are paired on identical outer folds. Treat significance results as exploratory and report the dependence limitation in the paper.
 
-## Comparison with Published Results
+## Outputs
 
-The comparison below uses Logistic Regression before SMOTE from the included experiment (87.41%, rounded to 87.4%). The difference is calculated as experiment accuracy minus paper accuracy, in percentage points; a positive value means this experiment's accuracy is higher.
+All generated artifacts are placed under `results/`:
 
-| Research paper | Method/result | Paper accuracy | Experiment accuracy | Difference (pp) | Higher accuracy |
-| --- | --- | ---: | ---: | ---: | --- |
-| Melon et al. (2026) | XGBoost + SHAP ensemble | 83.0% | 87.4% | +4.4 | Experiment |
-| Li et al. (2023) | Transformer-based deep learning | 85.07% | 87.4% | +2.3 | Experiment |
-| Habous et al. (2021) | Logistic Regression | 86.0% | 87.4% | +1.4 | Experiment |
-| Nandal et al. (2024) | Stacking (best classical) | 89.9% | 87.4% | -2.5 | Paper |
-| Nandal et al. (2024) | Feed-forward neural network (FNN) | 97.5% | 87.4% | -10.1 | Paper |
-| Alsheref et al. (2022) | Automated ensemble framework | 98.8% | 87.4% | -11.4 | Paper |
-| Konar et al. (2025) | Stacked model + Bayesian optimization | 98.8% | 87.4% | -11.4 | Paper |
+- `tables/`: fold results, mean/std/95% CI summaries, cost and leakage comparisons, significance tests, ranking, hold-out metrics, gain/lift, SHAP and LIME summaries. Main paper tables are also written as Markdown and LaTeX.
+- `figures/`: development ROC/PR curves, final hold-out calibration and confusion matrix, cost-ratio and gain/lift plots, and SHAP figures.
+- `final_pipeline.joblib` and `final_model_metadata.json`: selected fitted estimator, decision threshold, features, parameters, and run configuration.
 
-The paper accuracies and abbreviated citations above were transcribed from the supplied comparison and study summaries; verify them against the original publications before citing them. These are reported results from different experimental setups and may use different splits, preprocessing, or evaluation protocols, so they are not a like-for-like benchmark.
+The leakage demonstration intentionally oversamples before an internal development split. Its leaky scores are diagnostic only and are never used for model selection or reported as valid performance.
