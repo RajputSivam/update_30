@@ -7,6 +7,7 @@ from datetime import datetime, timezone
 import importlib.metadata
 from itertools import combinations
 import json
+import os
 import time
 import warnings
 from dataclasses import asdict, dataclass
@@ -50,6 +51,7 @@ from sklearn.model_selection import (
     train_test_split,
 )
 from sklearn.preprocessing import OneHotEncoder, StandardScaler
+from tqdm.auto import tqdm
 from xgboost import XGBClassifier
 
 SEED = 42
@@ -65,10 +67,9 @@ STRATEGIES = [
     "Calibrated isotonic + threshold",
 ]
 METRICS = ["accuracy", "balanced_accuracy", "precision", "recall", "f1", "roc_auc", "pr_auc", "mcc"]
-RESUME_KEYS = ("seed", "folds", "repeats", "trials")
 PACKAGE_DISTRIBUTIONS = (
     "numpy", "pandas", "scikit-learn", "imbalanced-learn", "xgboost", "lightgbm",
-    "scipy", "matplotlib", "shap", "lime", "joblib",
+    "scipy", "matplotlib", "shap", "lime", "joblib", "tqdm",
 )
 
 
@@ -78,18 +79,27 @@ class ExperimentConfig:
     outer_folds: int = 5
     outer_repeats: int = 10
     inner_folds: int = 3
-    search_trials: int = 12
+    search_trials: int | None = None
+    expanded_search: bool = True
     n_jobs: int = -1
     shap_samples: int = 150
     shap_stability_resamples: int = 5
     lime_explanations: int = 3
     quick_run: bool = False
 
+    @property
+    def n_iter(self) -> int:
+        if self.search_trials is not None:
+            return self.search_trials
+        return 30 if self.expanded_search else 12
+
+    @classmethod
+    def smoke(cls) -> "ExperimentConfig":
+        return cls(outer_repeats=2, search_trials=2, quick_run=True)
+
     @classmethod
     def quick(cls) -> "ExperimentConfig":
-        return cls(outer_folds=2, outer_repeats=1, inner_folds=2, search_trials=2,
-                   shap_samples=40, shap_stability_resamples=2, lime_explanations=2,
-                   n_jobs=1, quick_run=True)
+        return cls.smoke()
 
 
 def _utc_timestamp() -> str:
@@ -106,13 +116,41 @@ def _package_versions() -> dict[str, str]:
     return versions
 
 
-def _resume_signature(config: ExperimentConfig) -> dict[str, int]:
-    return {
+def _outer_repeat_seeds(config: ExperimentConfig) -> list[int]:
+    sequences = np.random.SeedSequence(config.seed).spawn(config.outer_repeats)
+    seeds = [int(sequence.generate_state(1, dtype=np.uint32)[0]) for sequence in sequences]
+    if len(set(seeds)) != len(seeds):
+        raise RuntimeError("Derived outer-repeat random states are not unique")
+    return seeds
+
+
+def _derived_seed(seed: int, *components: int) -> int:
+    return int(np.random.SeedSequence([seed, *components]).generate_state(1, dtype=np.uint32)[0])
+
+
+def _resume_signature(config: ExperimentConfig) -> dict[str, Any]:
+    signature = {
+        "protocol_version": 3 if config.expanded_search else 2,
         "seed": config.seed,
-        "folds": config.outer_folds,
-        "repeats": config.outer_repeats,
-        "trials": config.search_trials,
+        "n_splits": config.outer_folds,
+        "n_repeats": config.outer_repeats,
+        "outer_repeat_random_states": _outer_repeat_seeds(config),
+        "inner_n_splits": config.inner_folds,
+        "n_iter": config.n_iter,
+        "n_jobs": config.n_jobs,
+        "scoring": "average_precision",
+        "random_state_policy": {
+            "outer": "one RepeatedStratifiedKFold(n_repeats=1) per repeat, seeded from outer_repeat_random_states",
+            "inner": "SeedSequence([seed, repeat_index, fold_in_repeat, 101])",
+            "search": "SeedSequence([seed, repeat_index, fold_in_repeat, model_index, strategy_index, 202])",
+            "estimator": "SeedSequence([seed, repeat_index, fold_in_repeat, model_index, strategy_index, 303])",
+            "threshold": "SeedSequence([seed, repeat_index, fold_in_repeat, model_index, strategy_index, 404])",
+        },
+        "package_versions": _package_versions(),
     }
+    if config.expanded_search:
+        signature["expanded_search"] = True
+    return signature
 
 
 def _prepare_run_config(output: Path, config: ExperimentConfig) -> tuple[Path, dict[str, Any]]:
@@ -124,22 +162,18 @@ def _prepare_run_config(output: Path, config: ExperimentConfig) -> tuple[Path, d
     if config_path.exists():
         with config_path.open("r", encoding="utf-8") as stream:
             saved = json.load(stream)
-        saved_signature = {key: saved.get(key) for key in RESUME_KEYS}
-        mismatches = [
-            f"{key}: saved={saved_signature[key]!r}, current={signature[key]!r}"
-            for key in RESUME_KEYS if saved_signature[key] != signature[key]
-        ]
-        if mismatches:
-            raise RuntimeError("Cannot resume: run configuration differs (" + "; ".join(mismatches) + ")")
+        if saved.get("signature") != signature:
+            raise RuntimeError("Cannot resume: saved run configuration differs from the current protocol")
         start_time = saved.get("start_time", _utc_timestamp())
     else:
         start_time = _utc_timestamp()
     run_config = {
-        "quick_run": config.quick_run,
-        **signature,
-        "package_versions": _package_versions(),
+        "smoke_run": config.quick_run,
+        "signature": signature,
         "start_time": start_time,
+        "last_resume_time": _utc_timestamp(),
         "end_time": None,
+        "status": "running",
     }
     with config_path.open("w", encoding="utf-8") as stream:
         json.dump(run_config, stream, indent=2)
@@ -156,10 +190,16 @@ def _checkpoint_path(checkpoints: Path, model_index: int, strategy_index: int,
     return checkpoints / f"unit_{model_index:02d}_{strategy_index:02d}_{fold_index:03d}.joblib"
 
 
-def _progress(completed: int, total: int, started: float) -> None:
-    elapsed = time.perf_counter() - started
-    remaining = elapsed / completed * (total - completed) if completed else 0.0
-    print(f"Completed {completed}/{total}; estimated time remaining: {remaining:.1f} seconds")
+def _write_csv_atomic(frame: pd.DataFrame, path: Path) -> None:
+    temporary_path = path.with_name(path.name + ".tmp")
+    frame.to_csv(temporary_path, index=False)
+    os.replace(temporary_path, path)
+
+
+def _dump_joblib_atomic(value: Any, path: Path) -> None:
+    temporary_path = path.with_name(path.name + ".tmp")
+    joblib.dump(value, temporary_path)
+    os.replace(temporary_path, path)
 
 
 class CategoryPreservingSMOTENC(BaseEstimator):
@@ -334,7 +374,8 @@ def _build_model(name: str, strategy: str, categorical: list[str], numeric: list
     return estimator
 
 
-def _parameter_space(name: str, strategy: str, inner_folds: int) -> dict[str, Any]:
+def _parameter_space(name: str, strategy: str, inner_folds: int,
+                     expanded_search: bool = True) -> dict[str, Any]:
     if name == "Stacking":
         common = {
             "rf__classifier__max_depth": [None, 10, 20],
@@ -346,21 +387,39 @@ def _parameter_space(name: str, strategy: str, inner_folds: int) -> dict[str, An
         }
     elif name == "Logistic Regression":
         common = {"classifier__C": loguniform(0.01, 100)}
+        if expanded_search:
+            common["classifier__penalty"] = ["l1", "l2"]
     elif name == "Random Forest":
         common = {"classifier__max_depth": [None, 8, 16, 24],
                   "classifier__min_samples_leaf": [1, 2, 4],
                   "classifier__max_features": ["sqrt", 0.7, 1.0]}
+        if expanded_search:
+            common["classifier__n_estimators"] = [200, 300, 500]
     elif name == "XGBoost":
         common = {"classifier__max_depth": [2, 3, 5, 7],
                   "classifier__learning_rate": loguniform(0.015, 0.2),
                   "classifier__subsample": [0.7, 0.85, 1.0],
                   "classifier__colsample_bytree": [0.7, 0.85, 1.0],
                   "classifier__min_child_weight": [1, 3, 6]}
+        if expanded_search:
+            common.update({
+                "classifier__reg_lambda": loguniform(1e-3, 100),
+                "classifier__gamma": [0, 0.1, 0.5, 1.0, 5.0],
+            })
     else:
         common = {"classifier__num_leaves": [7, 15, 31, 63],
                   "classifier__learning_rate": loguniform(0.015, 0.2),
                   "classifier__max_depth": [-1, 5, 10, 15],
                   "classifier__min_child_samples": [10, 20, 40]}
+        if expanded_search:
+            common["classifier__reg_lambda"] = loguniform(1e-3, 100)
+    if name == "Stacking" and expanded_search:
+        common.update({
+            "rf__classifier__n_estimators": [200, 300, 500],
+            "xgb__classifier__reg_lambda": loguniform(1e-3, 100),
+            "xgb__classifier__gamma": [0, 0.1, 0.5, 1.0, 5.0],
+            "lgbm__classifier__reg_lambda": loguniform(1e-3, 100),
+        })
     if strategy == "Class weight" and name == "XGBoost":
         common = {key.replace("classifier__", "classifier__base_estimator__"): value
                   for key, value in common.items()}
@@ -398,11 +457,13 @@ def _metric_row(y_true: pd.Series, probabilities: np.ndarray, threshold: float) 
 
 
 def _search(estimator: BaseEstimator, model: str, strategy: str, X: pd.DataFrame, y: pd.Series,
-            config: ExperimentConfig, cv: StratifiedKFold, n_jobs: int) -> RandomizedSearchCV:
+            config: ExperimentConfig, cv: StratifiedKFold, n_jobs: int,
+            random_state: int | None = None) -> RandomizedSearchCV:
     return RandomizedSearchCV(
-        estimator, _parameter_space(model, strategy, config.inner_folds),
-        n_iter=config.search_trials, scoring="average_precision", cv=cv,
-        random_state=config.seed, n_jobs=n_jobs, refit=True, error_score="raise",
+        estimator, _parameter_space(model, strategy, config.inner_folds, config.expanded_search),
+        n_iter=config.n_iter, scoring="average_precision", cv=cv,
+        random_state=config.seed if random_state is None else random_state,
+        n_jobs=n_jobs, refit=True, error_score="raise",
     ).fit(X, y)
 
 
@@ -421,7 +482,7 @@ def _crossfit_tuned_probabilities(model: str, strategy: str, X: pd.DataFrame, y:
         estimator = _build_model(model, strategy, categorical, numeric, fold_weight,
                                  seed + split_index + 1, config.inner_folds)
         search = _search(estimator, model, strategy, X_fit, y_fit, config, tuning_cv,
-                         config.n_jobs)
+                         config.n_jobs, random_state=_derived_seed(seed, split_index, 202))
         probabilities[valid_indices] = search.best_estimator_.predict_proba(X_valid)[:, 1]
     return probabilities
 
@@ -429,26 +490,42 @@ def _crossfit_tuned_probabilities(model: str, strategy: str, X: pd.DataFrame, y:
 def _nested_cv(X: pd.DataFrame, y: pd.Series, categorical: list[str], numeric: list[str],
                config: ExperimentConfig, output: Path, log_path: Path
                ) -> tuple[pd.DataFrame, dict[tuple[str, str], tuple[np.ndarray, np.ndarray]]]:
-    outer = RepeatedStratifiedKFold(n_splits=config.outer_folds, n_repeats=config.outer_repeats,
-                                    random_state=config.seed)
-    splits = list(outer.split(X, y))
+    repeat_seeds = _outer_repeat_seeds(config)
+    run_signature = _resume_signature(config)
+    splits: list[tuple[np.ndarray, np.ndarray, int, int, int]] = []
+    repeat_signatures = set()
+    for repeat_index, repeat_seed in enumerate(repeat_seeds):
+        outer = RepeatedStratifiedKFold(n_splits=config.outer_folds, n_repeats=1,
+                                        random_state=repeat_seed)
+        repeat_splits = list(outer.split(X, y))
+        repeat_signature = tuple(sorted(tuple(sorted(valid_indices.tolist()))
+                                        for _, valid_indices in repeat_splits))
+        if repeat_signature in repeat_signatures:
+            raise RuntimeError("Two outer repeats produced identical validation partitions")
+        repeat_signatures.add(repeat_signature)
+        for fold_in_repeat, (train_indices, valid_indices) in enumerate(repeat_splits):
+            splits.append((train_indices, valid_indices, repeat_index, fold_in_repeat, repeat_seed))
+
     checkpoints = output / "checkpoints"
     checkpoints.mkdir(parents=True, exist_ok=True)
     total_units = len(MODEL_NAMES) * len(STRATEGIES) * len(splits)
-    completed_units = 0
-    progress_started = time.perf_counter()
     folds: list[dict[str, Any]] = []
     curves: dict[tuple[str, str], tuple[list[np.ndarray], list[np.ndarray]]] = {}
+    progress = tqdm(total=total_units, desc="Nested CV", unit="fold")
     for model_index, model in enumerate(MODEL_NAMES):
         for strategy_index, strategy in enumerate(STRATEGIES):
             key = (model, strategy)
             curves[key] = ([], [])
-            for fold_index, (train_indices, valid_indices) in enumerate(splits):
+            configuration_started = time.perf_counter()
+            _log_line(log_path, f"CONFIG_START model={model}; strategy={strategy}; "
+                      f"n_iter={config.n_iter}; expanded_search={config.expanded_search}")
+            for fold_index, (train_indices, valid_indices, repeat_index, fold_in_repeat,
+                             outer_random_state) in enumerate(splits):
                 checkpoint_path = _checkpoint_path(checkpoints, model_index, strategy_index, fold_index)
                 unit = f"model={model}; strategy={strategy}; outer_fold={fold_index}"
                 if checkpoint_path.exists():
                     checkpoint = joblib.load(checkpoint_path)
-                    if checkpoint.get("signature") != _resume_signature(config):
+                    if checkpoint.get("signature") != run_signature:
                         raise RuntimeError(f"Cannot resume: checkpoint configuration differs for {unit}")
                     row = checkpoint["row"]
                     y_valid_values = np.asarray(checkpoint["y_valid"])
@@ -456,33 +533,45 @@ def _nested_cv(X: pd.DataFrame, y: pd.Series, categorical: list[str], numeric: l
                     folds.append(row)
                     curves[key][0].append(y_valid_values)
                     curves[key][1].append(probabilities)
-                    completed_units += 1
                     _log_line(log_path, f"SKIP {unit}; checkpoint={checkpoint_path.name}")
-                    _progress(completed_units, total_units, progress_started)
+                    progress.update(1)
                     continue
                 unit_started = time.perf_counter()
                 _log_line(log_path, f"START {unit}")
                 X_train, X_valid = X.iloc[train_indices], X.iloc[valid_indices]
                 y_train, y_valid = y.iloc[train_indices], y.iloc[valid_indices]
+                inner_random_state = _derived_seed(config.seed, repeat_index, fold_in_repeat, 101)
+                search_random_state = _derived_seed(
+                    config.seed, repeat_index, fold_in_repeat, model_index, strategy_index, 202)
+                estimator_random_state = _derived_seed(
+                    config.seed, repeat_index, fold_in_repeat, model_index, strategy_index, 303)
                 inner = StratifiedKFold(n_splits=config.inner_folds, shuffle=True,
-                                        random_state=config.seed + fold_index)
+                                        random_state=inner_random_state)
                 positive_weight = float((y_train == 0).sum() / max((y_train == 1).sum(), 1))
                 estimator = _build_model(model, strategy, categorical, numeric, positive_weight,
-                                         config.seed + fold_index, config.inner_folds)
+                                         estimator_random_state, config.inner_folds)
                 search = _search(estimator, model, strategy, X_train, y_train, config, inner,
-                                 config.n_jobs)
+                                 config.n_jobs, random_state=search_random_state)
                 threshold = 0.5
+                threshold_random_state = _derived_seed(
+                    config.seed, repeat_index, fold_in_repeat, model_index, strategy_index, 404)
                 if "threshold" in strategy.lower():
                     oof = _crossfit_tuned_probabilities(model, strategy, X_train, y_train,
                                                         categorical, numeric, config,
-                                                        config.seed + fold_index)
+                                                        threshold_random_state)
                     threshold = _threshold_for_f1(y_train, oof)
                 probabilities = search.best_estimator_.predict_proba(X_valid)[:, 1]
                 row = {"model": model, "strategy": strategy, "fold": fold_index,
-                       "repeat": fold_index // config.outer_folds, "threshold": threshold}
+                       "repeat": repeat_index, "fold_in_repeat": fold_in_repeat,
+                       "outer_random_state": outer_random_state,
+                       "inner_random_state": inner_random_state,
+                       "search_random_state": search_random_state,
+                       "estimator_random_state": estimator_random_state,
+                       "threshold_random_state": threshold_random_state,
+                       "threshold": threshold}
                 row.update(_metric_row(y_valid, probabilities, threshold))
-                joblib.dump({
-                    "signature": _resume_signature(config),
+                _dump_joblib_atomic({
+                    "signature": run_signature,
                     "row": row,
                     "y_valid": y_valid.to_numpy(),
                     "probabilities": probabilities,
@@ -490,12 +579,20 @@ def _nested_cv(X: pd.DataFrame, y: pd.Series, categorical: list[str], numeric: l
                 folds.append(row)
                 curves[key][0].append(y_valid.to_numpy())
                 curves[key][1].append(probabilities)
-                completed_units += 1
                 elapsed = time.perf_counter() - unit_started
                 _log_line(log_path, f"FINISH {unit}; elapsed_seconds={elapsed:.3f}")
-                _progress(completed_units, total_units, progress_started)
+                progress.update(1)
+            configuration_elapsed = time.perf_counter() - configuration_started
+            _log_line(log_path, f"CONFIG_FINISH model={model}; strategy={strategy}; "
+                      f"elapsed_seconds={configuration_elapsed:.3f}; n_iter={config.n_iter}; "
+                      f"expanded_search={config.expanded_search}")
+            raw_results = pd.DataFrame([row for row in folds if row["model"] in MODEL_NAMES])
+            _write_csv_atomic(raw_results, output / "cv_results_raw.csv")
+            _log_line(log_path, f"SAVED_CONFIG model={model}; strategy={strategy}; rows={len(raw_results)}")
+    progress.close()
+
     majority = int(y.value_counts().idxmax())
-    for fold_index, (_, valid_indices) in enumerate(splits):
+    for fold_index, (_, valid_indices, repeat_index, _, _) in enumerate(splits):
         y_valid = y.iloc[valid_indices]
         constant_probabilities = np.full(len(y_valid), float(majority))
         baseline_metrics = _metric_row(y_valid, constant_probabilities, threshold=0.5)
@@ -503,7 +600,7 @@ def _nested_cv(X: pd.DataFrame, y: pd.Series, categorical: list[str], numeric: l
             "model": "Majority baseline",
             "strategy": "Majority class",
             "fold": fold_index,
-            "repeat": fold_index // config.outer_folds,
+            "repeat": repeat_index,
             "threshold": 1.0,
             **baseline_metrics,
         }
@@ -742,48 +839,6 @@ def _holdout_outputs(final_model: BaseEstimator, threshold: float, X_test: pd.Da
     fig.savefig(figures / "lift_chart.png", dpi=300); plt.close(fig)
 
 
-def _leakage_demo(X: pd.DataFrame, y: pd.Series, categorical: list[str], numeric: list[str],
-                  output_tables: Path, config: ExperimentConfig) -> pd.DataFrame:
-    """Demonstrate oversampling-before-split on development data only, never final hold-out."""
-    X_fit, X_valid, y_fit, y_valid = train_test_split(X, y, test_size=0.25, stratify=y,
-                                                       random_state=config.seed)
-    correct_rows, leaky_rows = [], []
-    # The leaky split intentionally permits related synthetic observations across partitions.
-    full_sampler = CategoryPreservingSMOTENC(categorical, random_state=config.seed, k_neighbors=3)
-    X_resampled, y_resampled = full_sampler.fit_resample(X, y)
-    X_leaky_fit, X_leaky_valid, y_leaky_fit, y_leaky_valid = train_test_split(
-        X_resampled, y_resampled, test_size=0.25, stratify=y_resampled, random_state=config.seed)
-    for model in MODEL_NAMES:
-        weight = float((y_fit == 0).sum() / max((y_fit == 1).sum(), 1))
-        correct = _build_model(model, "No handling", categorical, numeric, weight, config.seed, config.inner_folds)
-        leaky = _build_model(model, "No handling", categorical, numeric, weight, config.seed, config.inner_folds)
-        # Fixed baseline settings keep this diagnostic inexpensive and paired by model/seed.
-        correct.fit(X_fit, y_fit)
-        leaky.fit(X_leaky_fit, y_leaky_fit)
-        for label, estimator, X_eval, y_eval, destination in [
-            ("Correct pipeline", correct, X_valid, y_valid, correct_rows),
-            ("Leaky SMOTE before split", leaky, X_leaky_valid, y_leaky_valid, leaky_rows),
-        ]:
-            proba = estimator.predict_proba(X_eval)[:, 1]
-            pred = proba >= 0.5
-            destination.append({"model": model, "pipeline": label,
-                                "accuracy": accuracy_score(y_eval, pred),
-                                "recall": recall_score(y_eval, pred, zero_division=0),
-                                "roc_auc": roc_auc_score(y_eval, proba)})
-    table = pd.DataFrame(correct_rows + leaky_rows)
-    pivots = []
-    for model, group in table.groupby("model"):
-        correct = group[group.pipeline == "Correct pipeline"].iloc[0]
-        leaky = group[group.pipeline == "Leaky SMOTE before split"].iloc[0]
-        pivots.append({"model": model,
-                       **{f"correct_{metric}": correct[metric] for metric in ["accuracy", "recall", "roc_auc"]},
-                       **{f"leaky_{metric}": leaky[metric] for metric in ["accuracy", "recall", "roc_auc"]},
-                       **{f"inflation_{metric}": leaky[metric] - correct[metric] for metric in ["accuracy", "recall", "roc_auc"]}})
-    result = pd.DataFrame(pivots)
-    _save_table(result, output_tables / "leakage_comparison.csv")
-    return result
-
-
 def _shap_explain(final_estimator: BaseEstimator, model_name: str, strategy: str, X_train: pd.DataFrame,
                   X_test: pd.DataFrame, categorical: list[str], figures: Path, tables: Path,
                   config: ExperimentConfig) -> None:
@@ -955,20 +1010,27 @@ def run_experiment(data_path: str | Path, output_dir: str | Path = "results",
     output.mkdir(parents=True, exist_ok=True)
     config_path, run_config = _prepare_run_config(output, config)
     log_path = output / "run.log"
-    _log_line(log_path, f"RUN_START quick_run={config.quick_run}; output={output.resolve()}")
+    _log_line(log_path, f"RUN_START quick_run={config.quick_run}; n_iter={config.n_iter}; "
+              f"expanded_search={config.expanded_search}; output={output.resolve()}")
     tables, figures = output / "tables", output / "figures"
     tables.mkdir(parents=True, exist_ok=True); figures.mkdir(parents=True, exist_ok=True)
     X, y, categorical, numeric = load_dataset(Path(data_path))
     X_dev, X_test, y_dev, y_test = train_test_split(X, y, test_size=0.20, stratify=y,
                                                      random_state=config.seed)
     print(f"Rows={len(X)}; development={len(X_dev)}; final hold-out={len(X_test)}; "
-          f"attrition={y.mean():.3f}; quick_run={config.quick_run}")
+          f"attrition={y.mean():.3f}; smoke_run={config.quick_run}")
     X_search, X_compare, y_search, y_compare = train_test_split(
         X_dev, y_dev, test_size=0.20, stratify=y_dev, random_state=config.seed + 1)
     folds, curves = _nested_cv(X_search.reset_index(drop=True), y_search.reset_index(drop=True),
                                categorical, numeric, config, output, log_path)
+    cv_folds = folds[folds.model.isin(MODEL_NAMES)].copy()
+    cv_folds.to_csv(output / "cv_results_raw.csv", index=False)
     folds.to_csv(tables / "fold_level_results.csv", index=False)
-    summary = _summary_table(folds)
+    summary = _summary_table(cv_folds)
+    summary_columns = ["model", "strategy", "n_folds"] + [
+        f"{metric}_{stat}" for metric in METRICS for stat in ("mean", "std")
+    ]
+    summary[summary_columns].to_csv(output / "cv_summary.csv", index=False)
     summary.to_csv(tables / "main_comparison.csv", index=False)
     summary.to_markdown(tables / "main_comparison.md", index=False)
     summary.to_latex(tables / "main_comparison.tex", index=False, float_format="%.3f")
@@ -980,8 +1042,6 @@ def run_experiment(data_path: str | Path, output_dir: str | Path = "results",
     _plot_cost_curves(costs, figures)
     _plot_average_ranks(ranks, figures)
     _plot_cv_curves(curves, summary, figures)
-    leakage = _leakage_demo(X_dev, y_dev, categorical, numeric, tables, config)
-
     selectable = summary[summary.model.isin(MODEL_NAMES)].sort_values("pr_auc_mean", ascending=False)
     mcnemar = _mcnemar_comparison(summary, X_search, y_search, X_compare, y_compare,
                                   categorical, numeric, config, tables)
@@ -995,7 +1055,8 @@ def run_experiment(data_path: str | Path, output_dir: str | Path = "results",
     with (output / "final_model_metadata.json").open("w", encoding="utf-8") as stream:
         json.dump({"model": model_name, "strategy": strategy, "threshold": threshold,
                    "selected_by": "nested development CV mean PR-AUC", "best_params": best_params,
-                   "config": asdict(config), "categorical_features": categorical,
+                   "config": {**asdict(config), "n_iter": config.n_iter},
+                   "categorical_features": categorical,
                    "numeric_features": numeric}, stream, indent=2)
     _holdout_outputs(fitted, threshold, X_test, y_test, output, figures, tables)
     _shap_explain(fitted, model_name, strategy, X_dev, X_test, categorical, figures, tables, config)
@@ -1003,12 +1064,12 @@ def run_experiment(data_path: str | Path, output_dir: str | Path = "results",
     _lime_explain(fitted, X_dev, X_test, categorical, tables, config)
     costs.to_csv(tables / "cost_analysis_development.csv", index=False)
     run_config["end_time"] = _utc_timestamp()
+    run_config["status"] = "complete"
     with config_path.open("w", encoding="utf-8") as stream:
         json.dump(run_config, stream, indent=2)
     _log_line(log_path, "RUN_FINISH")
     print(f"All artifacts saved beneath: {output.resolve()}")
-    return {"folds": folds, "summary": summary, "costs": costs, "leakage": leakage,
-            "mcnemar": mcnemar,
+    return {"folds": folds, "summary": summary, "costs": costs, "mcnemar": mcnemar,
             "selected_model": model_name, "selected_strategy": strategy,
             "threshold": threshold, "final_model": thresholded}
 
@@ -1017,9 +1078,15 @@ def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--data", type=Path, required=True, help="IBM attrition CSV path")
     parser.add_argument("--output", type=Path, default=Path("results"))
-    parser.add_argument("--quick", action="store_true", help="Use 2-fold/1-repeat CV and 2 search trials")
+    parser.add_argument("--smoke", "--quick", action="store_true", dest="smoke",
+                        help="Use 5 folds x 2 repeats and 2 randomized-search trials")
+    parser.add_argument("--baseline-search", action="store_true",
+                        help="Use the original parameter spaces and 12 randomized-search trials")
     args = parser.parse_args()
-    run_experiment(args.data, args.output, ExperimentConfig.quick() if args.quick else ExperimentConfig())
+    config = ExperimentConfig.smoke() if args.smoke else ExperimentConfig()
+    if args.baseline_search:
+        config.expanded_search = False
+    run_experiment(args.data, args.output, config)
 
 
 if __name__ == "__main__":

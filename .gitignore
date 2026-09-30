@@ -1,0 +1,8 @@
+.venv/
+**/__pycache__/
+*.py[cod]
+WA_Fn-UseC_-HR-Employee-Attrition.csv
+archive.zip
+results/
+results_full/
+results_smoke/
