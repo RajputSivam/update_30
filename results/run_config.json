@@ -1,0 +1,50 @@
+{
+  "smoke_run": false,
+  "signature": {
+    "protocol_version": 2,
+    "seed": 42,
+    "n_splits": 5,
+    "n_repeats": 10,
+    "outer_repeat_random_states": [
+      2684470948,
+      4091952314,
+      233227757,
+      3276785861,
+      3644269654,
+      1206282609,
+      3543069911,
+      3479688010,
+      877132087,
+      1244265337
+    ],
+    "inner_n_splits": 3,
+    "n_iter": 12,
+    "n_jobs": -1,
+    "scoring": "average_precision",
+    "random_state_policy": {
+      "outer": "one RepeatedStratifiedKFold(n_repeats=1) per repeat, seeded from outer_repeat_random_states",
+      "inner": "SeedSequence([seed, repeat_index, fold_in_repeat, 101])",
+      "search": "SeedSequence([seed, repeat_index, fold_in_repeat, model_index, strategy_index, 202])",
+      "estimator": "SeedSequence([seed, repeat_index, fold_in_repeat, model_index, strategy_index, 303])",
+      "threshold": "SeedSequence([seed, repeat_index, fold_in_repeat, model_index, strategy_index, 404])"
+    },
+    "package_versions": {
+      "numpy": "2.5.3",
+      "pandas": "3.0.6",
+      "scikit-learn": "1.9.1",
+      "imbalanced-learn": "0.14.2",
+      "xgboost": "3.4.1",
+      "lightgbm": "4.7.0",
+      "scipy": "1.18.1",
+      "matplotlib": "3.11.2",
+      "shap": "0.52.0",
+      "lime": "0.2.0.1",
+      "joblib": "1.6.0",
+      "tqdm": "4.70.1"
+    }
+  },
+  "start_time": "2026-09-30T00:41:07.549719+00:00",
+  "last_resume_time": "2026-09-30T00:54:40.099181+00:00",
+  "end_time": null,
+  "status": "running"
+}

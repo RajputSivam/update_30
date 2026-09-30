@@ -1,0 +1,22 @@
+{
+  "quick_run": false,
+  "seed": 42,
+  "folds": 5,
+  "repeats": 10,
+  "trials": 12,
+  "package_versions": {
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "scikit-learn": "1.9.1",
+    "imbalanced-learn": "0.14.2",
+    "xgboost": "3.4.1",
+    "lightgbm": "4.7.0",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.2",
+    "shap": "0.52.0",
+    "lime": "0.2.0.1",
+    "joblib": "1.6.0"
+  },
+  "start_time": "2026-09-28T12:46:16.507709+00:00",
+  "end_time": null
+}

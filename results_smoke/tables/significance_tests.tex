@@ -1,0 +1,216 @@
+\begin{tabular}{lllrrr}
+\toprule
+model & comparison & metric & wilcoxon_statistic & p_value & bh_q_value \\
+\midrule
+Logistic Regression & No handling vs Class weight & pr_auc & 7.000 & 0.037 & 0.126 \\
+Logistic Regression & No handling vs Class weight & f1 & 22.000 & 0.625 & 0.781 \\
+Logistic Regression & No handling vs SMOTE-NC & pr_auc & 9.000 & 0.064 & 0.180 \\
+Logistic Regression & No handling vs SMOTE-NC & f1 & 23.000 & 0.695 & 0.844 \\
+Logistic Regression & No handling vs Random undersampling & pr_auc & 5.000 & 0.020 & 0.085 \\
+Logistic Regression & No handling vs Random undersampling & f1 & 26.000 & 0.922 & 0.973 \\
+Logistic Regression & No handling vs Threshold tuning & pr_auc & 22.000 & 0.625 & 0.781 \\
+Logistic Regression & No handling vs Threshold tuning & f1 & 4.000 & 0.014 & 0.076 \\
+Logistic Regression & No handling vs Calibrated sigmoid + threshold & pr_auc & 27.000 & 1.000 & 1.000 \\
+Logistic Regression & No handling vs Calibrated sigmoid + threshold & f1 & 6.000 & 0.027 & 0.101 \\
+Logistic Regression & No handling vs Calibrated isotonic + threshold & pr_auc & 26.000 & 0.922 & 0.973 \\
+Logistic Regression & No handling vs Calibrated isotonic + threshold & f1 & 10.000 & 0.084 & 0.218 \\
+Logistic Regression & Class weight vs SMOTE-NC & pr_auc & 15.000 & 0.232 & 0.414 \\
+Logistic Regression & Class weight vs SMOTE-NC & f1 & 27.000 & 1.000 & 1.000 \\
+Logistic Regression & Class weight vs Random undersampling & pr_auc & 13.000 & 0.160 & 0.333 \\
+Logistic Regression & Class weight vs Random undersampling & f1 & 6.000 & 0.027 & 0.101 \\
+Logistic Regression & Class weight vs Threshold tuning & pr_auc & 3.000 & 0.010 & 0.059 \\
+Logistic Regression & Class weight vs Threshold tuning & f1 & 6.000 & 0.027 & 0.101 \\
+Logistic Regression & Class weight vs Calibrated sigmoid + threshold & pr_auc & 3.000 & 0.010 & 0.059 \\
+Logistic Regression & Class weight vs Calibrated sigmoid + threshold & f1 & 0.000 & 0.002 & 0.026 \\
+Logistic Regression & Class weight vs Calibrated isotonic + threshold & pr_auc & 12.000 & 0.131 & 0.289 \\
+Logistic Regression & Class weight vs Calibrated isotonic + threshold & f1 & 2.000 & 0.006 & 0.051 \\
+Logistic Regression & SMOTE-NC vs Random undersampling & pr_auc & 22.000 & 0.625 & 0.781 \\
+Logistic Regression & SMOTE-NC vs Random undersampling & f1 & 16.000 & 0.275 & 0.452 \\
+Logistic Regression & SMOTE-NC vs Threshold tuning & pr_auc & 7.000 & 0.037 & 0.126 \\
+Logistic Regression & SMOTE-NC vs Threshold tuning & f1 & 5.000 & 0.020 & 0.085 \\
+Logistic Regression & SMOTE-NC vs Calibrated sigmoid + threshold & pr_auc & 8.000 & 0.049 & 0.146 \\
+Logistic Regression & SMOTE-NC vs Calibrated sigmoid + threshold & f1 & 0.000 & 0.002 & 0.026 \\
+Logistic Regression & SMOTE-NC vs Calibrated isotonic + threshold & pr_auc & 8.000 & 0.049 & 0.146 \\
+Logistic Regression & SMOTE-NC vs Calibrated isotonic + threshold & f1 & 2.000 & 0.006 & 0.051 \\
+Logistic Regression & Random undersampling vs Threshold tuning & pr_auc & 3.000 & 0.010 & 0.059 \\
+Logistic Regression & Random undersampling vs Threshold tuning & f1 & 3.000 & 0.010 & 0.059 \\
+Logistic Regression & Random undersampling vs Calibrated sigmoid + threshold & pr_auc & 2.000 & 0.006 & 0.051 \\
+Logistic Regression & Random undersampling vs Calibrated sigmoid + threshold & f1 & 0.000 & 0.002 & 0.026 \\
+Logistic Regression & Random undersampling vs Calibrated isotonic + threshold & pr_auc & 6.000 & 0.027 & 0.101 \\
+Logistic Regression & Random undersampling vs Calibrated isotonic + threshold & f1 & 1.000 & 0.004 & 0.041 \\
+Logistic Regression & Threshold tuning vs Calibrated sigmoid + threshold & pr_auc & 26.000 & 0.922 & 0.973 \\
+Logistic Regression & Threshold tuning vs Calibrated sigmoid + threshold & f1 & 25.000 & 0.846 & 0.945 \\
+Logistic Regression & Threshold tuning vs Calibrated isotonic + threshold & pr_auc & 19.000 & 0.432 & 0.617 \\
+Logistic Regression & Threshold tuning vs Calibrated isotonic + threshold & f1 & 26.500 & 0.961 & 1.000 \\
+Logistic Regression & Calibrated sigmoid + threshold vs Calibrated isotonic + threshold & pr_auc & 21.000 & 0.557 & 0.740 \\
+Logistic Regression & Calibrated sigmoid + threshold vs Calibrated isotonic + threshold & f1 & 24.000 & 0.770 & 0.898 \\
+Random Forest & No handling vs Class weight & pr_auc & 9.000 & 0.064 & 0.180 \\
+Random Forest & No handling vs Class weight & f1 & 1.000 & 0.004 & 0.041 \\
+Random Forest & No handling vs SMOTE-NC & pr_auc & 12.000 & 0.131 & 0.289 \\
+Random Forest & No handling vs SMOTE-NC & f1 & 1.000 & 0.004 & 0.041 \\
+Random Forest & No handling vs Random undersampling & pr_auc & 27.000 & 1.000 & 1.000 \\
+Random Forest & No handling vs Random undersampling & f1 & 3.000 & 0.010 & 0.059 \\
+Random Forest & No handling vs Threshold tuning & pr_auc & 21.000 & 0.557 & 0.740 \\
+Random Forest & No handling vs Threshold tuning & f1 & 0.000 & 0.002 & 0.026 \\
+Random Forest & No handling vs Calibrated sigmoid + threshold & pr_auc & 24.000 & 0.770 & 0.898 \\
+Random Forest & No handling vs Calibrated sigmoid + threshold & f1 & 0.000 & 0.002 & 0.026 \\
+Random Forest & No handling vs Calibrated isotonic + threshold & pr_auc & 16.000 & 0.275 & 0.452 \\
+Random Forest & No handling vs Calibrated isotonic + threshold & f1 & 0.000 & 0.002 & 0.026 \\
+Random Forest & Class weight vs SMOTE-NC & pr_auc & 23.000 & 0.695 & 0.844 \\
+Random Forest & Class weight vs SMOTE-NC & f1 & 16.000 & 0.275 & 0.452 \\
+Random Forest & Class weight vs Random undersampling & pr_auc & 15.000 & 0.232 & 0.414 \\
+Random Forest & Class weight vs Random undersampling & f1 & 27.000 & 1.000 & 1.000 \\
+Random Forest & Class weight vs Threshold tuning & pr_auc & 15.000 & 0.232 & 0.414 \\
+Random Forest & Class weight vs Threshold tuning & f1 & 19.000 & 0.432 & 0.617 \\
+Random Forest & Class weight vs Calibrated sigmoid + threshold & pr_auc & 6.000 & 0.027 & 0.101 \\
+Random Forest & Class weight vs Calibrated sigmoid + threshold & f1 & 23.000 & 0.695 & 0.844 \\
+Random Forest & Class weight vs Calibrated isotonic + threshold & pr_auc & 21.000 & 0.557 & 0.740 \\
+Random Forest & Class weight vs Calibrated isotonic + threshold & f1 & 26.000 & 0.922 & 0.973 \\
+Random Forest & SMOTE-NC vs Random undersampling & pr_auc & 14.000 & 0.193 & 0.373 \\
+Random Forest & SMOTE-NC vs Random undersampling & f1 & 17.000 & 0.322 & 0.501 \\
+Random Forest & SMOTE-NC vs Threshold tuning & pr_auc & 14.000 & 0.193 & 0.373 \\
+Random Forest & SMOTE-NC vs Threshold tuning & f1 & 3.000 & 0.010 & 0.059 \\
+Random Forest & SMOTE-NC vs Calibrated sigmoid + threshold & pr_auc & 14.000 & 0.193 & 0.373 \\
+Random Forest & SMOTE-NC vs Calibrated sigmoid + threshold & f1 & 12.000 & 0.131 & 0.289 \\
+Random Forest & SMOTE-NC vs Calibrated isotonic + threshold & pr_auc & 17.000 & 0.322 & 0.501 \\
+Random Forest & SMOTE-NC vs Calibrated isotonic + threshold & f1 & 5.000 & 0.020 & 0.085 \\
+Random Forest & Random undersampling vs Threshold tuning & pr_auc & 26.000 & 0.922 & 0.973 \\
+Random Forest & Random undersampling vs Threshold tuning & f1 & 10.000 & 0.084 & 0.218 \\
+Random Forest & Random undersampling vs Calibrated sigmoid + threshold & pr_auc & 26.000 & 0.922 & 0.973 \\
+Random Forest & Random undersampling vs Calibrated sigmoid + threshold & f1 & 25.000 & 0.846 & 0.945 \\
+Random Forest & Random undersampling vs Calibrated isotonic + threshold & pr_auc & 19.000 & 0.432 & 0.617 \\
+Random Forest & Random undersampling vs Calibrated isotonic + threshold & f1 & 21.000 & 0.557 & 0.740 \\
+Random Forest & Threshold tuning vs Calibrated sigmoid + threshold & pr_auc & 22.000 & 0.625 & 0.781 \\
+Random Forest & Threshold tuning vs Calibrated sigmoid + threshold & f1 & 19.000 & 0.432 & 0.617 \\
+Random Forest & Threshold tuning vs Calibrated isotonic + threshold & pr_auc & 25.000 & 0.846 & 0.945 \\
+Random Forest & Threshold tuning vs Calibrated isotonic + threshold & f1 & 9.000 & 0.064 & 0.180 \\
+Random Forest & Calibrated sigmoid + threshold vs Calibrated isotonic + threshold & pr_auc & 16.000 & 0.275 & 0.452 \\
+Random Forest & Calibrated sigmoid + threshold vs Calibrated isotonic + threshold & f1 & 26.000 & 0.922 & 0.973 \\
+XGBoost & No handling vs Class weight & pr_auc & 20.000 & 0.492 & 0.684 \\
+XGBoost & No handling vs Class weight & f1 & 11.000 & 0.105 & 0.255 \\
+XGBoost & No handling vs SMOTE-NC & pr_auc & 17.000 & 0.322 & 0.501 \\
+XGBoost & No handling vs SMOTE-NC & f1 & 23.000 & 0.695 & 0.844 \\
+XGBoost & No handling vs Random undersampling & pr_auc & 8.000 & 0.049 & 0.146 \\
+XGBoost & No handling vs Random undersampling & f1 & 19.000 & 0.432 & 0.617 \\
+XGBoost & No handling vs Threshold tuning & pr_auc & 17.000 & 0.322 & 0.501 \\
+XGBoost & No handling vs Threshold tuning & f1 & 8.000 & 0.049 & 0.146 \\
+XGBoost & No handling vs Calibrated sigmoid + threshold & pr_auc & 21.000 & 0.557 & 0.740 \\
+XGBoost & No handling vs Calibrated sigmoid + threshold & f1 & 9.000 & 0.064 & 0.180 \\
+XGBoost & No handling vs Calibrated isotonic + threshold & pr_auc & 20.000 & 0.492 & 0.684 \\
+XGBoost & No handling vs Calibrated isotonic + threshold & f1 & 14.000 & 0.193 & 0.373 \\
+XGBoost & Class weight vs SMOTE-NC & pr_auc & 19.000 & 0.432 & 0.617 \\
+XGBoost & Class weight vs SMOTE-NC & f1 & 15.000 & 0.232 & 0.414 \\
+XGBoost & Class weight vs Random undersampling & pr_auc & 14.000 & 0.193 & 0.373 \\
+XGBoost & Class weight vs Random undersampling & f1 & 5.500 & 0.023 & 0.098 \\
+XGBoost & Class weight vs Threshold tuning & pr_auc & 25.000 & 0.846 & 0.945 \\
+XGBoost & Class weight vs Threshold tuning & f1 & 27.000 & 1.000 & 1.000 \\
+XGBoost & Class weight vs Calibrated sigmoid + threshold & pr_auc & 19.000 & 0.432 & 0.617 \\
+XGBoost & Class weight vs Calibrated sigmoid + threshold & f1 & 25.500 & 0.883 & 0.973 \\
+XGBoost & Class weight vs Calibrated isotonic + threshold & pr_auc & 26.000 & 0.922 & 0.973 \\
+XGBoost & Class weight vs Calibrated isotonic + threshold & f1 & 23.000 & 0.695 & 0.844 \\
+XGBoost & SMOTE-NC vs Random undersampling & pr_auc & 21.000 & 0.557 & 0.740 \\
+XGBoost & SMOTE-NC vs Random undersampling & f1 & 5.500 & 0.023 & 0.098 \\
+XGBoost & SMOTE-NC vs Threshold tuning & pr_auc & 22.000 & 0.625 & 0.781 \\
+XGBoost & SMOTE-NC vs Threshold tuning & f1 & 14.500 & 0.211 & 0.403 \\
+XGBoost & SMOTE-NC vs Calibrated sigmoid + threshold & pr_auc & 16.000 & 0.275 & 0.452 \\
+XGBoost & SMOTE-NC vs Calibrated sigmoid + threshold & f1 & 9.000 & 0.064 & 0.180 \\
+XGBoost & SMOTE-NC vs Calibrated isotonic + threshold & pr_auc & 22.000 & 0.625 & 0.781 \\
+XGBoost & SMOTE-NC vs Calibrated isotonic + threshold & f1 & 17.000 & 0.322 & 0.501 \\
+XGBoost & Random undersampling vs Threshold tuning & pr_auc & 16.000 & 0.275 & 0.452 \\
+XGBoost & Random undersampling vs Threshold tuning & f1 & 0.000 & 0.002 & 0.026 \\
+XGBoost & Random undersampling vs Calibrated sigmoid + threshold & pr_auc & 3.000 & 0.010 & 0.059 \\
+XGBoost & Random undersampling vs Calibrated sigmoid + threshold & f1 & 0.000 & 0.002 & 0.026 \\
+XGBoost & Random undersampling vs Calibrated isotonic + threshold & pr_auc & 13.000 & 0.160 & 0.333 \\
+XGBoost & Random undersampling vs Calibrated isotonic + threshold & f1 & 5.000 & 0.020 & 0.085 \\
+XGBoost & Threshold tuning vs Calibrated sigmoid + threshold & pr_auc & 14.000 & 0.193 & 0.373 \\
+XGBoost & Threshold tuning vs Calibrated sigmoid + threshold & f1 & 26.500 & 0.961 & 1.000 \\
+XGBoost & Threshold tuning vs Calibrated isotonic + threshold & pr_auc & 24.000 & 0.770 & 0.898 \\
+XGBoost & Threshold tuning vs Calibrated isotonic + threshold & f1 & 18.500 & 0.402 & 0.612 \\
+XGBoost & Calibrated sigmoid + threshold vs Calibrated isotonic + threshold & pr_auc & 22.000 & 0.625 & 0.781 \\
+XGBoost & Calibrated sigmoid + threshold vs Calibrated isotonic + threshold & f1 & 16.000 & 0.275 & 0.452 \\
+LightGBM & No handling vs Class weight & pr_auc & 22.000 & 0.625 & 0.781 \\
+LightGBM & No handling vs Class weight & f1 & 13.000 & 0.160 & 0.333 \\
+LightGBM & No handling vs SMOTE-NC & pr_auc & 13.000 & 0.160 & 0.333 \\
+LightGBM & No handling vs SMOTE-NC & f1 & 23.500 & 0.730 & 0.877 \\
+LightGBM & No handling vs Random undersampling & pr_auc & 5.000 & 0.020 & 0.085 \\
+LightGBM & No handling vs Random undersampling & f1 & 16.000 & 0.275 & 0.452 \\
+LightGBM & No handling vs Threshold tuning & pr_auc & 15.000 & 0.232 & 0.414 \\
+LightGBM & No handling vs Threshold tuning & f1 & 23.500 & 0.730 & 0.877 \\
+LightGBM & No handling vs Calibrated sigmoid + threshold & pr_auc & 14.000 & 0.193 & 0.373 \\
+LightGBM & No handling vs Calibrated sigmoid + threshold & f1 & 5.000 & 0.020 & 0.085 \\
+LightGBM & No handling vs Calibrated isotonic + threshold & pr_auc & 22.000 & 0.625 & 0.781 \\
+LightGBM & No handling vs Calibrated isotonic + threshold & f1 & 11.000 & 0.105 & 0.255 \\
+LightGBM & Class weight vs SMOTE-NC & pr_auc & 19.000 & 0.432 & 0.617 \\
+LightGBM & Class weight vs SMOTE-NC & f1 & 11.000 & 0.105 & 0.255 \\
+LightGBM & Class weight vs Random undersampling & pr_auc & 4.000 & 0.014 & 0.076 \\
+LightGBM & Class weight vs Random undersampling & f1 & 6.000 & 0.027 & 0.101 \\
+LightGBM & Class weight vs Threshold tuning & pr_auc & 21.000 & 0.557 & 0.740 \\
+LightGBM & Class weight vs Threshold tuning & f1 & 27.000 & 1.000 & 1.000 \\
+LightGBM & Class weight vs Calibrated sigmoid + threshold & pr_auc & 13.000 & 0.160 & 0.333 \\
+LightGBM & Class weight vs Calibrated sigmoid + threshold & f1 & 6.000 & 0.027 & 0.101 \\
+LightGBM & Class weight vs Calibrated isotonic + threshold & pr_auc & 27.000 & 1.000 & 1.000 \\
+LightGBM & Class weight vs Calibrated isotonic + threshold & f1 & 25.000 & 0.846 & 0.945 \\
+LightGBM & SMOTE-NC vs Random undersampling & pr_auc & 5.000 & 0.020 & 0.085 \\
+LightGBM & SMOTE-NC vs Random undersampling & f1 & 10.000 & 0.084 & 0.218 \\
+LightGBM & SMOTE-NC vs Threshold tuning & pr_auc & 18.000 & 0.375 & 0.575 \\
+LightGBM & SMOTE-NC vs Threshold tuning & f1 & 22.000 & 0.625 & 0.781 \\
+LightGBM & SMOTE-NC vs Calibrated sigmoid + threshold & pr_auc & 3.000 & 0.010 & 0.059 \\
+LightGBM & SMOTE-NC vs Calibrated sigmoid + threshold & f1 & 1.000 & 0.004 & 0.041 \\
+LightGBM & SMOTE-NC vs Calibrated isotonic + threshold & pr_auc & 8.000 & 0.049 & 0.146 \\
+LightGBM & SMOTE-NC vs Calibrated isotonic + threshold & f1 & 5.000 & 0.020 & 0.085 \\
+LightGBM & Random undersampling vs Threshold tuning & pr_auc & 5.000 & 0.020 & 0.085 \\
+LightGBM & Random undersampling vs Threshold tuning & f1 & 12.000 & 0.131 & 0.289 \\
+LightGBM & Random undersampling vs Calibrated sigmoid + threshold & pr_auc & 3.000 & 0.010 & 0.059 \\
+LightGBM & Random undersampling vs Calibrated sigmoid + threshold & f1 & 0.000 & 0.002 & 0.026 \\
+LightGBM & Random undersampling vs Calibrated isotonic + threshold & pr_auc & 4.000 & 0.014 & 0.076 \\
+LightGBM & Random undersampling vs Calibrated isotonic + threshold & f1 & 0.000 & 0.002 & 0.026 \\
+LightGBM & Threshold tuning vs Calibrated sigmoid + threshold & pr_auc & 11.000 & 0.105 & 0.255 \\
+LightGBM & Threshold tuning vs Calibrated sigmoid + threshold & f1 & 10.000 & 0.084 & 0.218 \\
+LightGBM & Threshold tuning vs Calibrated isotonic + threshold & pr_auc & 27.000 & 1.000 & 1.000 \\
+LightGBM & Threshold tuning vs Calibrated isotonic + threshold & f1 & 17.000 & 0.322 & 0.501 \\
+LightGBM & Calibrated sigmoid + threshold vs Calibrated isotonic + threshold & pr_auc & 5.000 & 0.020 & 0.085 \\
+LightGBM & Calibrated sigmoid + threshold vs Calibrated isotonic + threshold & f1 & 15.000 & 0.232 & 0.414 \\
+Stacking & No handling vs Class weight & pr_auc & 17.000 & 0.322 & 0.501 \\
+Stacking & No handling vs Class weight & f1 & 13.500 & 0.176 & 0.362 \\
+Stacking & No handling vs SMOTE-NC & pr_auc & 24.000 & 0.770 & 0.898 \\
+Stacking & No handling vs SMOTE-NC & f1 & 16.000 & 0.275 & 0.452 \\
+Stacking & No handling vs Random undersampling & pr_auc & 11.000 & 0.105 & 0.255 \\
+Stacking & No handling vs Random undersampling & f1 & 0.000 & 0.002 & 0.026 \\
+Stacking & No handling vs Threshold tuning & pr_auc & 24.000 & 0.770 & 0.898 \\
+Stacking & No handling vs Threshold tuning & f1 & 12.000 & 0.131 & 0.289 \\
+Stacking & No handling vs Calibrated sigmoid + threshold & pr_auc & 16.000 & 0.275 & 0.452 \\
+Stacking & No handling vs Calibrated sigmoid + threshold & f1 & 15.000 & 0.232 & 0.414 \\
+Stacking & No handling vs Calibrated isotonic + threshold & pr_auc & 20.000 & 0.492 & 0.684 \\
+Stacking & No handling vs Calibrated isotonic + threshold & f1 & 11.500 & 0.117 & 0.280 \\
+Stacking & Class weight vs SMOTE-NC & pr_auc & 25.000 & 0.846 & 0.945 \\
+Stacking & Class weight vs SMOTE-NC & f1 & 6.500 & 0.031 & 0.113 \\
+Stacking & Class weight vs Random undersampling & pr_auc & 15.000 & 0.232 & 0.414 \\
+Stacking & Class weight vs Random undersampling & f1 & 0.000 & 0.002 & 0.026 \\
+Stacking & Class weight vs Threshold tuning & pr_auc & 26.000 & 0.922 & 0.973 \\
+Stacking & Class weight vs Threshold tuning & f1 & 8.000 & 0.049 & 0.146 \\
+Stacking & Class weight vs Calibrated sigmoid + threshold & pr_auc & 12.000 & 0.131 & 0.289 \\
+Stacking & Class weight vs Calibrated sigmoid + threshold & f1 & 25.000 & 0.846 & 0.945 \\
+Stacking & Class weight vs Calibrated isotonic + threshold & pr_auc & 27.000 & 1.000 & 1.000 \\
+Stacking & Class weight vs Calibrated isotonic + threshold & f1 & 9.500 & 0.074 & 0.205 \\
+Stacking & SMOTE-NC vs Random undersampling & pr_auc & 3.000 & 0.010 & 0.059 \\
+Stacking & SMOTE-NC vs Random undersampling & f1 & 0.000 & 0.002 & 0.026 \\
+Stacking & SMOTE-NC vs Threshold tuning & pr_auc & 25.000 & 0.846 & 0.945 \\
+Stacking & SMOTE-NC vs Threshold tuning & f1 & 2.000 & 0.006 & 0.051 \\
+Stacking & SMOTE-NC vs Calibrated sigmoid + threshold & pr_auc & 13.000 & 0.160 & 0.333 \\
+Stacking & SMOTE-NC vs Calibrated sigmoid + threshold & f1 & 7.000 & 0.037 & 0.126 \\
+Stacking & SMOTE-NC vs Calibrated isotonic + threshold & pr_auc & 26.000 & 0.922 & 0.973 \\
+Stacking & SMOTE-NC vs Calibrated isotonic + threshold & f1 & 3.000 & 0.010 & 0.059 \\
+Stacking & Random undersampling vs Threshold tuning & pr_auc & 8.000 & 0.049 & 0.146 \\
+Stacking & Random undersampling vs Threshold tuning & f1 & 0.000 & 0.002 & 0.026 \\
+Stacking & Random undersampling vs Calibrated sigmoid + threshold & pr_auc & 7.000 & 0.037 & 0.126 \\
+Stacking & Random undersampling vs Calibrated sigmoid + threshold & f1 & 0.000 & 0.002 & 0.026 \\
+Stacking & Random undersampling vs Calibrated isotonic + threshold & pr_auc & 12.000 & 0.131 & 0.289 \\
+Stacking & Random undersampling vs Calibrated isotonic + threshold & f1 & 0.000 & 0.002 & 0.026 \\
+Stacking & Threshold tuning vs Calibrated sigmoid + threshold & pr_auc & 19.000 & 0.432 & 0.617 \\
+Stacking & Threshold tuning vs Calibrated sigmoid + threshold & f1 & 11.000 & 0.105 & 0.255 \\
+Stacking & Threshold tuning vs Calibrated isotonic + threshold & pr_auc & 20.000 & 0.492 & 0.684 \\
+Stacking & Threshold tuning vs Calibrated isotonic + threshold & f1 & 17.500 & 0.348 & 0.537 \\
+Stacking & Calibrated sigmoid + threshold vs Calibrated isotonic + threshold & pr_auc & 10.000 & 0.084 & 0.218 \\
+Stacking & Calibrated sigmoid + threshold vs Calibrated isotonic + threshold & f1 & 8.000 & 0.049 & 0.146 \\
+\bottomrule
+\end{tabular}

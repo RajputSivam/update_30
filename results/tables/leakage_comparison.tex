@@ -1,0 +1,11 @@
+\begin{tabular}{lrrrrrrrrr}
+\toprule
+model & correct_accuracy & correct_recall & correct_roc_auc & leaky_accuracy & leaky_recall & leaky_roc_auc & inflation_accuracy & inflation_recall & inflation_roc_auc \\
+\midrule
+LightGBM & 0.874 & 0.426 & 0.774 & 0.911 & 0.911 & 0.971 & 0.037 & 0.485 & 0.196 \\
+Logistic Regression & 0.898 & 0.532 & 0.832 & 0.852 & 0.825 & 0.929 & -0.046 & 0.293 & 0.097 \\
+Random Forest & 0.878 & 0.277 & 0.821 & 0.919 & 0.898 & 0.972 & 0.041 & 0.622 & 0.150 \\
+Stacking & 0.884 & 0.468 & 0.813 & 0.917 & 0.902 & 0.973 & 0.032 & 0.434 & 0.160 \\
+XGBoost & 0.878 & 0.426 & 0.773 & 0.905 & 0.902 & 0.967 & 0.027 & 0.477 & 0.194 \\
+\bottomrule
+\end{tabular}

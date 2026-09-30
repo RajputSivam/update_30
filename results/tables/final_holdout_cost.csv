@@ -1,0 +1,5 @@
+data_scope,fn_cost_to_fp_cost,model,strategy,FN,FP,expected_total_cost
+final hold-out; selected configuration only,1:1,selected CV configuration,selected CV configuration,30,10,40.0
+final hold-out; selected configuration only,3:1,selected CV configuration,selected CV configuration,30,10,100.0
+final hold-out; selected configuration only,5:1,selected CV configuration,selected CV configuration,30,10,160.0
+final hold-out; selected configuration only,10:1,selected CV configuration,selected CV configuration,30,10,310.0

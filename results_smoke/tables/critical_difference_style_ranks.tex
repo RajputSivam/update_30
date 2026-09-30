@@ -1,0 +1,41 @@
+\begin{tabular}{llr}
+\toprule
+model & strategy & average_rank_across_folds \\
+\midrule
+LightGBM & Calibrated isotonic + threshold & 20.600 \\
+LightGBM & Calibrated sigmoid + threshold & 13.700 \\
+LightGBM & Class weight & 20.300 \\
+LightGBM & No handling & 19.000 \\
+LightGBM & Random undersampling & 29.800 \\
+LightGBM & SMOTE-NC & 24.400 \\
+LightGBM & Threshold tuning & 20.300 \\
+Logistic Regression & Calibrated isotonic + threshold & 7.700 \\
+Logistic Regression & Calibrated sigmoid + threshold & 5.800 \\
+Logistic Regression & Class weight & 8.700 \\
+Logistic Regression & No handling & 6.600 \\
+Logistic Regression & Random undersampling & 13.800 \\
+Logistic Regression & SMOTE-NC & 15.300 \\
+Logistic Regression & Threshold tuning & 5.600 \\
+Random Forest & Calibrated isotonic + threshold & 27.000 \\
+Random Forest & Calibrated sigmoid + threshold & 24.700 \\
+Random Forest & Class weight & 30.200 \\
+Random Forest & No handling & 23.800 \\
+Random Forest & Random undersampling & 25.100 \\
+Random Forest & SMOTE-NC & 28.400 \\
+Random Forest & Threshold tuning & 25.000 \\
+Stacking & Calibrated isotonic + threshold & 17.800 \\
+Stacking & Calibrated sigmoid + threshold & 14.000 \\
+Stacking & Class weight & 18.200 \\
+Stacking & No handling & 15.500 \\
+Stacking & Random undersampling & 23.800 \\
+Stacking & SMOTE-NC & 17.700 \\
+Stacking & Threshold tuning & 15.800 \\
+XGBoost & Calibrated isotonic + threshold & 16.100 \\
+XGBoost & Calibrated sigmoid + threshold & 11.600 \\
+XGBoost & Class weight & 15.300 \\
+XGBoost & No handling & 11.800 \\
+XGBoost & Random undersampling & 22.200 \\
+XGBoost & SMOTE-NC & 18.700 \\
+XGBoost & Threshold tuning & 15.700 \\
+\bottomrule
+\end{tabular}

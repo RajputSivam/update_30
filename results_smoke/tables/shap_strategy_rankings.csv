@@ -1,0 +1,154 @@
+strategy,feature,mean_abs_shap,rank
+SMOTE-NC,BusinessTravel_Non-Travel,0.19828513546084225,19.0
+SMOTE-NC,BusinessTravel_Travel_Frequently,0.18508987863641976,21.0
+SMOTE-NC,BusinessTravel_Travel_Rarely,0.1483805645488624,27.0
+SMOTE-NC,Department_Human Resources,0.038594813067032586,43.0
+SMOTE-NC,Department_Research & Development,0.08527015896742193,35.0
+SMOTE-NC,Department_Sales,0.06389964898383714,38.0
+SMOTE-NC,EducationField_Human Resources,0.012368743958401212,49.0
+SMOTE-NC,EducationField_Life Sciences,0.04701678632497431,41.0
+SMOTE-NC,EducationField_Marketing,0.015877197567211888,48.0
+SMOTE-NC,EducationField_Medical,0.050703173209694925,40.0
+SMOTE-NC,EducationField_Other,0.037894295953804565,45.0
+SMOTE-NC,EducationField_Technical Degree,0.01728169223639896,47.0
+SMOTE-NC,Gender_Female,0.309285894210259,10.0
+SMOTE-NC,Gender_Male,0.07909079972549428,37.0
+SMOTE-NC,JobRole_Healthcare Representative,0.08627227709807488,34.0
+SMOTE-NC,JobRole_Human Resources,0.03866292161557383,42.0
+SMOTE-NC,JobRole_Laboratory Technician,0.19843245731726628,18.0
+SMOTE-NC,JobRole_Manager,0.09024638401493792,33.0
+SMOTE-NC,JobRole_Manufacturing Director,0.08439721981898929,36.0
+SMOTE-NC,JobRole_Research Director,0.14792893441649338,28.0
+SMOTE-NC,JobRole_Research Scientist,0.14071008643563368,30.0
+SMOTE-NC,JobRole_Sales Executive,0.19338324066751628,20.0
+SMOTE-NC,JobRole_Sales Representative,0.18070279261511163,23.0
+SMOTE-NC,MaritalStatus_Divorced,0.3093328259765573,9.0
+SMOTE-NC,MaritalStatus_Married,0.14858294854717966,26.0
+SMOTE-NC,MaritalStatus_Single,0.32386109694405807,7.0
+SMOTE-NC,OverTime_No,0.49548971490218036,1.0
+SMOTE-NC,OverTime_Yes,0.2976915111200778,12.0
+SMOTE-NC,Age,0.2164156026300622,17.0
+SMOTE-NC,DailyRate,0.22117763521862277,16.0
+SMOTE-NC,DistanceFromHome,0.3002864950195032,11.0
+SMOTE-NC,Education,0.0013481041999134607,51.0
+SMOTE-NC,EnvironmentSatisfaction,0.44140586222538064,3.0
+SMOTE-NC,HourlyRate,0.037976802068345264,44.0
+SMOTE-NC,JobInvolvement,0.2623348312391893,14.0
+SMOTE-NC,JobLevel,0.4030200024743953,5.0
+SMOTE-NC,JobSatisfaction,0.31436648648500554,8.0
+SMOTE-NC,MonthlyIncome,0.10790884898858916,31.0
+SMOTE-NC,MonthlyRate,0.02701111516083068,46.0
+SMOTE-NC,NumCompaniesWorked,0.4170144201788431,4.0
+SMOTE-NC,PercentSalaryHike,0.16222073416697966,25.0
+SMOTE-NC,PerformanceRating,0.14565090362727026,29.0
+SMOTE-NC,RelationshipSatisfaction,0.27677441253456314,13.0
+SMOTE-NC,StockOptionLevel,0.09325529799677076,32.0
+SMOTE-NC,TotalWorkingYears,0.48647094971698673,2.0
+SMOTE-NC,TrainingTimesLastYear,0.05948248217787075,39.0
+SMOTE-NC,WorkLifeBalance,0.16484690912749853,24.0
+SMOTE-NC,YearsAtCompany,0.00463872015258211,50.0
+SMOTE-NC,YearsInCurrentRole,0.2489007699131326,15.0
+SMOTE-NC,YearsSinceLastPromotion,0.36818244902303254,6.0
+SMOTE-NC,YearsWithCurrManager,0.18463530453050173,22.0
+Class weight,BusinessTravel_Non-Travel,0.12790545565185496,28.0
+Class weight,BusinessTravel_Travel_Frequently,0.24569873834350725,11.0
+Class weight,BusinessTravel_Travel_Rarely,0.005851489538443847,51.0
+Class weight,Department_Human Resources,0.006186730228382613,50.0
+Class weight,Department_Research & Development,0.1851829228515715,19.0
+Class weight,Department_Sales,0.14039013438403553,26.0
+Class weight,EducationField_Human Resources,0.012595278651798807,46.0
+Class weight,EducationField_Life Sciences,0.09463473100608226,30.0
+Class weight,EducationField_Marketing,0.011179190032355022,48.0
+Class weight,EducationField_Medical,0.06728741373270411,35.0
+Class weight,EducationField_Other,0.04573139130059971,40.0
+Class weight,EducationField_Technical Degree,0.047702503095939236,39.0
+Class weight,Gender_Female,0.11371830542150513,29.0
+Class weight,Gender_Male,0.03589202818775333,42.0
+Class weight,JobRole_Healthcare Representative,0.09016926471083447,32.0
+Class weight,JobRole_Human Resources,0.011447145401105873,47.0
+Class weight,JobRole_Laboratory Technician,0.29084702783017374,10.0
+Class weight,JobRole_Manager,0.015064832308796067,45.0
+Class weight,JobRole_Manufacturing Director,0.02380524426704987,43.0
+Class weight,JobRole_Research Director,0.08630122393663764,33.0
+Class weight,JobRole_Research Scientist,0.06471629371928302,36.0
+Class weight,JobRole_Sales Executive,0.060096481774282076,37.0
+Class weight,JobRole_Sales Representative,0.08054418454880122,34.0
+Class weight,MaritalStatus_Divorced,0.14798886933341227,25.0
+Class weight,MaritalStatus_Married,0.059874399267596,38.0
+Class weight,MaritalStatus_Single,0.17387747030008144,21.0
+Class weight,OverTime_No,0.3583146040224145,4.0
+Class weight,OverTime_Yes,0.2914413377682407,9.0
+Class weight,Age,0.2071423777533657,15.0
+Class weight,DailyRate,0.20084283405802159,16.0
+Class weight,DistanceFromHome,0.23645142992257212,12.0
+Class weight,Education,0.007162091421233131,49.0
+Class weight,EnvironmentSatisfaction,0.37385248427759116,2.0
+Class weight,HourlyRate,0.03624692846125635,41.0
+Class weight,JobInvolvement,0.1870800262188851,18.0
+Class weight,JobLevel,0.3459347067103716,6.0
+Class weight,JobSatisfaction,0.34769944090577254,5.0
+Class weight,MonthlyIncome,0.23460412451292248,13.0
+Class weight,MonthlyRate,0.02032137561861039,44.0
+Class weight,NumCompaniesWorked,0.3674169919330542,3.0
+Class weight,PercentSalaryHike,0.17776876993502286,20.0
+Class weight,PerformanceRating,0.09403020868223742,31.0
+Class weight,RelationshipSatisfaction,0.21580742968000957,14.0
+Class weight,StockOptionLevel,0.16250205787111646,23.0
+Class weight,TotalWorkingYears,0.38594632665851547,1.0
+Class weight,TrainingTimesLastYear,0.12888096365513887,27.0
+Class weight,WorkLifeBalance,0.151938501837451,24.0
+Class weight,YearsAtCompany,0.16480038845107722,22.0
+Class weight,YearsInCurrentRole,0.1943538582347947,17.0
+Class weight,YearsSinceLastPromotion,0.32259312613433766,8.0
+Class weight,YearsWithCurrManager,0.34476762827000124,7.0
+Threshold tuning,BusinessTravel_Non-Travel,0.12906386036544812,25.0
+Threshold tuning,BusinessTravel_Travel_Frequently,0.19691484336680667,19.0
+Threshold tuning,BusinessTravel_Travel_Rarely,0.11407883591874506,27.0
+Threshold tuning,Department_Human Resources,0.004918030805463022,48.0
+Threshold tuning,Department_Research & Development,0.28514659008648724,9.0
+Threshold tuning,Department_Sales,0.04083216416566272,41.0
+Threshold tuning,EducationField_Human Resources,0.00804817437495707,46.0
+Threshold tuning,EducationField_Life Sciences,0.09363085856125433,31.0
+Threshold tuning,EducationField_Marketing,0.0037655679685725794,49.0
+Threshold tuning,EducationField_Medical,0.15535390339759003,22.0
+Threshold tuning,EducationField_Other,0.043340556216100196,40.0
+Threshold tuning,EducationField_Technical Degree,0.03816860689093823,42.0
+Threshold tuning,Gender_Female,0.2110712080588443,17.0
+Threshold tuning,Gender_Male,0.07239485210679499,35.0
+Threshold tuning,JobRole_Healthcare Representative,0.0855350450013852,33.0
+Threshold tuning,JobRole_Human Resources,0.002277420975829666,50.0
+Threshold tuning,JobRole_Laboratory Technician,0.22924791558269728,14.0
+Threshold tuning,JobRole_Manager,0.0012521260201438966,51.0
+Threshold tuning,JobRole_Manufacturing Director,0.03643470837399896,43.0
+Threshold tuning,JobRole_Research Director,0.05731965882032507,38.0
+Threshold tuning,JobRole_Research Scientist,0.10747474796155444,28.0
+Threshold tuning,JobRole_Sales Executive,0.0784695380964301,34.0
+Threshold tuning,JobRole_Sales Representative,0.05440732067549712,39.0
+Threshold tuning,MaritalStatus_Divorced,0.1450313710966521,23.0
+Threshold tuning,MaritalStatus_Married,0.1920042329315485,20.0
+Threshold tuning,MaritalStatus_Single,0.10172293987342529,29.0
+Threshold tuning,OverTime_No,0.47518099541678843,1.0
+Threshold tuning,OverTime_Yes,0.23160900419145056,13.0
+Threshold tuning,Age,0.29021055533767814,8.0
+Threshold tuning,DailyRate,0.15590247398251098,21.0
+Threshold tuning,DistanceFromHome,0.27099368198407675,10.0
+Threshold tuning,Education,0.0059651159931404145,47.0
+Threshold tuning,EnvironmentSatisfaction,0.40482726889312415,2.0
+Threshold tuning,HourlyRate,0.012570780314485674,45.0
+Threshold tuning,JobInvolvement,0.22192568276457877,16.0
+Threshold tuning,JobLevel,0.06717675627114357,36.0
+Threshold tuning,JobSatisfaction,0.36100578510816317,4.0
+Threshold tuning,MonthlyIncome,0.1260769878932997,26.0
+Threshold tuning,MonthlyRate,0.015239479603000362,44.0
+Threshold tuning,NumCompaniesWorked,0.37454287154635596,3.0
+Threshold tuning,PercentSalaryHike,0.0947010828231349,30.0
+Threshold tuning,PerformanceRating,0.05732691213202261,37.0
+Threshold tuning,RelationshipSatisfaction,0.2408439359874709,12.0
+Threshold tuning,StockOptionLevel,0.225897024820655,15.0
+Threshold tuning,TotalWorkingYears,0.31392746600395516,6.0
+Threshold tuning,TrainingTimesLastYear,0.13856815946170148,24.0
+Threshold tuning,WorkLifeBalance,0.1975359800049869,18.0
+Threshold tuning,YearsAtCompany,0.09340311811914623,32.0
+Threshold tuning,YearsInCurrentRole,0.265584283444671,11.0
+Threshold tuning,YearsSinceLastPromotion,0.3328438804617222,5.0
+Threshold tuning,YearsWithCurrManager,0.29659132787356374,7.0

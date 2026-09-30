@@ -1,0 +1,5 @@
+| comparison_split                     | model_a                                              | model_b                                              |   a_correct_b_wrong |   a_wrong_b_correct |   mcnemar_exact_p_value |
+|:-------------------------------------|:-----------------------------------------------------|:-----------------------------------------------------|--------------------:|--------------------:|------------------------:|
+| development-only; not final hold-out | Logistic Regression / Threshold tuning               | Logistic Regression / Calibrated sigmoid + threshold |                   4 |                   9 |                0.266846 |
+| development-only; not final hold-out | Logistic Regression / Threshold tuning               | Logistic Regression / No handling                    |                   5 |                  12 |                0.143463 |
+| development-only; not final hold-out | Logistic Regression / Calibrated sigmoid + threshold | Logistic Regression / No handling                    |                   1 |                   3 |                0.625    |

@@ -1,0 +1,141 @@
+data_scope,fn_cost_to_fp_cost,model,strategy,total_cost,cost_per_employee_fold,cheapest_development_configuration
+development CV aggregate,1:1,LightGBM,Calibrated isotonic + threshold,279.0,0.021200607902735563,False
+development CV aggregate,1:1,LightGBM,Calibrated sigmoid + threshold,288.0,0.02188449848024316,False
+development CV aggregate,1:1,LightGBM,Class weight,261.0,0.019832826747720366,False
+development CV aggregate,1:1,LightGBM,No handling,242.0,0.018389057750759878,False
+development CV aggregate,1:1,LightGBM,Random undersampling,570.0,0.04331306990881459,False
+development CV aggregate,1:1,LightGBM,SMOTE-NC,262.0,0.019908814589665653,False
+development CV aggregate,1:1,LightGBM,Threshold tuning,440.0,0.03343465045592705,False
+development CV aggregate,1:1,Logistic Regression,Calibrated isotonic + threshold,254.0,0.019300911854103344,False
+development CV aggregate,1:1,Logistic Regression,Calibrated sigmoid + threshold,244.0,0.018541033434650456,False
+development CV aggregate,1:1,Logistic Regression,Class weight,459.0,0.03487841945288754,False
+development CV aggregate,1:1,Logistic Regression,No handling,223.0,0.016945288753799394,True
+development CV aggregate,1:1,Logistic Regression,Random undersampling,526.0,0.03996960486322188,False
+development CV aggregate,1:1,Logistic Regression,SMOTE-NC,411.0,0.031231003039513677,False
+development CV aggregate,1:1,Logistic Regression,Threshold tuning,241.0,0.01831306990881459,False
+development CV aggregate,1:1,Random Forest,Calibrated isotonic + threshold,332.0,0.025227963525835867,False
+development CV aggregate,1:1,Random Forest,Calibrated sigmoid + threshold,320.0,0.0243161094224924,False
+development CV aggregate,1:1,Random Forest,Class weight,307.0,0.023328267477203648,False
+development CV aggregate,1:1,Random Forest,No handling,260.0,0.019756838905775075,False
+development CV aggregate,1:1,Random Forest,Random undersampling,462.0,0.035106382978723406,False
+development CV aggregate,1:1,Random Forest,SMOTE-NC,277.0,0.021048632218844985,False
+development CV aggregate,1:1,Random Forest,Threshold tuning,315.0,0.023936170212765957,False
+development CV aggregate,1:1,Stacking,Calibrated isotonic + threshold,303.0,0.02302431610942249,False
+development CV aggregate,1:1,Stacking,Calibrated sigmoid + threshold,294.0,0.022340425531914895,False
+development CV aggregate,1:1,Stacking,Class weight,378.0,0.02872340425531915,False
+development CV aggregate,1:1,Stacking,No handling,237.0,0.018009118541033434,False
+development CV aggregate,1:1,Stacking,Random undersampling,271.0,0.020592705167173254,False
+development CV aggregate,1:1,Stacking,SMOTE-NC,244.0,0.018541033434650456,False
+development CV aggregate,1:1,Stacking,Threshold tuning,311.0,0.0236322188449848,False
+development CV aggregate,1:1,XGBoost,Calibrated isotonic + threshold,285.0,0.021656534954407294,False
+development CV aggregate,1:1,XGBoost,Calibrated sigmoid + threshold,273.0,0.02074468085106383,False
+development CV aggregate,1:1,XGBoost,Class weight,294.0,0.022340425531914895,False
+development CV aggregate,1:1,XGBoost,No handling,230.0,0.017477203647416412,False
+development CV aggregate,1:1,XGBoost,Random undersampling,504.0,0.03829787234042553,False
+development CV aggregate,1:1,XGBoost,SMOTE-NC,256.0,0.019452887537993922,False
+development CV aggregate,1:1,XGBoost,Threshold tuning,262.0,0.019908814589665653,False
+development CV aggregate,3:1,LightGBM,Calibrated isotonic + threshold,569.0,0.0432370820668693,False
+development CV aggregate,3:1,LightGBM,Calibrated sigmoid + threshold,538.0,0.04088145896656535,False
+development CV aggregate,3:1,LightGBM,Class weight,593.0,0.04506079027355623,False
+development CV aggregate,3:1,LightGBM,No handling,636.0,0.048328267477203646,False
+development CV aggregate,3:1,LightGBM,Random undersampling,750.0,0.056990881458966566,False
+development CV aggregate,3:1,LightGBM,SMOTE-NC,636.0,0.048328267477203646,False
+development CV aggregate,3:1,LightGBM,Threshold tuning,690.0,0.05243161094224924,False
+development CV aggregate,3:1,Logistic Regression,Calibrated isotonic + threshold,514.0,0.03905775075987842,True
+development CV aggregate,3:1,Logistic Regression,Calibrated sigmoid + threshold,516.0,0.039209726443768994,False
+development CV aggregate,3:1,Logistic Regression,Class weight,621.0,0.04718844984802432,False
+development CV aggregate,3:1,Logistic Regression,No handling,611.0,0.04642857142857143,False
+development CV aggregate,3:1,Logistic Regression,Random undersampling,680.0,0.05167173252279635,False
+development CV aggregate,3:1,Logistic Regression,SMOTE-NC,625.0,0.047492401215805474,False
+development CV aggregate,3:1,Logistic Regression,Threshold tuning,529.0,0.04019756838905775,False
+development CV aggregate,3:1,Random Forest,Calibrated isotonic + threshold,626.0,0.04756838905775076,False
+development CV aggregate,3:1,Random Forest,Calibrated sigmoid + threshold,620.0,0.04711246200607903,False
+development CV aggregate,3:1,Random Forest,Class weight,633.0,0.04810030395136778,False
+development CV aggregate,3:1,Random Forest,No handling,742.0,0.05638297872340425,False
+development CV aggregate,3:1,Random Forest,Random undersampling,656.0,0.04984802431610942,False
+development CV aggregate,3:1,Random Forest,SMOTE-NC,663.0,0.05037993920972644,False
+development CV aggregate,3:1,Random Forest,Threshold tuning,591.0,0.044908814589665655,False
+development CV aggregate,3:1,Stacking,Calibrated isotonic + threshold,567.0,0.04308510638297872,False
+development CV aggregate,3:1,Stacking,Calibrated sigmoid + threshold,602.0,0.045744680851063826,False
+development CV aggregate,3:1,Stacking,Class weight,608.0,0.046200607902735565,False
+development CV aggregate,3:1,Stacking,No handling,637.0,0.04840425531914894,False
+development CV aggregate,3:1,Stacking,Random undersampling,793.0,0.06025835866261398,False
+development CV aggregate,3:1,Stacking,SMOTE-NC,658.0,0.05,False
+development CV aggregate,3:1,Stacking,Threshold tuning,575.0,0.043693009118541036,False
+development CV aggregate,3:1,XGBoost,Calibrated isotonic + threshold,579.0,0.043996960486322186,False
+development CV aggregate,3:1,XGBoost,Calibrated sigmoid + threshold,555.0,0.04217325227963526,False
+development CV aggregate,3:1,XGBoost,Class weight,570.0,0.04331306990881459,False
+development CV aggregate,3:1,XGBoost,No handling,616.0,0.04680851063829787,False
+development CV aggregate,3:1,XGBoost,Random undersampling,684.0,0.05197568389057751,False
+development CV aggregate,3:1,XGBoost,SMOTE-NC,598.0,0.04544072948328268,False
+development CV aggregate,3:1,XGBoost,Threshold tuning,558.0,0.042401215805471126,False
+development CV aggregate,5:1,LightGBM,Calibrated isotonic + threshold,859.0,0.06527355623100303,False
+development CV aggregate,5:1,LightGBM,Calibrated sigmoid + threshold,788.0,0.059878419452887535,False
+development CV aggregate,5:1,LightGBM,Class weight,925.0,0.0702887537993921,False
+development CV aggregate,5:1,LightGBM,No handling,1030.0,0.07826747720364742,False
+development CV aggregate,5:1,LightGBM,Random undersampling,930.0,0.07066869300911854,False
+development CV aggregate,5:1,LightGBM,SMOTE-NC,1010.0,0.07674772036474165,False
+development CV aggregate,5:1,LightGBM,Threshold tuning,940.0,0.07142857142857142,False
+development CV aggregate,5:1,Logistic Regression,Calibrated isotonic + threshold,774.0,0.0588145896656535,True
+development CV aggregate,5:1,Logistic Regression,Calibrated sigmoid + threshold,788.0,0.059878419452887535,False
+development CV aggregate,5:1,Logistic Regression,Class weight,783.0,0.059498480243161095,False
+development CV aggregate,5:1,Logistic Regression,No handling,999.0,0.07591185410334346,False
+development CV aggregate,5:1,Logistic Regression,Random undersampling,834.0,0.06337386018237082,False
+development CV aggregate,5:1,Logistic Regression,SMOTE-NC,839.0,0.06375379939209727,False
+development CV aggregate,5:1,Logistic Regression,Threshold tuning,817.0,0.062082066869300914,False
+development CV aggregate,5:1,Random Forest,Calibrated isotonic + threshold,920.0,0.06990881458966565,False
+development CV aggregate,5:1,Random Forest,Calibrated sigmoid + threshold,920.0,0.06990881458966565,False
+development CV aggregate,5:1,Random Forest,Class weight,959.0,0.07287234042553191,False
+development CV aggregate,5:1,Random Forest,No handling,1224.0,0.09300911854103343,False
+development CV aggregate,5:1,Random Forest,Random undersampling,850.0,0.06458966565349544,False
+development CV aggregate,5:1,Random Forest,SMOTE-NC,1049.0,0.0797112462006079,False
+development CV aggregate,5:1,Random Forest,Threshold tuning,867.0,0.06588145896656535,False
+development CV aggregate,5:1,Stacking,Calibrated isotonic + threshold,831.0,0.06314589665653496,False
+development CV aggregate,5:1,Stacking,Calibrated sigmoid + threshold,910.0,0.06914893617021277,False
+development CV aggregate,5:1,Stacking,Class weight,838.0,0.06367781155015198,False
+development CV aggregate,5:1,Stacking,No handling,1037.0,0.07879939209726444,False
+development CV aggregate,5:1,Stacking,Random undersampling,1315.0,0.09992401215805471,False
+development CV aggregate,5:1,Stacking,SMOTE-NC,1072.0,0.08145896656534954,False
+development CV aggregate,5:1,Stacking,Threshold tuning,839.0,0.06375379939209727,False
+development CV aggregate,5:1,XGBoost,Calibrated isotonic + threshold,873.0,0.06633738601823708,False
+development CV aggregate,5:1,XGBoost,Calibrated sigmoid + threshold,837.0,0.06360182370820669,False
+development CV aggregate,5:1,XGBoost,Class weight,846.0,0.06428571428571428,False
+development CV aggregate,5:1,XGBoost,No handling,1002.0,0.07613981762917933,False
+development CV aggregate,5:1,XGBoost,Random undersampling,864.0,0.06565349544072949,False
+development CV aggregate,5:1,XGBoost,SMOTE-NC,940.0,0.07142857142857142,False
+development CV aggregate,5:1,XGBoost,Threshold tuning,854.0,0.06489361702127659,False
+development CV aggregate,10:1,LightGBM,Calibrated isotonic + threshold,1584.0,0.12036474164133738,False
+development CV aggregate,10:1,LightGBM,Calibrated sigmoid + threshold,1413.0,0.10737082066869301,False
+development CV aggregate,10:1,LightGBM,Class weight,1755.0,0.13335866261398177,False
+development CV aggregate,10:1,LightGBM,No handling,2015.0,0.15311550151975684,False
+development CV aggregate,10:1,LightGBM,Random undersampling,1380.0,0.10486322188449848,False
+development CV aggregate,10:1,LightGBM,SMOTE-NC,1945.0,0.14779635258358662,False
+development CV aggregate,10:1,LightGBM,Threshold tuning,1565.0,0.1189209726443769,False
+development CV aggregate,10:1,Logistic Regression,Calibrated isotonic + threshold,1424.0,0.10820668693009118,False
+development CV aggregate,10:1,Logistic Regression,Calibrated sigmoid + threshold,1468.0,0.1115501519756839,False
+development CV aggregate,10:1,Logistic Regression,Class weight,1188.0,0.09027355623100304,True
+development CV aggregate,10:1,Logistic Regression,No handling,1969.0,0.14962006079027357,False
+development CV aggregate,10:1,Logistic Regression,Random undersampling,1219.0,0.09262917933130699,False
+development CV aggregate,10:1,Logistic Regression,SMOTE-NC,1374.0,0.10440729483282675,False
+development CV aggregate,10:1,Logistic Regression,Threshold tuning,1537.0,0.11679331306990881,False
+development CV aggregate,10:1,Random Forest,Calibrated isotonic + threshold,1655.0,0.12575987841945288,False
+development CV aggregate,10:1,Random Forest,Calibrated sigmoid + threshold,1670.0,0.12689969604863222,False
+development CV aggregate,10:1,Random Forest,Class weight,1774.0,0.13480243161094224,False
+development CV aggregate,10:1,Random Forest,No handling,2429.0,0.18457446808510639,False
+development CV aggregate,10:1,Random Forest,Random undersampling,1335.0,0.10144376899696049,False
+development CV aggregate,10:1,Random Forest,SMOTE-NC,2014.0,0.15303951367781155,False
+development CV aggregate,10:1,Random Forest,Threshold tuning,1557.0,0.11831306990881459,False
+development CV aggregate,10:1,Stacking,Calibrated isotonic + threshold,1491.0,0.11329787234042553,False
+development CV aggregate,10:1,Stacking,Calibrated sigmoid + threshold,1680.0,0.1276595744680851,False
+development CV aggregate,10:1,Stacking,Class weight,1413.0,0.10737082066869301,False
+development CV aggregate,10:1,Stacking,No handling,2037.0,0.15478723404255318,False
+development CV aggregate,10:1,Stacking,Random undersampling,2620.0,0.19908814589665655,False
+development CV aggregate,10:1,Stacking,SMOTE-NC,2107.0,0.1601063829787234,False
+development CV aggregate,10:1,Stacking,Threshold tuning,1499.0,0.11390577507598784,False
+development CV aggregate,10:1,XGBoost,Calibrated isotonic + threshold,1608.0,0.12218844984802432,False
+development CV aggregate,10:1,XGBoost,Calibrated sigmoid + threshold,1542.0,0.11717325227963526,False
+development CV aggregate,10:1,XGBoost,Class weight,1536.0,0.11671732522796352,False
+development CV aggregate,10:1,XGBoost,No handling,1967.0,0.149468085106383,False
+development CV aggregate,10:1,XGBoost,Random undersampling,1314.0,0.09984802431610942,False
+development CV aggregate,10:1,XGBoost,SMOTE-NC,1795.0,0.13639817629179332,False
+development CV aggregate,10:1,XGBoost,Threshold tuning,1594.0,0.12112462006079028,False

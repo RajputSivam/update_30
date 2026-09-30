@@ -1,0 +1,5 @@
+| comparison_split                     | model_a                                | model_b                                |   a_correct_b_wrong |   a_wrong_b_correct |   mcnemar_exact_p_value |
+|:-------------------------------------|:---------------------------------------|:---------------------------------------|--------------------:|--------------------:|------------------------:|
+| development-only; not final hold-out | Logistic Regression / No handling      | Logistic Regression / Threshold tuning |                  11 |                   3 |                0.057373 |
+| development-only; not final hold-out | Logistic Regression / No handling      | Stacking / SMOTE-NC                    |                  13 |                   6 |                0.167068 |
+| development-only; not final hold-out | Logistic Regression / Threshold tuning | Stacking / SMOTE-NC                    |                  14 |                  15 |                1        |

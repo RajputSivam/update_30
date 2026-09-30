@@ -1,0 +1,1388 @@
+2026-09-28T12:46:16.517671+00:00 | RUN_START quick_run=False; output=C:\Users\asus\OneDrive\Desktop\Research\Project\results_full
+2026-09-28T12:46:17.184778+00:00 | START model=Logistic Regression; strategy=No handling; outer_fold=0
+2026-09-28T12:46:21.389514+00:00 | FINISH model=Logistic Regression; strategy=No handling; outer_fold=0; elapsed_seconds=4.205
+2026-09-28T12:46:21.390020+00:00 | START model=Logistic Regression; strategy=No handling; outer_fold=1
+2026-09-28T12:46:21.610569+00:00 | FINISH model=Logistic Regression; strategy=No handling; outer_fold=1; elapsed_seconds=0.221
+2026-09-28T12:46:21.610970+00:00 | START model=Logistic Regression; strategy=No handling; outer_fold=2
+2026-09-28T12:46:21.826311+00:00 | FINISH model=Logistic Regression; strategy=No handling; outer_fold=2; elapsed_seconds=0.215
+2026-09-28T12:46:21.826973+00:00 | START model=Logistic Regression; strategy=No handling; outer_fold=3
+2026-09-28T12:46:22.044879+00:00 | FINISH model=Logistic Regression; strategy=No handling; outer_fold=3; elapsed_seconds=0.218
+2026-09-28T12:46:22.045350+00:00 | START model=Logistic Regression; strategy=No handling; outer_fold=4
+2026-09-28T12:46:22.264514+00:00 | FINISH model=Logistic Regression; strategy=No handling; outer_fold=4; elapsed_seconds=0.219
+2026-09-28T12:46:22.264812+00:00 | START model=Logistic Regression; strategy=No handling; outer_fold=5
+2026-09-28T12:46:22.503135+00:00 | FINISH model=Logistic Regression; strategy=No handling; outer_fold=5; elapsed_seconds=0.238
+2026-09-28T12:46:22.504214+00:00 | START model=Logistic Regression; strategy=No handling; outer_fold=6
+2026-09-28T12:46:22.749619+00:00 | FINISH model=Logistic Regression; strategy=No handling; outer_fold=6; elapsed_seconds=0.245
+2026-09-28T12:46:22.749957+00:00 | START model=Logistic Regression; strategy=No handling; outer_fold=7
+2026-09-28T12:46:22.959167+00:00 | FINISH model=Logistic Regression; strategy=No handling; outer_fold=7; elapsed_seconds=0.209
+2026-09-28T12:46:22.959713+00:00 | START model=Logistic Regression; strategy=No handling; outer_fold=8
+2026-09-28T12:46:23.176696+00:00 | FINISH model=Logistic Regression; strategy=No handling; outer_fold=8; elapsed_seconds=0.217
+2026-09-28T12:46:23.177014+00:00 | START model=Logistic Regression; strategy=No handling; outer_fold=9
+2026-09-28T12:46:23.396076+00:00 | FINISH model=Logistic Regression; strategy=No handling; outer_fold=9; elapsed_seconds=0.219
+2026-09-28T12:46:23.396516+00:00 | START model=Logistic Regression; strategy=No handling; outer_fold=10
+2026-09-28T12:46:23.592475+00:00 | FINISH model=Logistic Regression; strategy=No handling; outer_fold=10; elapsed_seconds=0.196
+2026-09-28T12:46:23.592807+00:00 | START model=Logistic Regression; strategy=No handling; outer_fold=11
+2026-09-28T12:46:23.792427+00:00 | FINISH model=Logistic Regression; strategy=No handling; outer_fold=11; elapsed_seconds=0.200
+2026-09-28T12:46:23.792927+00:00 | START model=Logistic Regression; strategy=No handling; outer_fold=12
+2026-09-28T12:46:23.991354+00:00 | FINISH model=Logistic Regression; strategy=No handling; outer_fold=12; elapsed_seconds=0.198
+2026-09-28T12:46:23.991724+00:00 | START model=Logistic Regression; strategy=No handling; outer_fold=13
+2026-09-28T12:46:24.191004+00:00 | FINISH model=Logistic Regression; strategy=No handling; outer_fold=13; elapsed_seconds=0.199
+2026-09-28T12:46:24.191340+00:00 | START model=Logistic Regression; strategy=No handling; outer_fold=14
+2026-09-28T12:46:24.393601+00:00 | FINISH model=Logistic Regression; strategy=No handling; outer_fold=14; elapsed_seconds=0.202
+2026-09-28T12:46:24.393972+00:00 | START model=Logistic Regression; strategy=No handling; outer_fold=15
+2026-09-28T12:46:24.593183+00:00 | FINISH model=Logistic Regression; strategy=No handling; outer_fold=15; elapsed_seconds=0.199
+2026-09-28T12:46:24.593537+00:00 | START model=Logistic Regression; strategy=No handling; outer_fold=16
+2026-09-28T12:46:24.789383+00:00 | FINISH model=Logistic Regression; strategy=No handling; outer_fold=16; elapsed_seconds=0.196
+2026-09-28T12:46:24.789715+00:00 | START model=Logistic Regression; strategy=No handling; outer_fold=17
+2026-09-28T12:46:24.989071+00:00 | FINISH model=Logistic Regression; strategy=No handling; outer_fold=17; elapsed_seconds=0.199
+2026-09-28T12:46:24.989452+00:00 | START model=Logistic Regression; strategy=No handling; outer_fold=18
+2026-09-28T12:46:25.186264+00:00 | FINISH model=Logistic Regression; strategy=No handling; outer_fold=18; elapsed_seconds=0.197
+2026-09-28T12:46:25.186714+00:00 | START model=Logistic Regression; strategy=No handling; outer_fold=19
+2026-09-28T12:46:25.383333+00:00 | FINISH model=Logistic Regression; strategy=No handling; outer_fold=19; elapsed_seconds=0.197
+2026-09-28T12:46:25.383676+00:00 | START model=Logistic Regression; strategy=No handling; outer_fold=20
+2026-09-28T12:46:25.583440+00:00 | FINISH model=Logistic Regression; strategy=No handling; outer_fold=20; elapsed_seconds=0.200
+2026-09-28T12:46:25.583881+00:00 | START model=Logistic Regression; strategy=No handling; outer_fold=21
+2026-09-28T12:46:25.782664+00:00 | FINISH model=Logistic Regression; strategy=No handling; outer_fold=21; elapsed_seconds=0.199
+2026-09-28T12:46:25.783076+00:00 | START model=Logistic Regression; strategy=No handling; outer_fold=22
+2026-09-28T12:46:26.010107+00:00 | FINISH model=Logistic Regression; strategy=No handling; outer_fold=22; elapsed_seconds=0.227
+2026-09-28T12:46:26.010519+00:00 | START model=Logistic Regression; strategy=No handling; outer_fold=23
+2026-09-28T12:46:26.250254+00:00 | FINISH model=Logistic Regression; strategy=No handling; outer_fold=23; elapsed_seconds=0.240
+2026-09-28T12:46:26.250574+00:00 | START model=Logistic Regression; strategy=No handling; outer_fold=24
+2026-09-28T12:46:26.461608+00:00 | FINISH model=Logistic Regression; strategy=No handling; outer_fold=24; elapsed_seconds=0.211
+2026-09-28T12:46:26.461976+00:00 | START model=Logistic Regression; strategy=No handling; outer_fold=25
+2026-09-28T12:46:26.662248+00:00 | FINISH model=Logistic Regression; strategy=No handling; outer_fold=25; elapsed_seconds=0.200
+2026-09-28T12:46:26.662587+00:00 | START model=Logistic Regression; strategy=No handling; outer_fold=26
+2026-09-28T12:46:26.885743+00:00 | FINISH model=Logistic Regression; strategy=No handling; outer_fold=26; elapsed_seconds=0.223
+2026-09-28T12:46:26.886177+00:00 | START model=Logistic Regression; strategy=No handling; outer_fold=27
+2026-09-28T12:46:27.100820+00:00 | FINISH model=Logistic Regression; strategy=No handling; outer_fold=27; elapsed_seconds=0.215
+2026-09-28T12:46:27.101197+00:00 | START model=Logistic Regression; strategy=No handling; outer_fold=28
+2026-09-28T12:46:27.308474+00:00 | FINISH model=Logistic Regression; strategy=No handling; outer_fold=28; elapsed_seconds=0.207
+2026-09-28T12:46:27.308816+00:00 | START model=Logistic Regression; strategy=No handling; outer_fold=29
+2026-09-28T12:46:27.509677+00:00 | FINISH model=Logistic Regression; strategy=No handling; outer_fold=29; elapsed_seconds=0.201
+2026-09-28T12:46:27.510060+00:00 | START model=Logistic Regression; strategy=No handling; outer_fold=30
+2026-09-28T12:46:27.714171+00:00 | FINISH model=Logistic Regression; strategy=No handling; outer_fold=30; elapsed_seconds=0.204
+2026-09-28T12:46:27.714492+00:00 | START model=Logistic Regression; strategy=No handling; outer_fold=31
+2026-09-28T12:46:27.932674+00:00 | FINISH model=Logistic Regression; strategy=No handling; outer_fold=31; elapsed_seconds=0.218
+2026-09-28T12:46:27.933081+00:00 | START model=Logistic Regression; strategy=No handling; outer_fold=32
+2026-09-28T12:46:28.128925+00:00 | FINISH model=Logistic Regression; strategy=No handling; outer_fold=32; elapsed_seconds=0.196
+2026-09-28T12:46:28.129261+00:00 | START model=Logistic Regression; strategy=No handling; outer_fold=33
+2026-09-28T12:46:28.333531+00:00 | FINISH model=Logistic Regression; strategy=No handling; outer_fold=33; elapsed_seconds=0.204
+2026-09-28T12:46:28.333904+00:00 | START model=Logistic Regression; strategy=No handling; outer_fold=34
+2026-09-28T12:46:28.538685+00:00 | FINISH model=Logistic Regression; strategy=No handling; outer_fold=34; elapsed_seconds=0.205
+2026-09-28T12:46:28.539171+00:00 | START model=Logistic Regression; strategy=No handling; outer_fold=35
+2026-09-28T12:46:28.760655+00:00 | FINISH model=Logistic Regression; strategy=No handling; outer_fold=35; elapsed_seconds=0.221
+2026-09-28T12:46:28.761020+00:00 | START model=Logistic Regression; strategy=No handling; outer_fold=36
+2026-09-28T12:46:28.977561+00:00 | FINISH model=Logistic Regression; strategy=No handling; outer_fold=36; elapsed_seconds=0.216
+2026-09-28T12:46:28.977964+00:00 | START model=Logistic Regression; strategy=No handling; outer_fold=37
+2026-09-28T12:46:29.190062+00:00 | FINISH model=Logistic Regression; strategy=No handling; outer_fold=37; elapsed_seconds=0.212
+2026-09-28T12:46:29.190351+00:00 | START model=Logistic Regression; strategy=No handling; outer_fold=38
+2026-09-28T12:46:29.412830+00:00 | FINISH model=Logistic Regression; strategy=No handling; outer_fold=38; elapsed_seconds=0.222
+2026-09-28T12:46:29.413227+00:00 | START model=Logistic Regression; strategy=No handling; outer_fold=39
+2026-09-28T12:46:29.620172+00:00 | FINISH model=Logistic Regression; strategy=No handling; outer_fold=39; elapsed_seconds=0.207
+2026-09-28T12:46:29.620585+00:00 | START model=Logistic Regression; strategy=No handling; outer_fold=40
+2026-09-28T12:46:29.833839+00:00 | FINISH model=Logistic Regression; strategy=No handling; outer_fold=40; elapsed_seconds=0.213
+2026-09-28T12:46:29.834202+00:00 | START model=Logistic Regression; strategy=No handling; outer_fold=41
+2026-09-28T12:46:30.034759+00:00 | FINISH model=Logistic Regression; strategy=No handling; outer_fold=41; elapsed_seconds=0.201
+2026-09-28T12:46:30.035091+00:00 | START model=Logistic Regression; strategy=No handling; outer_fold=42
+2026-09-28T12:46:30.234618+00:00 | FINISH model=Logistic Regression; strategy=No handling; outer_fold=42; elapsed_seconds=0.200
+2026-09-28T12:46:30.234954+00:00 | START model=Logistic Regression; strategy=No handling; outer_fold=43
+2026-09-28T12:46:30.448544+00:00 | FINISH model=Logistic Regression; strategy=No handling; outer_fold=43; elapsed_seconds=0.214
+2026-09-28T12:46:30.448951+00:00 | START model=Logistic Regression; strategy=No handling; outer_fold=44
+2026-09-28T12:46:30.655741+00:00 | FINISH model=Logistic Regression; strategy=No handling; outer_fold=44; elapsed_seconds=0.207
+2026-09-28T12:46:30.656667+00:00 | START model=Logistic Regression; strategy=No handling; outer_fold=45
+2026-09-28T12:46:30.863416+00:00 | FINISH model=Logistic Regression; strategy=No handling; outer_fold=45; elapsed_seconds=0.207
+2026-09-28T12:46:30.863792+00:00 | START model=Logistic Regression; strategy=No handling; outer_fold=46
+2026-09-28T12:46:31.069013+00:00 | FINISH model=Logistic Regression; strategy=No handling; outer_fold=46; elapsed_seconds=0.205
+2026-09-28T12:46:31.069478+00:00 | START model=Logistic Regression; strategy=No handling; outer_fold=47
+2026-09-28T12:46:31.276169+00:00 | FINISH model=Logistic Regression; strategy=No handling; outer_fold=47; elapsed_seconds=0.207
+2026-09-28T12:46:31.276643+00:00 | START model=Logistic Regression; strategy=No handling; outer_fold=48
+2026-09-28T12:46:31.488957+00:00 | FINISH model=Logistic Regression; strategy=No handling; outer_fold=48; elapsed_seconds=0.212
+2026-09-28T12:46:31.489531+00:00 | START model=Logistic Regression; strategy=No handling; outer_fold=49
+2026-09-28T12:46:31.768021+00:00 | FINISH model=Logistic Regression; strategy=No handling; outer_fold=49; elapsed_seconds=0.278
+2026-09-28T12:46:31.768416+00:00 | START model=Logistic Regression; strategy=Class weight; outer_fold=0
+2026-09-28T12:46:32.010808+00:00 | FINISH model=Logistic Regression; strategy=Class weight; outer_fold=0; elapsed_seconds=0.242
+2026-09-28T12:46:32.011241+00:00 | START model=Logistic Regression; strategy=Class weight; outer_fold=1
+2026-09-28T12:46:32.230220+00:00 | FINISH model=Logistic Regression; strategy=Class weight; outer_fold=1; elapsed_seconds=0.219
+2026-09-28T12:46:32.230639+00:00 | START model=Logistic Regression; strategy=Class weight; outer_fold=2
+2026-09-28T12:46:32.444775+00:00 | FINISH model=Logistic Regression; strategy=Class weight; outer_fold=2; elapsed_seconds=0.214
+2026-09-28T12:46:32.445078+00:00 | START model=Logistic Regression; strategy=Class weight; outer_fold=3
+2026-09-28T12:46:32.651283+00:00 | FINISH model=Logistic Regression; strategy=Class weight; outer_fold=3; elapsed_seconds=0.206
+2026-09-28T12:46:32.651902+00:00 | START model=Logistic Regression; strategy=Class weight; outer_fold=4
+2026-09-28T12:46:32.870228+00:00 | FINISH model=Logistic Regression; strategy=Class weight; outer_fold=4; elapsed_seconds=0.218
+2026-09-28T12:46:32.870585+00:00 | START model=Logistic Regression; strategy=Class weight; outer_fold=5
+2026-09-28T12:46:33.076995+00:00 | FINISH model=Logistic Regression; strategy=Class weight; outer_fold=5; elapsed_seconds=0.206
+2026-09-28T12:46:33.077472+00:00 | START model=Logistic Regression; strategy=Class weight; outer_fold=6
+2026-09-28T12:46:33.287909+00:00 | FINISH model=Logistic Regression; strategy=Class weight; outer_fold=6; elapsed_seconds=0.210
+2026-09-28T12:46:33.288283+00:00 | START model=Logistic Regression; strategy=Class weight; outer_fold=7
+2026-09-28T12:46:33.499792+00:00 | FINISH model=Logistic Regression; strategy=Class weight; outer_fold=7; elapsed_seconds=0.211
+2026-09-28T12:46:33.500270+00:00 | START model=Logistic Regression; strategy=Class weight; outer_fold=8
+2026-09-28T12:46:33.722182+00:00 | FINISH model=Logistic Regression; strategy=Class weight; outer_fold=8; elapsed_seconds=0.222
+2026-09-28T12:46:33.722565+00:00 | START model=Logistic Regression; strategy=Class weight; outer_fold=9
+2026-09-28T12:46:33.944508+00:00 | FINISH model=Logistic Regression; strategy=Class weight; outer_fold=9; elapsed_seconds=0.222
+2026-09-28T12:46:33.944943+00:00 | START model=Logistic Regression; strategy=Class weight; outer_fold=10
+2026-09-28T12:46:34.154319+00:00 | FINISH model=Logistic Regression; strategy=Class weight; outer_fold=10; elapsed_seconds=0.209
+2026-09-28T12:46:34.154691+00:00 | START model=Logistic Regression; strategy=Class weight; outer_fold=11
+2026-09-28T12:46:34.358488+00:00 | FINISH model=Logistic Regression; strategy=Class weight; outer_fold=11; elapsed_seconds=0.204
+2026-09-28T12:46:34.358810+00:00 | START model=Logistic Regression; strategy=Class weight; outer_fold=12
+2026-09-28T12:46:34.578248+00:00 | FINISH model=Logistic Regression; strategy=Class weight; outer_fold=12; elapsed_seconds=0.219
+2026-09-28T12:46:34.578637+00:00 | START model=Logistic Regression; strategy=Class weight; outer_fold=13
+2026-09-28T12:46:34.817919+00:00 | FINISH model=Logistic Regression; strategy=Class weight; outer_fold=13; elapsed_seconds=0.239
+2026-09-28T12:46:34.818378+00:00 | START model=Logistic Regression; strategy=Class weight; outer_fold=14
+2026-09-28T12:46:35.036814+00:00 | FINISH model=Logistic Regression; strategy=Class weight; outer_fold=14; elapsed_seconds=0.218
+2026-09-28T12:46:35.037199+00:00 | START model=Logistic Regression; strategy=Class weight; outer_fold=15
+2026-09-28T12:46:35.253250+00:00 | FINISH model=Logistic Regression; strategy=Class weight; outer_fold=15; elapsed_seconds=0.216
+2026-09-28T12:46:35.253652+00:00 | START model=Logistic Regression; strategy=Class weight; outer_fold=16
+2026-09-28T12:46:35.479478+00:00 | FINISH model=Logistic Regression; strategy=Class weight; outer_fold=16; elapsed_seconds=0.226
+2026-09-28T12:46:35.479863+00:00 | START model=Logistic Regression; strategy=Class weight; outer_fold=17
+2026-09-28T12:46:35.699712+00:00 | FINISH model=Logistic Regression; strategy=Class weight; outer_fold=17; elapsed_seconds=0.220
+2026-09-28T12:46:35.700014+00:00 | START model=Logistic Regression; strategy=Class weight; outer_fold=18
+2026-09-28T12:46:35.917876+00:00 | FINISH model=Logistic Regression; strategy=Class weight; outer_fold=18; elapsed_seconds=0.218
+2026-09-28T12:46:35.918437+00:00 | START model=Logistic Regression; strategy=Class weight; outer_fold=19
+2026-09-28T12:46:36.158971+00:00 | FINISH model=Logistic Regression; strategy=Class weight; outer_fold=19; elapsed_seconds=0.241
+2026-09-28T12:46:36.159333+00:00 | START model=Logistic Regression; strategy=Class weight; outer_fold=20
+2026-09-28T12:46:36.379115+00:00 | FINISH model=Logistic Regression; strategy=Class weight; outer_fold=20; elapsed_seconds=0.220
+2026-09-28T12:46:36.379558+00:00 | START model=Logistic Regression; strategy=Class weight; outer_fold=21
+2026-09-28T12:46:36.613626+00:00 | FINISH model=Logistic Regression; strategy=Class weight; outer_fold=21; elapsed_seconds=0.234
+2026-09-28T12:46:36.614058+00:00 | START model=Logistic Regression; strategy=Class weight; outer_fold=22
+2026-09-28T12:46:36.838347+00:00 | FINISH model=Logistic Regression; strategy=Class weight; outer_fold=22; elapsed_seconds=0.224
+2026-09-28T12:46:36.838724+00:00 | START model=Logistic Regression; strategy=Class weight; outer_fold=23
+2026-09-28T12:46:37.063955+00:00 | FINISH model=Logistic Regression; strategy=Class weight; outer_fold=23; elapsed_seconds=0.225
+2026-09-28T12:46:37.064302+00:00 | START model=Logistic Regression; strategy=Class weight; outer_fold=24
+2026-09-28T12:46:37.270768+00:00 | FINISH model=Logistic Regression; strategy=Class weight; outer_fold=24; elapsed_seconds=0.206
+2026-09-28T12:46:37.271072+00:00 | START model=Logistic Regression; strategy=Class weight; outer_fold=25
+2026-09-28T12:46:37.479531+00:00 | FINISH model=Logistic Regression; strategy=Class weight; outer_fold=25; elapsed_seconds=0.208
+2026-09-28T12:46:37.479938+00:00 | START model=Logistic Regression; strategy=Class weight; outer_fold=26
+2026-09-28T12:46:37.699500+00:00 | FINISH model=Logistic Regression; strategy=Class weight; outer_fold=26; elapsed_seconds=0.220
+2026-09-28T12:46:37.699803+00:00 | START model=Logistic Regression; strategy=Class weight; outer_fold=27
+2026-09-28T12:46:37.943433+00:00 | FINISH model=Logistic Regression; strategy=Class weight; outer_fold=27; elapsed_seconds=0.244
+2026-09-28T12:46:37.943809+00:00 | START model=Logistic Regression; strategy=Class weight; outer_fold=28
+2026-09-28T12:46:38.165233+00:00 | FINISH model=Logistic Regression; strategy=Class weight; outer_fold=28; elapsed_seconds=0.221
+2026-09-28T12:46:38.165900+00:00 | START model=Logistic Regression; strategy=Class weight; outer_fold=29
+2026-09-28T12:46:38.385564+00:00 | FINISH model=Logistic Regression; strategy=Class weight; outer_fold=29; elapsed_seconds=0.220
+2026-09-28T12:46:38.385916+00:00 | START model=Logistic Regression; strategy=Class weight; outer_fold=30
+2026-09-28T12:46:38.597563+00:00 | FINISH model=Logistic Regression; strategy=Class weight; outer_fold=30; elapsed_seconds=0.212
+2026-09-28T12:46:38.597958+00:00 | START model=Logistic Regression; strategy=Class weight; outer_fold=31
+2026-09-28T12:46:38.799063+00:00 | FINISH model=Logistic Regression; strategy=Class weight; outer_fold=31; elapsed_seconds=0.201
+2026-09-28T12:46:38.799430+00:00 | START model=Logistic Regression; strategy=Class weight; outer_fold=32
+2026-09-28T12:46:39.007673+00:00 | FINISH model=Logistic Regression; strategy=Class weight; outer_fold=32; elapsed_seconds=0.208
+2026-09-28T12:46:39.008027+00:00 | START model=Logistic Regression; strategy=Class weight; outer_fold=33
+2026-09-28T12:46:39.210788+00:00 | FINISH model=Logistic Regression; strategy=Class weight; outer_fold=33; elapsed_seconds=0.203
+2026-09-28T12:46:39.211268+00:00 | START model=Logistic Regression; strategy=Class weight; outer_fold=34
+2026-09-28T12:46:39.421713+00:00 | FINISH model=Logistic Regression; strategy=Class weight; outer_fold=34; elapsed_seconds=0.210
+2026-09-28T12:46:39.422024+00:00 | START model=Logistic Regression; strategy=Class weight; outer_fold=35
+2026-09-28T12:46:39.622053+00:00 | FINISH model=Logistic Regression; strategy=Class weight; outer_fold=35; elapsed_seconds=0.200
+2026-09-28T12:46:39.622401+00:00 | START model=Logistic Regression; strategy=Class weight; outer_fold=36
+2026-09-28T12:46:39.830644+00:00 | FINISH model=Logistic Regression; strategy=Class weight; outer_fold=36; elapsed_seconds=0.208
+2026-09-28T12:46:39.831065+00:00 | START model=Logistic Regression; strategy=Class weight; outer_fold=37
+2026-09-28T12:46:40.038663+00:00 | FINISH model=Logistic Regression; strategy=Class weight; outer_fold=37; elapsed_seconds=0.208
+2026-09-28T12:46:40.038990+00:00 | START model=Logistic Regression; strategy=Class weight; outer_fold=38
+2026-09-28T12:46:40.241289+00:00 | FINISH model=Logistic Regression; strategy=Class weight; outer_fold=38; elapsed_seconds=0.202
+2026-09-28T12:46:40.241661+00:00 | START model=Logistic Regression; strategy=Class weight; outer_fold=39
+2026-09-28T12:46:40.451431+00:00 | FINISH model=Logistic Regression; strategy=Class weight; outer_fold=39; elapsed_seconds=0.210
+2026-09-28T12:46:40.451843+00:00 | START model=Logistic Regression; strategy=Class weight; outer_fold=40
+2026-09-28T12:46:40.675831+00:00 | FINISH model=Logistic Regression; strategy=Class weight; outer_fold=40; elapsed_seconds=0.224
+2026-09-28T12:46:40.676308+00:00 | START model=Logistic Regression; strategy=Class weight; outer_fold=41
+2026-09-28T12:46:40.896466+00:00 | FINISH model=Logistic Regression; strategy=Class weight; outer_fold=41; elapsed_seconds=0.220
+2026-09-28T12:46:40.896760+00:00 | START model=Logistic Regression; strategy=Class weight; outer_fold=42
+2026-09-28T12:46:41.129791+00:00 | FINISH model=Logistic Regression; strategy=Class weight; outer_fold=42; elapsed_seconds=0.233
+2026-09-28T12:46:41.130150+00:00 | START model=Logistic Regression; strategy=Class weight; outer_fold=43
+2026-09-28T12:46:41.347242+00:00 | FINISH model=Logistic Regression; strategy=Class weight; outer_fold=43; elapsed_seconds=0.217
+2026-09-28T12:46:41.347554+00:00 | START model=Logistic Regression; strategy=Class weight; outer_fold=44
+2026-09-28T12:46:41.558608+00:00 | FINISH model=Logistic Regression; strategy=Class weight; outer_fold=44; elapsed_seconds=0.211
+2026-09-28T12:46:41.559100+00:00 | START model=Logistic Regression; strategy=Class weight; outer_fold=45
+2026-09-28T12:46:41.770437+00:00 | FINISH model=Logistic Regression; strategy=Class weight; outer_fold=45; elapsed_seconds=0.211
+2026-09-28T12:46:41.770826+00:00 | START model=Logistic Regression; strategy=Class weight; outer_fold=46
+2026-09-28T12:46:41.977070+00:00 | FINISH model=Logistic Regression; strategy=Class weight; outer_fold=46; elapsed_seconds=0.206
+2026-09-28T12:46:41.977477+00:00 | START model=Logistic Regression; strategy=Class weight; outer_fold=47
+2026-09-28T12:46:42.193270+00:00 | FINISH model=Logistic Regression; strategy=Class weight; outer_fold=47; elapsed_seconds=0.216
+2026-09-28T12:46:42.193666+00:00 | START model=Logistic Regression; strategy=Class weight; outer_fold=48
+2026-09-28T12:46:42.402560+00:00 | FINISH model=Logistic Regression; strategy=Class weight; outer_fold=48; elapsed_seconds=0.209
+2026-09-28T12:46:42.402945+00:00 | START model=Logistic Regression; strategy=Class weight; outer_fold=49
+2026-09-28T12:46:42.616763+00:00 | FINISH model=Logistic Regression; strategy=Class weight; outer_fold=49; elapsed_seconds=0.214
+2026-09-28T12:46:42.617092+00:00 | START model=Logistic Regression; strategy=SMOTE-NC; outer_fold=0
+2026-09-28T12:46:44.886727+00:00 | FINISH model=Logistic Regression; strategy=SMOTE-NC; outer_fold=0; elapsed_seconds=2.270
+2026-09-28T12:46:44.887263+00:00 | START model=Logistic Regression; strategy=SMOTE-NC; outer_fold=1
+2026-09-28T12:46:45.382539+00:00 | FINISH model=Logistic Regression; strategy=SMOTE-NC; outer_fold=1; elapsed_seconds=0.495
+2026-09-28T12:46:45.384111+00:00 | START model=Logistic Regression; strategy=SMOTE-NC; outer_fold=2
+2026-09-28T12:46:45.836349+00:00 | FINISH model=Logistic Regression; strategy=SMOTE-NC; outer_fold=2; elapsed_seconds=0.452
+2026-09-28T12:46:45.836756+00:00 | START model=Logistic Regression; strategy=SMOTE-NC; outer_fold=3
+2026-09-28T12:46:46.296139+00:00 | FINISH model=Logistic Regression; strategy=SMOTE-NC; outer_fold=3; elapsed_seconds=0.459
+2026-09-28T12:46:46.296669+00:00 | START model=Logistic Regression; strategy=SMOTE-NC; outer_fold=4
+2026-09-28T12:46:46.752471+00:00 | FINISH model=Logistic Regression; strategy=SMOTE-NC; outer_fold=4; elapsed_seconds=0.456
+2026-09-28T12:46:46.752976+00:00 | START model=Logistic Regression; strategy=SMOTE-NC; outer_fold=5
+2026-09-28T12:46:47.229054+00:00 | FINISH model=Logistic Regression; strategy=SMOTE-NC; outer_fold=5; elapsed_seconds=0.476
+2026-09-28T12:46:47.229511+00:00 | START model=Logistic Regression; strategy=SMOTE-NC; outer_fold=6
+2026-09-28T12:46:47.690122+00:00 | FINISH model=Logistic Regression; strategy=SMOTE-NC; outer_fold=6; elapsed_seconds=0.460
+2026-09-28T12:46:47.690848+00:00 | START model=Logistic Regression; strategy=SMOTE-NC; outer_fold=7
+2026-09-28T12:46:48.158234+00:00 | FINISH model=Logistic Regression; strategy=SMOTE-NC; outer_fold=7; elapsed_seconds=0.467
+2026-09-28T12:46:48.159358+00:00 | START model=Logistic Regression; strategy=SMOTE-NC; outer_fold=8
+2026-09-28T12:46:48.620193+00:00 | FINISH model=Logistic Regression; strategy=SMOTE-NC; outer_fold=8; elapsed_seconds=0.461
+2026-09-28T12:46:48.620598+00:00 | START model=Logistic Regression; strategy=SMOTE-NC; outer_fold=9
+2026-09-28T12:46:49.069844+00:00 | FINISH model=Logistic Regression; strategy=SMOTE-NC; outer_fold=9; elapsed_seconds=0.449
+2026-09-28T12:46:49.070574+00:00 | START model=Logistic Regression; strategy=SMOTE-NC; outer_fold=10
+2026-09-28T12:46:49.524035+00:00 | FINISH model=Logistic Regression; strategy=SMOTE-NC; outer_fold=10; elapsed_seconds=0.453
+2026-09-28T12:46:49.524670+00:00 | START model=Logistic Regression; strategy=SMOTE-NC; outer_fold=11
+2026-09-28T12:46:49.975372+00:00 | FINISH model=Logistic Regression; strategy=SMOTE-NC; outer_fold=11; elapsed_seconds=0.451
+2026-09-28T12:46:49.975871+00:00 | START model=Logistic Regression; strategy=SMOTE-NC; outer_fold=12
+2026-09-28T12:46:50.446135+00:00 | FINISH model=Logistic Regression; strategy=SMOTE-NC; outer_fold=12; elapsed_seconds=0.470
+2026-09-28T12:46:50.446603+00:00 | START model=Logistic Regression; strategy=SMOTE-NC; outer_fold=13
+2026-09-28T12:46:50.906826+00:00 | FINISH model=Logistic Regression; strategy=SMOTE-NC; outer_fold=13; elapsed_seconds=0.460
+2026-09-28T12:46:50.907162+00:00 | START model=Logistic Regression; strategy=SMOTE-NC; outer_fold=14
+2026-09-28T12:46:51.376185+00:00 | FINISH model=Logistic Regression; strategy=SMOTE-NC; outer_fold=14; elapsed_seconds=0.469
+2026-09-28T12:46:51.376636+00:00 | START model=Logistic Regression; strategy=SMOTE-NC; outer_fold=15
+2026-09-28T12:46:51.851375+00:00 | FINISH model=Logistic Regression; strategy=SMOTE-NC; outer_fold=15; elapsed_seconds=0.475
+2026-09-28T12:46:51.851757+00:00 | START model=Logistic Regression; strategy=SMOTE-NC; outer_fold=16
+2026-09-28T12:46:52.308659+00:00 | FINISH model=Logistic Regression; strategy=SMOTE-NC; outer_fold=16; elapsed_seconds=0.457
+2026-09-28T12:46:52.309082+00:00 | START model=Logistic Regression; strategy=SMOTE-NC; outer_fold=17
+2026-09-28T12:46:52.762695+00:00 | FINISH model=Logistic Regression; strategy=SMOTE-NC; outer_fold=17; elapsed_seconds=0.454
+2026-09-28T12:46:52.763089+00:00 | START model=Logistic Regression; strategy=SMOTE-NC; outer_fold=18
+2026-09-28T12:46:53.225249+00:00 | FINISH model=Logistic Regression; strategy=SMOTE-NC; outer_fold=18; elapsed_seconds=0.462
+2026-09-28T12:46:53.225891+00:00 | START model=Logistic Regression; strategy=SMOTE-NC; outer_fold=19
+2026-09-28T12:46:53.704177+00:00 | FINISH model=Logistic Regression; strategy=SMOTE-NC; outer_fold=19; elapsed_seconds=0.478
+2026-09-28T12:46:53.704700+00:00 | START model=Logistic Regression; strategy=SMOTE-NC; outer_fold=20
+2026-09-28T12:46:54.149422+00:00 | FINISH model=Logistic Regression; strategy=SMOTE-NC; outer_fold=20; elapsed_seconds=0.445
+2026-09-28T12:46:54.149865+00:00 | START model=Logistic Regression; strategy=SMOTE-NC; outer_fold=21
+2026-09-28T12:46:54.613245+00:00 | FINISH model=Logistic Regression; strategy=SMOTE-NC; outer_fold=21; elapsed_seconds=0.463
+2026-09-28T12:46:54.613625+00:00 | START model=Logistic Regression; strategy=SMOTE-NC; outer_fold=22
+2026-09-28T12:46:55.064564+00:00 | FINISH model=Logistic Regression; strategy=SMOTE-NC; outer_fold=22; elapsed_seconds=0.451
+2026-09-28T12:46:55.065008+00:00 | START model=Logistic Regression; strategy=SMOTE-NC; outer_fold=23
+2026-09-28T12:46:55.511117+00:00 | FINISH model=Logistic Regression; strategy=SMOTE-NC; outer_fold=23; elapsed_seconds=0.446
+2026-09-28T12:46:55.511512+00:00 | START model=Logistic Regression; strategy=SMOTE-NC; outer_fold=24
+2026-09-28T12:46:55.962801+00:00 | FINISH model=Logistic Regression; strategy=SMOTE-NC; outer_fold=24; elapsed_seconds=0.451
+2026-09-28T12:46:55.963372+00:00 | START model=Logistic Regression; strategy=SMOTE-NC; outer_fold=25
+2026-09-28T12:46:56.437611+00:00 | FINISH model=Logistic Regression; strategy=SMOTE-NC; outer_fold=25; elapsed_seconds=0.474
+2026-09-28T12:46:56.437995+00:00 | START model=Logistic Regression; strategy=SMOTE-NC; outer_fold=26
+2026-09-28T12:46:56.921628+00:00 | FINISH model=Logistic Regression; strategy=SMOTE-NC; outer_fold=26; elapsed_seconds=0.484
+2026-09-28T12:46:56.922012+00:00 | START model=Logistic Regression; strategy=SMOTE-NC; outer_fold=27
+2026-09-28T12:46:57.402675+00:00 | FINISH model=Logistic Regression; strategy=SMOTE-NC; outer_fold=27; elapsed_seconds=0.481
+2026-09-28T12:46:57.403034+00:00 | START model=Logistic Regression; strategy=SMOTE-NC; outer_fold=28
+2026-09-28T12:46:57.953802+00:00 | FINISH model=Logistic Regression; strategy=SMOTE-NC; outer_fold=28; elapsed_seconds=0.550
+2026-09-28T12:46:57.954202+00:00 | START model=Logistic Regression; strategy=SMOTE-NC; outer_fold=29
+2026-09-28T12:46:58.531027+00:00 | FINISH model=Logistic Regression; strategy=SMOTE-NC; outer_fold=29; elapsed_seconds=0.577
+2026-09-28T12:46:58.531708+00:00 | START model=Logistic Regression; strategy=SMOTE-NC; outer_fold=30
+2026-09-28T12:46:59.171348+00:00 | FINISH model=Logistic Regression; strategy=SMOTE-NC; outer_fold=30; elapsed_seconds=0.640
+2026-09-28T12:46:59.172026+00:00 | START model=Logistic Regression; strategy=SMOTE-NC; outer_fold=31
+2026-09-28T12:46:59.675483+00:00 | FINISH model=Logistic Regression; strategy=SMOTE-NC; outer_fold=31; elapsed_seconds=0.504
+2026-09-28T12:46:59.675893+00:00 | START model=Logistic Regression; strategy=SMOTE-NC; outer_fold=32
+2026-09-28T12:47:00.159436+00:00 | FINISH model=Logistic Regression; strategy=SMOTE-NC; outer_fold=32; elapsed_seconds=0.484
+2026-09-28T12:47:00.159935+00:00 | START model=Logistic Regression; strategy=SMOTE-NC; outer_fold=33
+2026-09-28T12:47:00.629541+00:00 | FINISH model=Logistic Regression; strategy=SMOTE-NC; outer_fold=33; elapsed_seconds=0.470
+2026-09-28T12:47:00.630057+00:00 | START model=Logistic Regression; strategy=SMOTE-NC; outer_fold=34
+2026-09-28T12:47:01.105010+00:00 | FINISH model=Logistic Regression; strategy=SMOTE-NC; outer_fold=34; elapsed_seconds=0.475
+2026-09-28T12:47:01.105410+00:00 | START model=Logistic Regression; strategy=SMOTE-NC; outer_fold=35
+2026-09-28T12:47:01.572076+00:00 | FINISH model=Logistic Regression; strategy=SMOTE-NC; outer_fold=35; elapsed_seconds=0.467
+2026-09-28T12:47:01.572499+00:00 | START model=Logistic Regression; strategy=SMOTE-NC; outer_fold=36
+2026-09-28T12:47:02.047983+00:00 | FINISH model=Logistic Regression; strategy=SMOTE-NC; outer_fold=36; elapsed_seconds=0.475
+2026-09-28T12:47:02.048652+00:00 | START model=Logistic Regression; strategy=SMOTE-NC; outer_fold=37
+2026-09-28T12:47:02.525644+00:00 | FINISH model=Logistic Regression; strategy=SMOTE-NC; outer_fold=37; elapsed_seconds=0.477
+2026-09-28T12:47:02.526094+00:00 | START model=Logistic Regression; strategy=SMOTE-NC; outer_fold=38
+2026-09-28T12:47:03.010383+00:00 | FINISH model=Logistic Regression; strategy=SMOTE-NC; outer_fold=38; elapsed_seconds=0.484
+2026-09-28T12:47:03.010861+00:00 | START model=Logistic Regression; strategy=SMOTE-NC; outer_fold=39
+2026-09-28T12:47:03.495716+00:00 | FINISH model=Logistic Regression; strategy=SMOTE-NC; outer_fold=39; elapsed_seconds=0.485
+2026-09-28T12:47:03.496222+00:00 | START model=Logistic Regression; strategy=SMOTE-NC; outer_fold=40
+2026-09-28T12:47:03.999360+00:00 | FINISH model=Logistic Regression; strategy=SMOTE-NC; outer_fold=40; elapsed_seconds=0.503
+2026-09-28T12:47:04.000007+00:00 | START model=Logistic Regression; strategy=SMOTE-NC; outer_fold=41
+2026-09-28T12:47:04.492199+00:00 | FINISH model=Logistic Regression; strategy=SMOTE-NC; outer_fold=41; elapsed_seconds=0.492
+2026-09-28T12:47:04.492662+00:00 | START model=Logistic Regression; strategy=SMOTE-NC; outer_fold=42
+2026-09-28T12:47:04.973124+00:00 | FINISH model=Logistic Regression; strategy=SMOTE-NC; outer_fold=42; elapsed_seconds=0.480
+2026-09-28T12:47:04.973645+00:00 | START model=Logistic Regression; strategy=SMOTE-NC; outer_fold=43
+2026-09-28T12:47:05.462843+00:00 | FINISH model=Logistic Regression; strategy=SMOTE-NC; outer_fold=43; elapsed_seconds=0.489
+2026-09-28T12:47:05.463370+00:00 | START model=Logistic Regression; strategy=SMOTE-NC; outer_fold=44
+2026-09-28T12:47:05.933493+00:00 | FINISH model=Logistic Regression; strategy=SMOTE-NC; outer_fold=44; elapsed_seconds=0.470
+2026-09-28T12:47:05.934017+00:00 | START model=Logistic Regression; strategy=SMOTE-NC; outer_fold=45
+2026-09-28T12:47:06.411852+00:00 | FINISH model=Logistic Regression; strategy=SMOTE-NC; outer_fold=45; elapsed_seconds=0.478
+2026-09-28T12:47:06.412344+00:00 | START model=Logistic Regression; strategy=SMOTE-NC; outer_fold=46
+2026-09-28T12:47:06.884976+00:00 | FINISH model=Logistic Regression; strategy=SMOTE-NC; outer_fold=46; elapsed_seconds=0.473
+2026-09-28T12:47:06.885468+00:00 | START model=Logistic Regression; strategy=SMOTE-NC; outer_fold=47
+2026-09-28T12:47:07.363238+00:00 | FINISH model=Logistic Regression; strategy=SMOTE-NC; outer_fold=47; elapsed_seconds=0.478
+2026-09-28T12:47:07.363737+00:00 | START model=Logistic Regression; strategy=SMOTE-NC; outer_fold=48
+2026-09-28T12:47:07.835746+00:00 | FINISH model=Logistic Regression; strategy=SMOTE-NC; outer_fold=48; elapsed_seconds=0.472
+2026-09-28T12:47:07.836173+00:00 | START model=Logistic Regression; strategy=SMOTE-NC; outer_fold=49
+2026-09-28T12:47:08.343822+00:00 | FINISH model=Logistic Regression; strategy=SMOTE-NC; outer_fold=49; elapsed_seconds=0.508
+2026-09-28T12:47:08.344429+00:00 | START model=Logistic Regression; strategy=Random undersampling; outer_fold=0
+2026-09-28T12:47:08.563774+00:00 | FINISH model=Logistic Regression; strategy=Random undersampling; outer_fold=0; elapsed_seconds=0.219
+2026-09-28T12:47:08.564129+00:00 | START model=Logistic Regression; strategy=Random undersampling; outer_fold=1
+2026-09-28T12:47:08.786705+00:00 | FINISH model=Logistic Regression; strategy=Random undersampling; outer_fold=1; elapsed_seconds=0.223
+2026-09-28T12:47:08.787091+00:00 | START model=Logistic Regression; strategy=Random undersampling; outer_fold=2
+2026-09-28T12:47:09.007314+00:00 | FINISH model=Logistic Regression; strategy=Random undersampling; outer_fold=2; elapsed_seconds=0.220
+2026-09-28T12:47:09.007709+00:00 | START model=Logistic Regression; strategy=Random undersampling; outer_fold=3
+2026-09-28T12:47:09.234920+00:00 | FINISH model=Logistic Regression; strategy=Random undersampling; outer_fold=3; elapsed_seconds=0.227
+2026-09-28T12:47:09.235376+00:00 | START model=Logistic Regression; strategy=Random undersampling; outer_fold=4
+2026-09-28T12:47:09.462318+00:00 | FINISH model=Logistic Regression; strategy=Random undersampling; outer_fold=4; elapsed_seconds=0.227
+2026-09-28T12:47:09.462744+00:00 | START model=Logistic Regression; strategy=Random undersampling; outer_fold=5
+2026-09-28T12:47:09.683308+00:00 | FINISH model=Logistic Regression; strategy=Random undersampling; outer_fold=5; elapsed_seconds=0.221
+2026-09-28T12:47:09.683642+00:00 | START model=Logistic Regression; strategy=Random undersampling; outer_fold=6
+2026-09-28T12:47:09.917795+00:00 | FINISH model=Logistic Regression; strategy=Random undersampling; outer_fold=6; elapsed_seconds=0.234
+2026-09-28T12:47:09.918152+00:00 | START model=Logistic Regression; strategy=Random undersampling; outer_fold=7
+2026-09-28T12:47:10.155674+00:00 | FINISH model=Logistic Regression; strategy=Random undersampling; outer_fold=7; elapsed_seconds=0.237
+2026-09-28T12:47:10.156179+00:00 | START model=Logistic Regression; strategy=Random undersampling; outer_fold=8
+2026-09-28T12:47:10.417972+00:00 | FINISH model=Logistic Regression; strategy=Random undersampling; outer_fold=8; elapsed_seconds=0.262
+2026-09-28T12:47:10.418472+00:00 | START model=Logistic Regression; strategy=Random undersampling; outer_fold=9
+2026-09-28T12:47:10.675613+00:00 | FINISH model=Logistic Regression; strategy=Random undersampling; outer_fold=9; elapsed_seconds=0.257
+2026-09-28T12:47:10.677858+00:00 | START model=Logistic Regression; strategy=Random undersampling; outer_fold=10
+2026-09-28T12:47:10.925744+00:00 | FINISH model=Logistic Regression; strategy=Random undersampling; outer_fold=10; elapsed_seconds=0.248
+2026-09-28T12:47:10.926620+00:00 | START model=Logistic Regression; strategy=Random undersampling; outer_fold=11
+2026-09-28T12:47:11.212574+00:00 | FINISH model=Logistic Regression; strategy=Random undersampling; outer_fold=11; elapsed_seconds=0.286
+2026-09-28T12:47:11.213445+00:00 | START model=Logistic Regression; strategy=Random undersampling; outer_fold=12
+2026-09-28T12:47:11.501064+00:00 | FINISH model=Logistic Regression; strategy=Random undersampling; outer_fold=12; elapsed_seconds=0.288
+2026-09-28T12:47:11.501592+00:00 | START model=Logistic Regression; strategy=Random undersampling; outer_fold=13
+2026-09-28T12:47:11.779829+00:00 | FINISH model=Logistic Regression; strategy=Random undersampling; outer_fold=13; elapsed_seconds=0.278
+2026-09-28T12:47:11.780329+00:00 | START model=Logistic Regression; strategy=Random undersampling; outer_fold=14
+2026-09-28T12:47:12.042737+00:00 | FINISH model=Logistic Regression; strategy=Random undersampling; outer_fold=14; elapsed_seconds=0.262
+2026-09-28T12:47:12.043141+00:00 | START model=Logistic Regression; strategy=Random undersampling; outer_fold=15
+2026-09-28T12:47:12.302575+00:00 | FINISH model=Logistic Regression; strategy=Random undersampling; outer_fold=15; elapsed_seconds=0.259
+2026-09-28T12:47:12.303247+00:00 | START model=Logistic Regression; strategy=Random undersampling; outer_fold=16
+2026-09-28T12:47:12.566177+00:00 | FINISH model=Logistic Regression; strategy=Random undersampling; outer_fold=16; elapsed_seconds=0.263
+2026-09-28T12:47:12.566746+00:00 | START model=Logistic Regression; strategy=Random undersampling; outer_fold=17
+2026-09-28T12:47:12.806433+00:00 | FINISH model=Logistic Regression; strategy=Random undersampling; outer_fold=17; elapsed_seconds=0.240
+2026-09-28T12:47:12.807049+00:00 | START model=Logistic Regression; strategy=Random undersampling; outer_fold=18
+2026-09-28T12:47:13.055220+00:00 | FINISH model=Logistic Regression; strategy=Random undersampling; outer_fold=18; elapsed_seconds=0.248
+2026-09-28T12:47:13.055805+00:00 | START model=Logistic Regression; strategy=Random undersampling; outer_fold=19
+2026-09-28T12:47:13.291025+00:00 | FINISH model=Logistic Regression; strategy=Random undersampling; outer_fold=19; elapsed_seconds=0.235
+2026-09-28T12:47:13.291470+00:00 | START model=Logistic Regression; strategy=Random undersampling; outer_fold=20
+2026-09-28T12:47:13.562241+00:00 | FINISH model=Logistic Regression; strategy=Random undersampling; outer_fold=20; elapsed_seconds=0.271
+2026-09-28T12:47:13.562706+00:00 | START model=Logistic Regression; strategy=Random undersampling; outer_fold=21
+2026-09-28T12:47:13.822558+00:00 | FINISH model=Logistic Regression; strategy=Random undersampling; outer_fold=21; elapsed_seconds=0.260
+2026-09-28T12:47:13.822973+00:00 | START model=Logistic Regression; strategy=Random undersampling; outer_fold=22
+2026-09-28T12:47:14.076063+00:00 | FINISH model=Logistic Regression; strategy=Random undersampling; outer_fold=22; elapsed_seconds=0.253
+2026-09-28T12:47:14.076486+00:00 | START model=Logistic Regression; strategy=Random undersampling; outer_fold=23
+2026-09-28T12:47:14.330705+00:00 | FINISH model=Logistic Regression; strategy=Random undersampling; outer_fold=23; elapsed_seconds=0.254
+2026-09-28T12:47:14.331251+00:00 | START model=Logistic Regression; strategy=Random undersampling; outer_fold=24
+2026-09-28T12:47:14.569784+00:00 | FINISH model=Logistic Regression; strategy=Random undersampling; outer_fold=24; elapsed_seconds=0.239
+2026-09-28T12:47:14.572489+00:00 | START model=Logistic Regression; strategy=Random undersampling; outer_fold=25
+2026-09-28T12:47:14.838534+00:00 | FINISH model=Logistic Regression; strategy=Random undersampling; outer_fold=25; elapsed_seconds=0.266
+2026-09-28T12:47:14.838975+00:00 | START model=Logistic Regression; strategy=Random undersampling; outer_fold=26
+2026-09-28T12:47:15.102364+00:00 | FINISH model=Logistic Regression; strategy=Random undersampling; outer_fold=26; elapsed_seconds=0.263
+2026-09-28T12:47:15.102769+00:00 | START model=Logistic Regression; strategy=Random undersampling; outer_fold=27
+2026-09-28T12:47:15.346651+00:00 | FINISH model=Logistic Regression; strategy=Random undersampling; outer_fold=27; elapsed_seconds=0.244
+2026-09-28T12:47:15.347150+00:00 | START model=Logistic Regression; strategy=Random undersampling; outer_fold=28
+2026-09-28T12:47:15.593842+00:00 | FINISH model=Logistic Regression; strategy=Random undersampling; outer_fold=28; elapsed_seconds=0.247
+2026-09-28T12:47:15.594193+00:00 | START model=Logistic Regression; strategy=Random undersampling; outer_fold=29
+2026-09-28T12:47:15.842410+00:00 | FINISH model=Logistic Regression; strategy=Random undersampling; outer_fold=29; elapsed_seconds=0.248
+2026-09-28T12:47:15.842929+00:00 | START model=Logistic Regression; strategy=Random undersampling; outer_fold=30
+2026-09-28T12:47:16.073445+00:00 | FINISH model=Logistic Regression; strategy=Random undersampling; outer_fold=30; elapsed_seconds=0.230
+2026-09-28T12:47:16.073981+00:00 | START model=Logistic Regression; strategy=Random undersampling; outer_fold=31
+2026-09-28T12:47:16.316401+00:00 | FINISH model=Logistic Regression; strategy=Random undersampling; outer_fold=31; elapsed_seconds=0.242
+2026-09-28T12:47:16.316953+00:00 | START model=Logistic Regression; strategy=Random undersampling; outer_fold=32
+2026-09-28T12:47:16.550098+00:00 | FINISH model=Logistic Regression; strategy=Random undersampling; outer_fold=32; elapsed_seconds=0.233
+2026-09-28T12:47:16.550589+00:00 | START model=Logistic Regression; strategy=Random undersampling; outer_fold=33
+2026-09-28T12:47:16.786552+00:00 | FINISH model=Logistic Regression; strategy=Random undersampling; outer_fold=33; elapsed_seconds=0.236
+2026-09-28T12:47:16.787169+00:00 | START model=Logistic Regression; strategy=Random undersampling; outer_fold=34
+2026-09-28T12:47:17.060841+00:00 | FINISH model=Logistic Regression; strategy=Random undersampling; outer_fold=34; elapsed_seconds=0.274
+2026-09-28T12:47:17.061350+00:00 | START model=Logistic Regression; strategy=Random undersampling; outer_fold=35
+2026-09-28T12:47:17.313826+00:00 | FINISH model=Logistic Regression; strategy=Random undersampling; outer_fold=35; elapsed_seconds=0.252
+2026-09-28T12:47:17.314406+00:00 | START model=Logistic Regression; strategy=Random undersampling; outer_fold=36
+2026-09-28T12:47:17.564073+00:00 | FINISH model=Logistic Regression; strategy=Random undersampling; outer_fold=36; elapsed_seconds=0.250
+2026-09-28T12:47:17.564524+00:00 | START model=Logistic Regression; strategy=Random undersampling; outer_fold=37
+2026-09-28T12:47:17.838907+00:00 | FINISH model=Logistic Regression; strategy=Random undersampling; outer_fold=37; elapsed_seconds=0.274
+2026-09-28T12:47:17.839308+00:00 | START model=Logistic Regression; strategy=Random undersampling; outer_fold=38
+2026-09-28T12:47:18.103972+00:00 | FINISH model=Logistic Regression; strategy=Random undersampling; outer_fold=38; elapsed_seconds=0.265
+2026-09-28T12:47:18.104446+00:00 | START model=Logistic Regression; strategy=Random undersampling; outer_fold=39
+2026-09-28T12:47:18.364269+00:00 | FINISH model=Logistic Regression; strategy=Random undersampling; outer_fold=39; elapsed_seconds=0.260
+2026-09-28T12:47:18.364825+00:00 | START model=Logistic Regression; strategy=Random undersampling; outer_fold=40
+2026-09-28T12:47:18.637342+00:00 | FINISH model=Logistic Regression; strategy=Random undersampling; outer_fold=40; elapsed_seconds=0.273
+2026-09-28T12:47:18.637754+00:00 | START model=Logistic Regression; strategy=Random undersampling; outer_fold=41
+2026-09-28T12:47:18.896237+00:00 | FINISH model=Logistic Regression; strategy=Random undersampling; outer_fold=41; elapsed_seconds=0.258
+2026-09-28T12:47:18.896795+00:00 | START model=Logistic Regression; strategy=Random undersampling; outer_fold=42
+2026-09-28T12:47:19.187535+00:00 | FINISH model=Logistic Regression; strategy=Random undersampling; outer_fold=42; elapsed_seconds=0.291
+2026-09-28T12:47:19.187936+00:00 | START model=Logistic Regression; strategy=Random undersampling; outer_fold=43
+2026-09-28T12:47:19.422259+00:00 | FINISH model=Logistic Regression; strategy=Random undersampling; outer_fold=43; elapsed_seconds=0.234
+2026-09-28T12:47:19.422872+00:00 | START model=Logistic Regression; strategy=Random undersampling; outer_fold=44
+2026-09-28T12:47:19.659911+00:00 | FINISH model=Logistic Regression; strategy=Random undersampling; outer_fold=44; elapsed_seconds=0.237
+2026-09-28T12:47:19.660505+00:00 | START model=Logistic Regression; strategy=Random undersampling; outer_fold=45
+2026-09-28T12:47:19.907898+00:00 | FINISH model=Logistic Regression; strategy=Random undersampling; outer_fold=45; elapsed_seconds=0.247
+2026-09-28T12:47:19.908455+00:00 | START model=Logistic Regression; strategy=Random undersampling; outer_fold=46
+2026-09-28T12:47:20.142002+00:00 | FINISH model=Logistic Regression; strategy=Random undersampling; outer_fold=46; elapsed_seconds=0.233
+2026-09-28T12:47:20.142720+00:00 | START model=Logistic Regression; strategy=Random undersampling; outer_fold=47
+2026-09-28T12:47:20.409305+00:00 | FINISH model=Logistic Regression; strategy=Random undersampling; outer_fold=47; elapsed_seconds=0.267
+2026-09-28T12:47:20.409730+00:00 | START model=Logistic Regression; strategy=Random undersampling; outer_fold=48
+2026-09-28T12:47:20.678292+00:00 | FINISH model=Logistic Regression; strategy=Random undersampling; outer_fold=48; elapsed_seconds=0.269
+2026-09-28T12:47:20.678817+00:00 | START model=Logistic Regression; strategy=Random undersampling; outer_fold=49
+2026-09-28T12:47:20.932238+00:00 | FINISH model=Logistic Regression; strategy=Random undersampling; outer_fold=49; elapsed_seconds=0.253
+2026-09-28T12:47:20.932892+00:00 | START model=Logistic Regression; strategy=Threshold tuning; outer_fold=0
+2026-09-28T12:47:21.807520+00:00 | FINISH model=Logistic Regression; strategy=Threshold tuning; outer_fold=0; elapsed_seconds=0.875
+2026-09-28T12:47:21.807960+00:00 | START model=Logistic Regression; strategy=Threshold tuning; outer_fold=1
+2026-09-28T12:47:22.708439+00:00 | FINISH model=Logistic Regression; strategy=Threshold tuning; outer_fold=1; elapsed_seconds=0.900
+2026-09-28T12:47:22.709802+00:00 | START model=Logistic Regression; strategy=Threshold tuning; outer_fold=2
+2026-09-28T12:47:23.572431+00:00 | FINISH model=Logistic Regression; strategy=Threshold tuning; outer_fold=2; elapsed_seconds=0.863
+2026-09-28T12:47:23.572993+00:00 | START model=Logistic Regression; strategy=Threshold tuning; outer_fold=3
+2026-09-28T12:47:24.467861+00:00 | FINISH model=Logistic Regression; strategy=Threshold tuning; outer_fold=3; elapsed_seconds=0.895
+2026-09-28T12:47:24.468336+00:00 | START model=Logistic Regression; strategy=Threshold tuning; outer_fold=4
+2026-09-28T12:47:25.353232+00:00 | FINISH model=Logistic Regression; strategy=Threshold tuning; outer_fold=4; elapsed_seconds=0.885
+2026-09-28T12:47:25.353655+00:00 | START model=Logistic Regression; strategy=Threshold tuning; outer_fold=5
+2026-09-28T12:47:26.259520+00:00 | FINISH model=Logistic Regression; strategy=Threshold tuning; outer_fold=5; elapsed_seconds=0.906
+2026-09-28T12:47:26.259997+00:00 | START model=Logistic Regression; strategy=Threshold tuning; outer_fold=6
+2026-09-28T12:47:27.185476+00:00 | FINISH model=Logistic Regression; strategy=Threshold tuning; outer_fold=6; elapsed_seconds=0.925
+2026-09-28T12:47:27.185981+00:00 | START model=Logistic Regression; strategy=Threshold tuning; outer_fold=7
+2026-09-28T12:47:28.078145+00:00 | FINISH model=Logistic Regression; strategy=Threshold tuning; outer_fold=7; elapsed_seconds=0.892
+2026-09-28T12:47:28.078627+00:00 | START model=Logistic Regression; strategy=Threshold tuning; outer_fold=8
+2026-09-28T12:47:28.933032+00:00 | FINISH model=Logistic Regression; strategy=Threshold tuning; outer_fold=8; elapsed_seconds=0.854
+2026-09-28T12:47:28.933747+00:00 | START model=Logistic Regression; strategy=Threshold tuning; outer_fold=9
+2026-09-28T12:47:29.871618+00:00 | FINISH model=Logistic Regression; strategy=Threshold tuning; outer_fold=9; elapsed_seconds=0.938
+2026-09-28T12:47:29.872128+00:00 | START model=Logistic Regression; strategy=Threshold tuning; outer_fold=10
+2026-09-28T12:47:30.773156+00:00 | FINISH model=Logistic Regression; strategy=Threshold tuning; outer_fold=10; elapsed_seconds=0.901
+2026-09-28T12:47:30.773624+00:00 | START model=Logistic Regression; strategy=Threshold tuning; outer_fold=11
+2026-09-28T12:47:31.670298+00:00 | FINISH model=Logistic Regression; strategy=Threshold tuning; outer_fold=11; elapsed_seconds=0.897
+2026-09-28T12:47:31.670703+00:00 | START model=Logistic Regression; strategy=Threshold tuning; outer_fold=12
+2026-09-28T12:47:32.592860+00:00 | FINISH model=Logistic Regression; strategy=Threshold tuning; outer_fold=12; elapsed_seconds=0.922
+2026-09-28T12:47:32.593392+00:00 | START model=Logistic Regression; strategy=Threshold tuning; outer_fold=13
+2026-09-28T12:47:33.531345+00:00 | FINISH model=Logistic Regression; strategy=Threshold tuning; outer_fold=13; elapsed_seconds=0.938
+2026-09-28T12:47:33.531909+00:00 | START model=Logistic Regression; strategy=Threshold tuning; outer_fold=14
+2026-09-28T12:47:34.396643+00:00 | FINISH model=Logistic Regression; strategy=Threshold tuning; outer_fold=14; elapsed_seconds=0.865
+2026-09-28T12:47:34.397192+00:00 | START model=Logistic Regression; strategy=Threshold tuning; outer_fold=15
+2026-09-28T12:47:35.272295+00:00 | FINISH model=Logistic Regression; strategy=Threshold tuning; outer_fold=15; elapsed_seconds=0.875
+2026-09-28T12:47:35.272779+00:00 | START model=Logistic Regression; strategy=Threshold tuning; outer_fold=16
+2026-09-28T12:47:36.335771+00:00 | FINISH model=Logistic Regression; strategy=Threshold tuning; outer_fold=16; elapsed_seconds=1.063
+2026-09-28T12:47:36.336389+00:00 | START model=Logistic Regression; strategy=Threshold tuning; outer_fold=17
+2026-09-28T12:47:37.282177+00:00 | FINISH model=Logistic Regression; strategy=Threshold tuning; outer_fold=17; elapsed_seconds=0.946
+2026-09-28T12:47:37.282722+00:00 | START model=Logistic Regression; strategy=Threshold tuning; outer_fold=18
+2026-09-28T12:47:38.139385+00:00 | FINISH model=Logistic Regression; strategy=Threshold tuning; outer_fold=18; elapsed_seconds=0.857
+2026-09-28T12:47:38.139929+00:00 | START model=Logistic Regression; strategy=Threshold tuning; outer_fold=19
+2026-09-28T12:47:39.035940+00:00 | FINISH model=Logistic Regression; strategy=Threshold tuning; outer_fold=19; elapsed_seconds=0.896
+2026-09-28T12:47:39.036455+00:00 | START model=Logistic Regression; strategy=Threshold tuning; outer_fold=20
+2026-09-28T12:47:39.883042+00:00 | FINISH model=Logistic Regression; strategy=Threshold tuning; outer_fold=20; elapsed_seconds=0.846
+2026-09-28T12:47:39.883484+00:00 | START model=Logistic Regression; strategy=Threshold tuning; outer_fold=21
+2026-09-28T12:47:40.753978+00:00 | FINISH model=Logistic Regression; strategy=Threshold tuning; outer_fold=21; elapsed_seconds=0.870
+2026-09-28T12:47:40.754403+00:00 | START model=Logistic Regression; strategy=Threshold tuning; outer_fold=22
+2026-09-28T12:47:41.660679+00:00 | FINISH model=Logistic Regression; strategy=Threshold tuning; outer_fold=22; elapsed_seconds=0.906
+2026-09-28T12:47:41.661138+00:00 | START model=Logistic Regression; strategy=Threshold tuning; outer_fold=23
+2026-09-28T12:47:42.529082+00:00 | FINISH model=Logistic Regression; strategy=Threshold tuning; outer_fold=23; elapsed_seconds=0.868
+2026-09-28T12:47:42.529546+00:00 | START model=Logistic Regression; strategy=Threshold tuning; outer_fold=24
+2026-09-28T12:47:43.387926+00:00 | FINISH model=Logistic Regression; strategy=Threshold tuning; outer_fold=24; elapsed_seconds=0.858
+2026-09-28T12:47:43.388524+00:00 | START model=Logistic Regression; strategy=Threshold tuning; outer_fold=25
+2026-09-28T12:47:44.267107+00:00 | FINISH model=Logistic Regression; strategy=Threshold tuning; outer_fold=25; elapsed_seconds=0.879
+2026-09-28T12:47:44.267816+00:00 | START model=Logistic Regression; strategy=Threshold tuning; outer_fold=26
+2026-09-28T12:47:45.108878+00:00 | FINISH model=Logistic Regression; strategy=Threshold tuning; outer_fold=26; elapsed_seconds=0.841
+2026-09-28T12:47:45.109428+00:00 | START model=Logistic Regression; strategy=Threshold tuning; outer_fold=27
+2026-09-28T12:47:45.964773+00:00 | FINISH model=Logistic Regression; strategy=Threshold tuning; outer_fold=27; elapsed_seconds=0.855
+2026-09-28T12:47:45.965325+00:00 | START model=Logistic Regression; strategy=Threshold tuning; outer_fold=28
+2026-09-28T12:47:46.842579+00:00 | FINISH model=Logistic Regression; strategy=Threshold tuning; outer_fold=28; elapsed_seconds=0.877
+2026-09-28T12:47:46.843054+00:00 | START model=Logistic Regression; strategy=Threshold tuning; outer_fold=29
+2026-09-28T12:47:47.733086+00:00 | FINISH model=Logistic Regression; strategy=Threshold tuning; outer_fold=29; elapsed_seconds=0.890
+2026-09-28T12:47:47.733570+00:00 | START model=Logistic Regression; strategy=Threshold tuning; outer_fold=30
+2026-09-28T12:47:48.625137+00:00 | FINISH model=Logistic Regression; strategy=Threshold tuning; outer_fold=30; elapsed_seconds=0.891
+2026-09-28T12:47:48.625797+00:00 | START model=Logistic Regression; strategy=Threshold tuning; outer_fold=31
+2026-09-28T12:47:49.480814+00:00 | FINISH model=Logistic Regression; strategy=Threshold tuning; outer_fold=31; elapsed_seconds=0.855
+2026-09-28T12:47:49.481449+00:00 | START model=Logistic Regression; strategy=Threshold tuning; outer_fold=32
+2026-09-28T12:47:50.345360+00:00 | FINISH model=Logistic Regression; strategy=Threshold tuning; outer_fold=32; elapsed_seconds=0.864
+2026-09-28T12:47:50.345783+00:00 | START model=Logistic Regression; strategy=Threshold tuning; outer_fold=33
+2026-09-28T12:47:51.215003+00:00 | FINISH model=Logistic Regression; strategy=Threshold tuning; outer_fold=33; elapsed_seconds=0.869
+2026-09-28T12:47:51.215504+00:00 | START model=Logistic Regression; strategy=Threshold tuning; outer_fold=34
+2026-09-28T12:47:52.073146+00:00 | FINISH model=Logistic Regression; strategy=Threshold tuning; outer_fold=34; elapsed_seconds=0.858
+2026-09-28T12:47:52.073565+00:00 | START model=Logistic Regression; strategy=Threshold tuning; outer_fold=35
+2026-09-28T12:47:52.948877+00:00 | FINISH model=Logistic Regression; strategy=Threshold tuning; outer_fold=35; elapsed_seconds=0.875
+2026-09-28T12:47:52.949296+00:00 | START model=Logistic Regression; strategy=Threshold tuning; outer_fold=36
+2026-09-28T12:47:53.830818+00:00 | FINISH model=Logistic Regression; strategy=Threshold tuning; outer_fold=36; elapsed_seconds=0.881
+2026-09-28T12:47:53.831317+00:00 | START model=Logistic Regression; strategy=Threshold tuning; outer_fold=37
+2026-09-28T12:47:54.666787+00:00 | FINISH model=Logistic Regression; strategy=Threshold tuning; outer_fold=37; elapsed_seconds=0.835
+2026-09-28T12:47:54.667275+00:00 | START model=Logistic Regression; strategy=Threshold tuning; outer_fold=38
+2026-09-28T12:47:55.524337+00:00 | FINISH model=Logistic Regression; strategy=Threshold tuning; outer_fold=38; elapsed_seconds=0.857
+2026-09-28T12:47:55.524816+00:00 | START model=Logistic Regression; strategy=Threshold tuning; outer_fold=39
+2026-09-28T12:47:56.399982+00:00 | FINISH model=Logistic Regression; strategy=Threshold tuning; outer_fold=39; elapsed_seconds=0.875
+2026-09-28T12:47:56.400398+00:00 | START model=Logistic Regression; strategy=Threshold tuning; outer_fold=40
+2026-09-28T12:47:57.274966+00:00 | FINISH model=Logistic Regression; strategy=Threshold tuning; outer_fold=40; elapsed_seconds=0.875
+2026-09-28T12:47:57.275470+00:00 | START model=Logistic Regression; strategy=Threshold tuning; outer_fold=41
+2026-09-28T12:47:58.127704+00:00 | FINISH model=Logistic Regression; strategy=Threshold tuning; outer_fold=41; elapsed_seconds=0.852
+2026-09-28T12:47:58.128174+00:00 | START model=Logistic Regression; strategy=Threshold tuning; outer_fold=42
+2026-09-28T12:47:58.980151+00:00 | FINISH model=Logistic Regression; strategy=Threshold tuning; outer_fold=42; elapsed_seconds=0.852
+2026-09-28T12:47:58.980698+00:00 | START model=Logistic Regression; strategy=Threshold tuning; outer_fold=43
+2026-09-28T12:47:59.866650+00:00 | FINISH model=Logistic Regression; strategy=Threshold tuning; outer_fold=43; elapsed_seconds=0.886
+2026-09-28T12:47:59.867152+00:00 | START model=Logistic Regression; strategy=Threshold tuning; outer_fold=44
+2026-09-28T12:48:00.760513+00:00 | FINISH model=Logistic Regression; strategy=Threshold tuning; outer_fold=44; elapsed_seconds=0.893
+2026-09-28T12:48:00.761027+00:00 | START model=Logistic Regression; strategy=Threshold tuning; outer_fold=45
+2026-09-28T12:48:01.607280+00:00 | FINISH model=Logistic Regression; strategy=Threshold tuning; outer_fold=45; elapsed_seconds=0.846
+2026-09-28T12:48:01.607887+00:00 | START model=Logistic Regression; strategy=Threshold tuning; outer_fold=46
+2026-09-28T12:48:02.491781+00:00 | FINISH model=Logistic Regression; strategy=Threshold tuning; outer_fold=46; elapsed_seconds=0.884
+2026-09-28T12:48:02.492236+00:00 | START model=Logistic Regression; strategy=Threshold tuning; outer_fold=47
+2026-09-28T12:48:03.383452+00:00 | FINISH model=Logistic Regression; strategy=Threshold tuning; outer_fold=47; elapsed_seconds=0.891
+2026-09-28T12:48:03.384078+00:00 | START model=Logistic Regression; strategy=Threshold tuning; outer_fold=48
+2026-09-28T12:48:04.243409+00:00 | FINISH model=Logistic Regression; strategy=Threshold tuning; outer_fold=48; elapsed_seconds=0.859
+2026-09-28T12:48:04.243819+00:00 | START model=Logistic Regression; strategy=Threshold tuning; outer_fold=49
+2026-09-28T12:48:05.114720+00:00 | FINISH model=Logistic Regression; strategy=Threshold tuning; outer_fold=49; elapsed_seconds=0.871
+2026-09-28T12:48:05.115194+00:00 | START model=Logistic Regression; strategy=Calibrated sigmoid + threshold; outer_fold=0
+2026-09-28T12:48:08.251105+00:00 | FINISH model=Logistic Regression; strategy=Calibrated sigmoid + threshold; outer_fold=0; elapsed_seconds=3.136
+2026-09-28T12:48:08.251457+00:00 | START model=Logistic Regression; strategy=Calibrated sigmoid + threshold; outer_fold=1
+2026-09-28T12:48:11.136613+00:00 | FINISH model=Logistic Regression; strategy=Calibrated sigmoid + threshold; outer_fold=1; elapsed_seconds=2.885
+2026-09-28T12:48:11.137082+00:00 | START model=Logistic Regression; strategy=Calibrated sigmoid + threshold; outer_fold=2
+2026-09-28T12:48:14.110684+00:00 | FINISH model=Logistic Regression; strategy=Calibrated sigmoid + threshold; outer_fold=2; elapsed_seconds=2.974
+2026-09-28T12:48:14.112686+00:00 | START model=Logistic Regression; strategy=Calibrated sigmoid + threshold; outer_fold=3
+2026-09-28T12:48:17.034791+00:00 | FINISH model=Logistic Regression; strategy=Calibrated sigmoid + threshold; outer_fold=3; elapsed_seconds=2.924
+2026-09-28T12:48:17.035189+00:00 | START model=Logistic Regression; strategy=Calibrated sigmoid + threshold; outer_fold=4
+2026-09-28T12:48:19.987618+00:00 | FINISH model=Logistic Regression; strategy=Calibrated sigmoid + threshold; outer_fold=4; elapsed_seconds=2.952
+2026-09-28T12:48:19.988062+00:00 | START model=Logistic Regression; strategy=Calibrated sigmoid + threshold; outer_fold=5
+2026-09-28T12:48:22.938872+00:00 | FINISH model=Logistic Regression; strategy=Calibrated sigmoid + threshold; outer_fold=5; elapsed_seconds=2.951
+2026-09-28T12:48:22.939341+00:00 | START model=Logistic Regression; strategy=Calibrated sigmoid + threshold; outer_fold=6
+2026-09-28T12:48:25.902977+00:00 | FINISH model=Logistic Regression; strategy=Calibrated sigmoid + threshold; outer_fold=6; elapsed_seconds=2.964
+2026-09-28T12:48:25.903448+00:00 | START model=Logistic Regression; strategy=Calibrated sigmoid + threshold; outer_fold=7
+2026-09-28T12:48:28.894796+00:00 | FINISH model=Logistic Regression; strategy=Calibrated sigmoid + threshold; outer_fold=7; elapsed_seconds=2.991
+2026-09-28T12:48:28.895248+00:00 | START model=Logistic Regression; strategy=Calibrated sigmoid + threshold; outer_fold=8
+2026-09-28T12:48:31.819207+00:00 | FINISH model=Logistic Regression; strategy=Calibrated sigmoid + threshold; outer_fold=8; elapsed_seconds=2.924
+2026-09-28T12:48:31.819756+00:00 | START model=Logistic Regression; strategy=Calibrated sigmoid + threshold; outer_fold=9
+2026-09-28T12:48:34.864052+00:00 | FINISH model=Logistic Regression; strategy=Calibrated sigmoid + threshold; outer_fold=9; elapsed_seconds=3.044
+2026-09-28T12:48:34.864588+00:00 | START model=Logistic Regression; strategy=Calibrated sigmoid + threshold; outer_fold=10
+2026-09-28T12:48:37.918394+00:00 | FINISH model=Logistic Regression; strategy=Calibrated sigmoid + threshold; outer_fold=10; elapsed_seconds=3.054
+2026-09-28T12:48:37.918977+00:00 | START model=Logistic Regression; strategy=Calibrated sigmoid + threshold; outer_fold=11
+2026-09-28T12:48:40.849217+00:00 | FINISH model=Logistic Regression; strategy=Calibrated sigmoid + threshold; outer_fold=11; elapsed_seconds=2.930
+2026-09-28T12:48:40.849674+00:00 | START model=Logistic Regression; strategy=Calibrated sigmoid + threshold; outer_fold=12
+2026-09-28T12:48:44.207135+00:00 | FINISH model=Logistic Regression; strategy=Calibrated sigmoid + threshold; outer_fold=12; elapsed_seconds=3.357
+2026-09-28T12:48:44.207615+00:00 | START model=Logistic Regression; strategy=Calibrated sigmoid + threshold; outer_fold=13
+2026-09-28T12:48:47.445567+00:00 | FINISH model=Logistic Regression; strategy=Calibrated sigmoid + threshold; outer_fold=13; elapsed_seconds=3.238
+2026-09-28T12:48:47.446141+00:00 | START model=Logistic Regression; strategy=Calibrated sigmoid + threshold; outer_fold=14
+2026-09-28T12:48:50.601029+00:00 | FINISH model=Logistic Regression; strategy=Calibrated sigmoid + threshold; outer_fold=14; elapsed_seconds=3.155
+2026-09-28T12:48:50.601625+00:00 | START model=Logistic Regression; strategy=Calibrated sigmoid + threshold; outer_fold=15
+2026-09-28T12:48:53.674881+00:00 | FINISH model=Logistic Regression; strategy=Calibrated sigmoid + threshold; outer_fold=15; elapsed_seconds=3.073
+2026-09-28T12:48:53.675491+00:00 | START model=Logistic Regression; strategy=Calibrated sigmoid + threshold; outer_fold=16
+2026-09-28T12:48:56.841649+00:00 | FINISH model=Logistic Regression; strategy=Calibrated sigmoid + threshold; outer_fold=16; elapsed_seconds=3.166
+2026-09-28T12:48:56.842074+00:00 | START model=Logistic Regression; strategy=Calibrated sigmoid + threshold; outer_fold=17
+2026-09-28T12:49:00.098206+00:00 | FINISH model=Logistic Regression; strategy=Calibrated sigmoid + threshold; outer_fold=17; elapsed_seconds=3.256
+2026-09-28T12:49:00.098626+00:00 | START model=Logistic Regression; strategy=Calibrated sigmoid + threshold; outer_fold=18
+2026-09-28T12:49:03.287453+00:00 | FINISH model=Logistic Regression; strategy=Calibrated sigmoid + threshold; outer_fold=18; elapsed_seconds=3.189
+2026-09-28T12:49:03.288011+00:00 | START model=Logistic Regression; strategy=Calibrated sigmoid + threshold; outer_fold=19
+2026-09-28T12:49:06.476013+00:00 | FINISH model=Logistic Regression; strategy=Calibrated sigmoid + threshold; outer_fold=19; elapsed_seconds=3.188
+2026-09-28T12:49:06.476458+00:00 | START model=Logistic Regression; strategy=Calibrated sigmoid + threshold; outer_fold=20
+2026-09-28T12:49:09.762906+00:00 | FINISH model=Logistic Regression; strategy=Calibrated sigmoid + threshold; outer_fold=20; elapsed_seconds=3.286
+2026-09-28T12:49:09.763597+00:00 | START model=Logistic Regression; strategy=Calibrated sigmoid + threshold; outer_fold=21
+2026-09-28T12:49:12.837404+00:00 | FINISH model=Logistic Regression; strategy=Calibrated sigmoid + threshold; outer_fold=21; elapsed_seconds=3.074
+2026-09-28T12:49:12.837759+00:00 | START model=Logistic Regression; strategy=Calibrated sigmoid + threshold; outer_fold=22
+2026-09-28T12:49:15.964680+00:00 | FINISH model=Logistic Regression; strategy=Calibrated sigmoid + threshold; outer_fold=22; elapsed_seconds=3.127
+2026-09-28T12:49:15.965127+00:00 | START model=Logistic Regression; strategy=Calibrated sigmoid + threshold; outer_fold=23
+2026-09-28T12:49:19.068454+00:00 | FINISH model=Logistic Regression; strategy=Calibrated sigmoid + threshold; outer_fold=23; elapsed_seconds=3.103
+2026-09-28T12:49:19.068956+00:00 | START model=Logistic Regression; strategy=Calibrated sigmoid + threshold; outer_fold=24
+2026-09-28T12:49:22.206966+00:00 | FINISH model=Logistic Regression; strategy=Calibrated sigmoid + threshold; outer_fold=24; elapsed_seconds=3.138
+2026-09-28T12:49:22.207569+00:00 | START model=Logistic Regression; strategy=Calibrated sigmoid + threshold; outer_fold=25
+2026-09-28T12:49:25.251145+00:00 | FINISH model=Logistic Regression; strategy=Calibrated sigmoid + threshold; outer_fold=25; elapsed_seconds=3.044
+2026-09-28T12:49:25.251611+00:00 | START model=Logistic Regression; strategy=Calibrated sigmoid + threshold; outer_fold=26
+2026-09-28T12:49:28.346591+00:00 | FINISH model=Logistic Regression; strategy=Calibrated sigmoid + threshold; outer_fold=26; elapsed_seconds=3.095
+2026-09-28T12:49:28.347038+00:00 | START model=Logistic Regression; strategy=Calibrated sigmoid + threshold; outer_fold=27
+2026-09-28T12:49:31.432906+00:00 | FINISH model=Logistic Regression; strategy=Calibrated sigmoid + threshold; outer_fold=27; elapsed_seconds=3.086
+2026-09-28T12:49:31.433456+00:00 | START model=Logistic Regression; strategy=Calibrated sigmoid + threshold; outer_fold=28
+2026-09-28T12:49:34.551547+00:00 | FINISH model=Logistic Regression; strategy=Calibrated sigmoid + threshold; outer_fold=28; elapsed_seconds=3.118
+2026-09-28T12:49:34.552001+00:00 | START model=Logistic Regression; strategy=Calibrated sigmoid + threshold; outer_fold=29
+2026-09-28T12:49:37.919132+00:00 | FINISH model=Logistic Regression; strategy=Calibrated sigmoid + threshold; outer_fold=29; elapsed_seconds=3.367
+2026-09-28T12:49:37.919934+00:00 | START model=Logistic Regression; strategy=Calibrated sigmoid + threshold; outer_fold=30
+2026-09-28T12:49:41.385713+00:00 | FINISH model=Logistic Regression; strategy=Calibrated sigmoid + threshold; outer_fold=30; elapsed_seconds=3.466
+2026-09-28T12:49:41.386259+00:00 | START model=Logistic Regression; strategy=Calibrated sigmoid + threshold; outer_fold=31
+2026-09-28T12:49:44.676244+00:00 | FINISH model=Logistic Regression; strategy=Calibrated sigmoid + threshold; outer_fold=31; elapsed_seconds=3.290
+2026-09-28T12:49:44.676766+00:00 | START model=Logistic Regression; strategy=Calibrated sigmoid + threshold; outer_fold=32
+2026-09-28T12:49:47.761356+00:00 | FINISH model=Logistic Regression; strategy=Calibrated sigmoid + threshold; outer_fold=32; elapsed_seconds=3.084
+2026-09-28T12:49:47.761859+00:00 | START model=Logistic Regression; strategy=Calibrated sigmoid + threshold; outer_fold=33
+2026-09-28T12:49:50.831192+00:00 | FINISH model=Logistic Regression; strategy=Calibrated sigmoid + threshold; outer_fold=33; elapsed_seconds=3.069
+2026-09-28T12:49:50.831706+00:00 | START model=Logistic Regression; strategy=Calibrated sigmoid + threshold; outer_fold=34
+2026-09-28T12:49:53.893255+00:00 | FINISH model=Logistic Regression; strategy=Calibrated sigmoid + threshold; outer_fold=34; elapsed_seconds=3.062
+2026-09-28T12:49:53.893725+00:00 | START model=Logistic Regression; strategy=Calibrated sigmoid + threshold; outer_fold=35
+2026-09-28T12:49:57.107621+00:00 | FINISH model=Logistic Regression; strategy=Calibrated sigmoid + threshold; outer_fold=35; elapsed_seconds=3.214
+2026-09-28T12:49:57.108052+00:00 | START model=Logistic Regression; strategy=Calibrated sigmoid + threshold; outer_fold=36
+2026-09-28T12:50:00.230103+00:00 | FINISH model=Logistic Regression; strategy=Calibrated sigmoid + threshold; outer_fold=36; elapsed_seconds=3.122
+2026-09-28T12:50:00.230507+00:00 | START model=Logistic Regression; strategy=Calibrated sigmoid + threshold; outer_fold=37
+2026-09-28T12:50:03.373923+00:00 | FINISH model=Logistic Regression; strategy=Calibrated sigmoid + threshold; outer_fold=37; elapsed_seconds=3.143
+2026-09-28T12:50:03.374331+00:00 | START model=Logistic Regression; strategy=Calibrated sigmoid + threshold; outer_fold=38
+2026-09-28T12:50:06.488728+00:00 | FINISH model=Logistic Regression; strategy=Calibrated sigmoid + threshold; outer_fold=38; elapsed_seconds=3.114
+2026-09-28T12:50:06.489240+00:00 | START model=Logistic Regression; strategy=Calibrated sigmoid + threshold; outer_fold=39
+2026-09-28T12:50:09.680820+00:00 | FINISH model=Logistic Regression; strategy=Calibrated sigmoid + threshold; outer_fold=39; elapsed_seconds=3.192
+2026-09-28T12:50:09.681412+00:00 | START model=Logistic Regression; strategy=Calibrated sigmoid + threshold; outer_fold=40
+2026-09-28T12:50:12.791736+00:00 | FINISH model=Logistic Regression; strategy=Calibrated sigmoid + threshold; outer_fold=40; elapsed_seconds=3.110
+2026-09-28T12:50:12.792163+00:00 | START model=Logistic Regression; strategy=Calibrated sigmoid + threshold; outer_fold=41
+2026-09-28T12:50:15.815507+00:00 | FINISH model=Logistic Regression; strategy=Calibrated sigmoid + threshold; outer_fold=41; elapsed_seconds=3.023
+2026-09-28T12:50:15.816064+00:00 | START model=Logistic Regression; strategy=Calibrated sigmoid + threshold; outer_fold=42
+2026-09-28T12:50:18.924617+00:00 | FINISH model=Logistic Regression; strategy=Calibrated sigmoid + threshold; outer_fold=42; elapsed_seconds=3.109
+2026-09-28T12:50:18.925109+00:00 | START model=Logistic Regression; strategy=Calibrated sigmoid + threshold; outer_fold=43
+2026-09-28T12:50:22.044382+00:00 | FINISH model=Logistic Regression; strategy=Calibrated sigmoid + threshold; outer_fold=43; elapsed_seconds=3.119
+2026-09-28T12:50:22.044738+00:00 | START model=Logistic Regression; strategy=Calibrated sigmoid + threshold; outer_fold=44
+2026-09-28T12:50:25.100010+00:00 | FINISH model=Logistic Regression; strategy=Calibrated sigmoid + threshold; outer_fold=44; elapsed_seconds=3.055
+2026-09-28T12:50:25.100540+00:00 | START model=Logistic Regression; strategy=Calibrated sigmoid + threshold; outer_fold=45
+2026-09-28T12:50:28.204675+00:00 | FINISH model=Logistic Regression; strategy=Calibrated sigmoid + threshold; outer_fold=45; elapsed_seconds=3.104
+2026-09-28T12:50:28.205226+00:00 | START model=Logistic Regression; strategy=Calibrated sigmoid + threshold; outer_fold=46
+2026-09-28T12:50:31.263638+00:00 | FINISH model=Logistic Regression; strategy=Calibrated sigmoid + threshold; outer_fold=46; elapsed_seconds=3.058
+2026-09-28T12:50:31.264076+00:00 | START model=Logistic Regression; strategy=Calibrated sigmoid + threshold; outer_fold=47
+2026-09-28T12:50:34.334402+00:00 | FINISH model=Logistic Regression; strategy=Calibrated sigmoid + threshold; outer_fold=47; elapsed_seconds=3.070
+2026-09-28T12:50:34.334828+00:00 | START model=Logistic Regression; strategy=Calibrated sigmoid + threshold; outer_fold=48
+2026-09-28T12:50:37.629730+00:00 | FINISH model=Logistic Regression; strategy=Calibrated sigmoid + threshold; outer_fold=48; elapsed_seconds=3.295
+2026-09-28T12:50:37.630256+00:00 | START model=Logistic Regression; strategy=Calibrated sigmoid + threshold; outer_fold=49
+2026-09-28T12:50:41.655638+00:00 | FINISH model=Logistic Regression; strategy=Calibrated sigmoid + threshold; outer_fold=49; elapsed_seconds=4.025
+2026-09-28T12:50:41.656051+00:00 | START model=Logistic Regression; strategy=Calibrated isotonic + threshold; outer_fold=0
+2026-09-28T12:50:45.092894+00:00 | FINISH model=Logistic Regression; strategy=Calibrated isotonic + threshold; outer_fold=0; elapsed_seconds=3.437
+2026-09-28T12:50:45.093446+00:00 | START model=Logistic Regression; strategy=Calibrated isotonic + threshold; outer_fold=1
+2026-09-28T12:50:48.816802+00:00 | FINISH model=Logistic Regression; strategy=Calibrated isotonic + threshold; outer_fold=1; elapsed_seconds=3.723
+2026-09-28T12:50:48.817415+00:00 | START model=Logistic Regression; strategy=Calibrated isotonic + threshold; outer_fold=2
+2026-09-28T12:50:52.408256+00:00 | FINISH model=Logistic Regression; strategy=Calibrated isotonic + threshold; outer_fold=2; elapsed_seconds=3.591
+2026-09-28T12:50:52.408875+00:00 | START model=Logistic Regression; strategy=Calibrated isotonic + threshold; outer_fold=3
+2026-09-28T12:50:55.803793+00:00 | FINISH model=Logistic Regression; strategy=Calibrated isotonic + threshold; outer_fold=3; elapsed_seconds=3.395
+2026-09-28T12:50:55.804270+00:00 | START model=Logistic Regression; strategy=Calibrated isotonic + threshold; outer_fold=4
+2026-09-28T12:50:59.175374+00:00 | FINISH model=Logistic Regression; strategy=Calibrated isotonic + threshold; outer_fold=4; elapsed_seconds=3.371
+2026-09-28T12:50:59.176034+00:00 | START model=Logistic Regression; strategy=Calibrated isotonic + threshold; outer_fold=5
+2026-09-28T12:51:02.572784+00:00 | FINISH model=Logistic Regression; strategy=Calibrated isotonic + threshold; outer_fold=5; elapsed_seconds=3.397
+2026-09-28T12:51:02.573220+00:00 | START model=Logistic Regression; strategy=Calibrated isotonic + threshold; outer_fold=6
+2026-09-28T12:51:06.163683+00:00 | FINISH model=Logistic Regression; strategy=Calibrated isotonic + threshold; outer_fold=6; elapsed_seconds=3.590
+2026-09-28T12:51:06.164209+00:00 | START model=Logistic Regression; strategy=Calibrated isotonic + threshold; outer_fold=7
+2026-09-28T12:51:09.673496+00:00 | FINISH model=Logistic Regression; strategy=Calibrated isotonic + threshold; outer_fold=7; elapsed_seconds=3.509
+2026-09-28T12:51:09.674111+00:00 | START model=Logistic Regression; strategy=Calibrated isotonic + threshold; outer_fold=8
+2026-09-28T12:51:12.979611+00:00 | FINISH model=Logistic Regression; strategy=Calibrated isotonic + threshold; outer_fold=8; elapsed_seconds=3.305
+2026-09-28T12:51:12.980065+00:00 | START model=Logistic Regression; strategy=Calibrated isotonic + threshold; outer_fold=9
+2026-09-28T12:51:16.299033+00:00 | FINISH model=Logistic Regression; strategy=Calibrated isotonic + threshold; outer_fold=9; elapsed_seconds=3.319
+2026-09-28T12:51:16.299606+00:00 | START model=Logistic Regression; strategy=Calibrated isotonic + threshold; outer_fold=10
+2026-09-28T12:51:19.464001+00:00 | FINISH model=Logistic Regression; strategy=Calibrated isotonic + threshold; outer_fold=10; elapsed_seconds=3.164
+2026-09-28T12:51:19.464605+00:00 | START model=Logistic Regression; strategy=Calibrated isotonic + threshold; outer_fold=11
+2026-09-28T12:51:22.791426+00:00 | FINISH model=Logistic Regression; strategy=Calibrated isotonic + threshold; outer_fold=11; elapsed_seconds=3.327
+2026-09-28T12:51:22.792082+00:00 | START model=Logistic Regression; strategy=Calibrated isotonic + threshold; outer_fold=12
+2026-09-28T12:51:26.058800+00:00 | FINISH model=Logistic Regression; strategy=Calibrated isotonic + threshold; outer_fold=12; elapsed_seconds=3.267
+2026-09-28T12:51:26.059550+00:00 | START model=Logistic Regression; strategy=Calibrated isotonic + threshold; outer_fold=13
+2026-09-28T12:51:29.183194+00:00 | FINISH model=Logistic Regression; strategy=Calibrated isotonic + threshold; outer_fold=13; elapsed_seconds=3.124
+2026-09-28T12:51:29.183708+00:00 | START model=Logistic Regression; strategy=Calibrated isotonic + threshold; outer_fold=14
+2026-09-28T12:51:32.435346+00:00 | FINISH model=Logistic Regression; strategy=Calibrated isotonic + threshold; outer_fold=14; elapsed_seconds=3.251
+2026-09-28T12:51:32.436118+00:00 | START model=Logistic Regression; strategy=Calibrated isotonic + threshold; outer_fold=15
+2026-09-28T12:51:35.699336+00:00 | FINISH model=Logistic Regression; strategy=Calibrated isotonic + threshold; outer_fold=15; elapsed_seconds=3.263
+2026-09-28T12:51:35.699866+00:00 | START model=Logistic Regression; strategy=Calibrated isotonic + threshold; outer_fold=16
+2026-09-28T12:51:38.913672+00:00 | FINISH model=Logistic Regression; strategy=Calibrated isotonic + threshold; outer_fold=16; elapsed_seconds=3.214
+2026-09-28T12:51:38.914232+00:00 | START model=Logistic Regression; strategy=Calibrated isotonic + threshold; outer_fold=17
+2026-09-28T12:51:42.094604+00:00 | FINISH model=Logistic Regression; strategy=Calibrated isotonic + threshold; outer_fold=17; elapsed_seconds=3.180
+2026-09-28T12:51:42.095180+00:00 | START model=Logistic Regression; strategy=Calibrated isotonic + threshold; outer_fold=18
+2026-09-28T12:51:45.175483+00:00 | FINISH model=Logistic Regression; strategy=Calibrated isotonic + threshold; outer_fold=18; elapsed_seconds=3.080
+2026-09-28T12:51:45.176164+00:00 | START model=Logistic Regression; strategy=Calibrated isotonic + threshold; outer_fold=19
+2026-09-28T12:51:48.376900+00:00 | FINISH model=Logistic Regression; strategy=Calibrated isotonic + threshold; outer_fold=19; elapsed_seconds=3.201
+2026-09-28T12:51:48.377519+00:00 | START model=Logistic Regression; strategy=Calibrated isotonic + threshold; outer_fold=20
+2026-09-28T12:51:51.586883+00:00 | FINISH model=Logistic Regression; strategy=Calibrated isotonic + threshold; outer_fold=20; elapsed_seconds=3.209
+2026-09-28T12:51:51.587544+00:00 | START model=Logistic Regression; strategy=Calibrated isotonic + threshold; outer_fold=21
+2026-09-28T12:51:54.762980+00:00 | FINISH model=Logistic Regression; strategy=Calibrated isotonic + threshold; outer_fold=21; elapsed_seconds=3.175
+2026-09-28T12:51:54.763534+00:00 | START model=Logistic Regression; strategy=Calibrated isotonic + threshold; outer_fold=22
+2026-09-28T12:51:58.173392+00:00 | FINISH model=Logistic Regression; strategy=Calibrated isotonic + threshold; outer_fold=22; elapsed_seconds=3.410
+2026-09-28T12:51:58.174163+00:00 | START model=Logistic Regression; strategy=Calibrated isotonic + threshold; outer_fold=23
+2026-09-28T12:52:01.489513+00:00 | FINISH model=Logistic Regression; strategy=Calibrated isotonic + threshold; outer_fold=23; elapsed_seconds=3.315
+2026-09-28T12:52:01.490018+00:00 | START model=Logistic Regression; strategy=Calibrated isotonic + threshold; outer_fold=24
+2026-09-28T12:52:04.871632+00:00 | FINISH model=Logistic Regression; strategy=Calibrated isotonic + threshold; outer_fold=24; elapsed_seconds=3.382
+2026-09-28T12:52:04.872157+00:00 | START model=Logistic Regression; strategy=Calibrated isotonic + threshold; outer_fold=25
+2026-09-28T12:52:08.236006+00:00 | FINISH model=Logistic Regression; strategy=Calibrated isotonic + threshold; outer_fold=25; elapsed_seconds=3.364
+2026-09-28T12:52:08.236495+00:00 | START model=Logistic Regression; strategy=Calibrated isotonic + threshold; outer_fold=26
+2026-09-28T12:52:11.405158+00:00 | FINISH model=Logistic Regression; strategy=Calibrated isotonic + threshold; outer_fold=26; elapsed_seconds=3.169
+2026-09-28T12:52:11.405898+00:00 | START model=Logistic Regression; strategy=Calibrated isotonic + threshold; outer_fold=27
+2026-09-28T12:52:14.678472+00:00 | FINISH model=Logistic Regression; strategy=Calibrated isotonic + threshold; outer_fold=27; elapsed_seconds=3.273
+2026-09-28T12:52:14.679748+00:00 | START model=Logistic Regression; strategy=Calibrated isotonic + threshold; outer_fold=28
+2026-09-28T12:52:18.092781+00:00 | FINISH model=Logistic Regression; strategy=Calibrated isotonic + threshold; outer_fold=28; elapsed_seconds=3.413
+2026-09-28T12:52:18.093280+00:00 | START model=Logistic Regression; strategy=Calibrated isotonic + threshold; outer_fold=29
+2026-09-28T12:52:21.462321+00:00 | FINISH model=Logistic Regression; strategy=Calibrated isotonic + threshold; outer_fold=29; elapsed_seconds=3.369
+2026-09-28T12:52:21.462819+00:00 | START model=Logistic Regression; strategy=Calibrated isotonic + threshold; outer_fold=30
+2026-09-28T12:52:24.752368+00:00 | FINISH model=Logistic Regression; strategy=Calibrated isotonic + threshold; outer_fold=30; elapsed_seconds=3.290
+2026-09-28T12:52:24.752795+00:00 | START model=Logistic Regression; strategy=Calibrated isotonic + threshold; outer_fold=31
+2026-09-28T12:52:27.969994+00:00 | FINISH model=Logistic Regression; strategy=Calibrated isotonic + threshold; outer_fold=31; elapsed_seconds=3.217
+2026-09-28T12:52:27.970770+00:00 | START model=Logistic Regression; strategy=Calibrated isotonic + threshold; outer_fold=32
+2026-09-28T12:52:31.160056+00:00 | FINISH model=Logistic Regression; strategy=Calibrated isotonic + threshold; outer_fold=32; elapsed_seconds=3.189
+2026-09-28T12:52:31.160637+00:00 | START model=Logistic Regression; strategy=Calibrated isotonic + threshold; outer_fold=33
+2026-09-28T12:52:34.519309+00:00 | FINISH model=Logistic Regression; strategy=Calibrated isotonic + threshold; outer_fold=33; elapsed_seconds=3.359
+2026-09-28T12:52:34.519949+00:00 | START model=Logistic Regression; strategy=Calibrated isotonic + threshold; outer_fold=34
+2026-09-28T12:52:37.889292+00:00 | FINISH model=Logistic Regression; strategy=Calibrated isotonic + threshold; outer_fold=34; elapsed_seconds=3.369
+2026-09-28T12:52:37.889970+00:00 | START model=Logistic Regression; strategy=Calibrated isotonic + threshold; outer_fold=35
+2026-09-28T12:52:41.034786+00:00 | FINISH model=Logistic Regression; strategy=Calibrated isotonic + threshold; outer_fold=35; elapsed_seconds=3.145
+2026-09-28T12:52:41.035332+00:00 | START model=Logistic Regression; strategy=Calibrated isotonic + threshold; outer_fold=36
+2026-09-28T12:52:44.139326+00:00 | FINISH model=Logistic Regression; strategy=Calibrated isotonic + threshold; outer_fold=36; elapsed_seconds=3.104
+2026-09-28T12:52:44.139797+00:00 | START model=Logistic Regression; strategy=Calibrated isotonic + threshold; outer_fold=37
+2026-09-28T12:52:47.167008+00:00 | FINISH model=Logistic Regression; strategy=Calibrated isotonic + threshold; outer_fold=37; elapsed_seconds=3.027
+2026-09-28T12:52:47.167545+00:00 | START model=Logistic Regression; strategy=Calibrated isotonic + threshold; outer_fold=38
+2026-09-28T12:52:50.227617+00:00 | FINISH model=Logistic Regression; strategy=Calibrated isotonic + threshold; outer_fold=38; elapsed_seconds=3.060
+2026-09-28T12:52:50.228104+00:00 | START model=Logistic Regression; strategy=Calibrated isotonic + threshold; outer_fold=39
+2026-09-28T12:52:53.348324+00:00 | FINISH model=Logistic Regression; strategy=Calibrated isotonic + threshold; outer_fold=39; elapsed_seconds=3.120
+2026-09-28T12:52:53.348921+00:00 | START model=Logistic Regression; strategy=Calibrated isotonic + threshold; outer_fold=40
+2026-09-28T12:52:56.524104+00:00 | FINISH model=Logistic Regression; strategy=Calibrated isotonic + threshold; outer_fold=40; elapsed_seconds=3.175
+2026-09-28T12:52:56.524558+00:00 | START model=Logistic Regression; strategy=Calibrated isotonic + threshold; outer_fold=41
+2026-09-28T12:52:59.667734+00:00 | FINISH model=Logistic Regression; strategy=Calibrated isotonic + threshold; outer_fold=41; elapsed_seconds=3.143
+2026-09-28T12:52:59.668163+00:00 | START model=Logistic Regression; strategy=Calibrated isotonic + threshold; outer_fold=42
+2026-09-28T12:53:02.765100+00:00 | FINISH model=Logistic Regression; strategy=Calibrated isotonic + threshold; outer_fold=42; elapsed_seconds=3.097
+2026-09-28T12:53:02.765621+00:00 | START model=Logistic Regression; strategy=Calibrated isotonic + threshold; outer_fold=43
+2026-09-28T12:53:05.793851+00:00 | FINISH model=Logistic Regression; strategy=Calibrated isotonic + threshold; outer_fold=43; elapsed_seconds=3.028
+2026-09-28T12:53:05.794470+00:00 | START model=Logistic Regression; strategy=Calibrated isotonic + threshold; outer_fold=44
+2026-09-28T12:53:08.937037+00:00 | FINISH model=Logistic Regression; strategy=Calibrated isotonic + threshold; outer_fold=44; elapsed_seconds=3.143
+2026-09-28T12:53:08.938675+00:00 | START model=Logistic Regression; strategy=Calibrated isotonic + threshold; outer_fold=45
+2026-09-28T12:53:12.010766+00:00 | FINISH model=Logistic Regression; strategy=Calibrated isotonic + threshold; outer_fold=45; elapsed_seconds=3.072
+2026-09-28T12:53:12.011226+00:00 | START model=Logistic Regression; strategy=Calibrated isotonic + threshold; outer_fold=46
+2026-09-28T12:53:15.182178+00:00 | FINISH model=Logistic Regression; strategy=Calibrated isotonic + threshold; outer_fold=46; elapsed_seconds=3.171
+2026-09-28T12:53:15.182575+00:00 | START model=Logistic Regression; strategy=Calibrated isotonic + threshold; outer_fold=47
+2026-09-28T12:53:18.280208+00:00 | FINISH model=Logistic Regression; strategy=Calibrated isotonic + threshold; outer_fold=47; elapsed_seconds=3.098
+2026-09-28T12:53:18.280795+00:00 | START model=Logistic Regression; strategy=Calibrated isotonic + threshold; outer_fold=48
+2026-09-28T12:53:21.375681+00:00 | FINISH model=Logistic Regression; strategy=Calibrated isotonic + threshold; outer_fold=48; elapsed_seconds=3.095
+2026-09-28T12:53:21.376031+00:00 | START model=Logistic Regression; strategy=Calibrated isotonic + threshold; outer_fold=49
+2026-09-28T12:53:24.573148+00:00 | FINISH model=Logistic Regression; strategy=Calibrated isotonic + threshold; outer_fold=49; elapsed_seconds=3.197
+2026-09-28T12:53:24.573579+00:00 | START model=Random Forest; strategy=No handling; outer_fold=0
+2026-09-28T12:53:28.947884+00:00 | FINISH model=Random Forest; strategy=No handling; outer_fold=0; elapsed_seconds=4.374
+2026-09-28T12:53:28.948349+00:00 | START model=Random Forest; strategy=No handling; outer_fold=1
+2026-09-28T12:53:33.259339+00:00 | FINISH model=Random Forest; strategy=No handling; outer_fold=1; elapsed_seconds=4.311
+2026-09-28T12:53:33.259807+00:00 | START model=Random Forest; strategy=No handling; outer_fold=2
+2026-09-28T12:53:37.508742+00:00 | FINISH model=Random Forest; strategy=No handling; outer_fold=2; elapsed_seconds=4.249
+2026-09-28T12:53:37.509196+00:00 | START model=Random Forest; strategy=No handling; outer_fold=3
+2026-09-28T12:53:41.854629+00:00 | FINISH model=Random Forest; strategy=No handling; outer_fold=3; elapsed_seconds=4.345
+2026-09-28T12:53:41.855083+00:00 | START model=Random Forest; strategy=No handling; outer_fold=4
+2026-09-28T12:53:45.986054+00:00 | FINISH model=Random Forest; strategy=No handling; outer_fold=4; elapsed_seconds=4.131
+2026-09-28T12:53:45.986570+00:00 | START model=Random Forest; strategy=No handling; outer_fold=5
+2026-09-28T12:53:50.105939+00:00 | FINISH model=Random Forest; strategy=No handling; outer_fold=5; elapsed_seconds=4.119
+2026-09-28T12:53:50.106399+00:00 | START model=Random Forest; strategy=No handling; outer_fold=6
+2026-09-28T12:53:54.147049+00:00 | FINISH model=Random Forest; strategy=No handling; outer_fold=6; elapsed_seconds=4.041
+2026-09-28T12:53:54.147489+00:00 | START model=Random Forest; strategy=No handling; outer_fold=7
+2026-09-28T12:53:58.664639+00:00 | FINISH model=Random Forest; strategy=No handling; outer_fold=7; elapsed_seconds=4.517
+2026-09-28T12:53:58.665025+00:00 | START model=Random Forest; strategy=No handling; outer_fold=8
+2026-09-28T12:54:03.259856+00:00 | FINISH model=Random Forest; strategy=No handling; outer_fold=8; elapsed_seconds=4.595
+2026-09-28T12:54:03.260163+00:00 | START model=Random Forest; strategy=No handling; outer_fold=9
+2026-09-28T12:54:08.018706+00:00 | FINISH model=Random Forest; strategy=No handling; outer_fold=9; elapsed_seconds=4.758
+2026-09-28T12:54:08.019181+00:00 | START model=Random Forest; strategy=No handling; outer_fold=10
+2026-09-28T12:54:12.578735+00:00 | FINISH model=Random Forest; strategy=No handling; outer_fold=10; elapsed_seconds=4.560
+2026-09-28T12:54:12.579027+00:00 | START model=Random Forest; strategy=No handling; outer_fold=11
+2026-09-28T12:54:17.150459+00:00 | FINISH model=Random Forest; strategy=No handling; outer_fold=11; elapsed_seconds=4.571
+2026-09-28T12:54:17.150806+00:00 | START model=Random Forest; strategy=No handling; outer_fold=12
+2026-09-28T12:54:21.558810+00:00 | FINISH model=Random Forest; strategy=No handling; outer_fold=12; elapsed_seconds=4.408
+2026-09-28T12:54:21.559116+00:00 | START model=Random Forest; strategy=No handling; outer_fold=13
+2026-09-28T12:54:25.901416+00:00 | FINISH model=Random Forest; strategy=No handling; outer_fold=13; elapsed_seconds=4.342
+2026-09-28T12:54:25.901792+00:00 | START model=Random Forest; strategy=No handling; outer_fold=14
+2026-09-28T12:54:30.063038+00:00 | FINISH model=Random Forest; strategy=No handling; outer_fold=14; elapsed_seconds=4.161
+2026-09-28T12:54:30.063405+00:00 | START model=Random Forest; strategy=No handling; outer_fold=15
+2026-09-28T12:54:34.269020+00:00 | FINISH model=Random Forest; strategy=No handling; outer_fold=15; elapsed_seconds=4.206
+2026-09-28T12:54:34.269491+00:00 | START model=Random Forest; strategy=No handling; outer_fold=16
+2026-09-28T12:54:38.803632+00:00 | FINISH model=Random Forest; strategy=No handling; outer_fold=16; elapsed_seconds=4.534
+2026-09-28T12:54:38.803997+00:00 | START model=Random Forest; strategy=No handling; outer_fold=17
+2026-09-28T12:54:43.139916+00:00 | FINISH model=Random Forest; strategy=No handling; outer_fold=17; elapsed_seconds=4.336
+2026-09-28T12:54:43.140515+00:00 | START model=Random Forest; strategy=No handling; outer_fold=18
+2026-09-28T12:54:47.282729+00:00 | FINISH model=Random Forest; strategy=No handling; outer_fold=18; elapsed_seconds=4.142
+2026-09-28T12:54:47.283253+00:00 | START model=Random Forest; strategy=No handling; outer_fold=19
+2026-09-28T12:54:51.421906+00:00 | FINISH model=Random Forest; strategy=No handling; outer_fold=19; elapsed_seconds=4.139
+2026-09-28T12:54:51.422366+00:00 | START model=Random Forest; strategy=No handling; outer_fold=20
+2026-09-28T12:54:55.772903+00:00 | FINISH model=Random Forest; strategy=No handling; outer_fold=20; elapsed_seconds=4.351
+2026-09-28T12:54:55.773214+00:00 | START model=Random Forest; strategy=No handling; outer_fold=21
+2026-09-28T12:54:59.949915+00:00 | FINISH model=Random Forest; strategy=No handling; outer_fold=21; elapsed_seconds=4.177
+2026-09-28T12:54:59.950257+00:00 | START model=Random Forest; strategy=No handling; outer_fold=22
+2026-09-28T12:55:04.110105+00:00 | FINISH model=Random Forest; strategy=No handling; outer_fold=22; elapsed_seconds=4.160
+2026-09-28T12:55:04.110561+00:00 | START model=Random Forest; strategy=No handling; outer_fold=23
+2026-09-28T12:55:08.567856+00:00 | FINISH model=Random Forest; strategy=No handling; outer_fold=23; elapsed_seconds=4.457
+2026-09-28T12:55:08.568253+00:00 | START model=Random Forest; strategy=No handling; outer_fold=24
+2026-09-28T12:55:12.848894+00:00 | FINISH model=Random Forest; strategy=No handling; outer_fold=24; elapsed_seconds=4.281
+2026-09-28T12:55:12.849454+00:00 | START model=Random Forest; strategy=No handling; outer_fold=25
+2026-09-28T12:55:17.063813+00:00 | FINISH model=Random Forest; strategy=No handling; outer_fold=25; elapsed_seconds=4.214
+2026-09-28T12:55:17.064258+00:00 | START model=Random Forest; strategy=No handling; outer_fold=26
+2026-09-28T12:55:21.341372+00:00 | FINISH model=Random Forest; strategy=No handling; outer_fold=26; elapsed_seconds=4.277
+2026-09-28T12:55:21.341996+00:00 | START model=Random Forest; strategy=No handling; outer_fold=27
+2026-09-28T12:55:25.679862+00:00 | FINISH model=Random Forest; strategy=No handling; outer_fold=27; elapsed_seconds=4.338
+2026-09-28T12:55:25.680567+00:00 | START model=Random Forest; strategy=No handling; outer_fold=28
+2026-09-28T12:55:30.254670+00:00 | FINISH model=Random Forest; strategy=No handling; outer_fold=28; elapsed_seconds=4.574
+2026-09-28T12:55:30.255031+00:00 | START model=Random Forest; strategy=No handling; outer_fold=29
+2026-09-28T12:55:35.005830+00:00 | FINISH model=Random Forest; strategy=No handling; outer_fold=29; elapsed_seconds=4.751
+2026-09-28T12:55:35.006173+00:00 | START model=Random Forest; strategy=No handling; outer_fold=30
+2026-09-28T12:55:39.948327+00:00 | FINISH model=Random Forest; strategy=No handling; outer_fold=30; elapsed_seconds=4.942
+2026-09-28T12:55:39.948729+00:00 | START model=Random Forest; strategy=No handling; outer_fold=31
+2026-09-28T12:55:44.546710+00:00 | FINISH model=Random Forest; strategy=No handling; outer_fold=31; elapsed_seconds=4.598
+2026-09-28T12:55:44.547169+00:00 | START model=Random Forest; strategy=No handling; outer_fold=32
+2026-09-28T12:55:48.578361+00:00 | FINISH model=Random Forest; strategy=No handling; outer_fold=32; elapsed_seconds=4.031
+2026-09-28T12:55:48.578838+00:00 | START model=Random Forest; strategy=No handling; outer_fold=33
+2026-09-28T12:55:52.688953+00:00 | FINISH model=Random Forest; strategy=No handling; outer_fold=33; elapsed_seconds=4.110
+2026-09-28T12:55:52.689377+00:00 | START model=Random Forest; strategy=No handling; outer_fold=34
+2026-09-28T12:55:56.895393+00:00 | FINISH model=Random Forest; strategy=No handling; outer_fold=34; elapsed_seconds=4.206
+2026-09-28T12:55:56.895738+00:00 | START model=Random Forest; strategy=No handling; outer_fold=35
+2026-09-28T12:56:00.798318+00:00 | FINISH model=Random Forest; strategy=No handling; outer_fold=35; elapsed_seconds=3.903
+2026-09-28T12:56:00.798751+00:00 | START model=Random Forest; strategy=No handling; outer_fold=36
+2026-09-28T12:56:04.866521+00:00 | FINISH model=Random Forest; strategy=No handling; outer_fold=36; elapsed_seconds=4.068
+2026-09-28T12:56:04.866937+00:00 | START model=Random Forest; strategy=No handling; outer_fold=37
+2026-09-28T12:56:09.183362+00:00 | FINISH model=Random Forest; strategy=No handling; outer_fold=37; elapsed_seconds=4.316
+2026-09-28T12:56:09.183687+00:00 | START model=Random Forest; strategy=No handling; outer_fold=38
+2026-09-28T12:56:13.663130+00:00 | FINISH model=Random Forest; strategy=No handling; outer_fold=38; elapsed_seconds=4.479
+2026-09-28T12:56:13.663449+00:00 | START model=Random Forest; strategy=No handling; outer_fold=39
+2026-09-28T12:56:18.207380+00:00 | FINISH model=Random Forest; strategy=No handling; outer_fold=39; elapsed_seconds=4.544
+2026-09-28T12:56:18.207703+00:00 | START model=Random Forest; strategy=No handling; outer_fold=40
+2026-09-28T12:56:22.827046+00:00 | FINISH model=Random Forest; strategy=No handling; outer_fold=40; elapsed_seconds=4.619
+2026-09-28T12:56:22.827713+00:00 | START model=Random Forest; strategy=No handling; outer_fold=41
+2026-09-28T12:56:27.860007+00:00 | FINISH model=Random Forest; strategy=No handling; outer_fold=41; elapsed_seconds=5.032
+2026-09-28T12:56:27.860750+00:00 | START model=Random Forest; strategy=No handling; outer_fold=42
+2026-09-28T12:56:32.743425+00:00 | FINISH model=Random Forest; strategy=No handling; outer_fold=42; elapsed_seconds=4.883
+2026-09-28T12:56:32.743974+00:00 | START model=Random Forest; strategy=No handling; outer_fold=43
+2026-09-28T12:56:37.446969+00:00 | FINISH model=Random Forest; strategy=No handling; outer_fold=43; elapsed_seconds=4.703
+2026-09-28T12:56:37.447434+00:00 | START model=Random Forest; strategy=No handling; outer_fold=44
+2026-09-28T12:56:42.708615+00:00 | FINISH model=Random Forest; strategy=No handling; outer_fold=44; elapsed_seconds=5.261
+2026-09-28T12:56:42.709079+00:00 | START model=Random Forest; strategy=No handling; outer_fold=45
+2026-09-28T12:56:47.557199+00:00 | FINISH model=Random Forest; strategy=No handling; outer_fold=45; elapsed_seconds=4.848
+2026-09-28T12:56:47.557713+00:00 | START model=Random Forest; strategy=No handling; outer_fold=46
+2026-09-28T12:56:52.688453+00:00 | FINISH model=Random Forest; strategy=No handling; outer_fold=46; elapsed_seconds=5.131
+2026-09-28T12:56:52.688840+00:00 | START model=Random Forest; strategy=No handling; outer_fold=47
+2026-09-28T12:56:57.443711+00:00 | FINISH model=Random Forest; strategy=No handling; outer_fold=47; elapsed_seconds=4.755
+2026-09-28T12:56:57.444055+00:00 | START model=Random Forest; strategy=No handling; outer_fold=48
+2026-09-28T12:57:02.374171+00:00 | FINISH model=Random Forest; strategy=No handling; outer_fold=48; elapsed_seconds=4.930
+2026-09-28T12:57:02.374630+00:00 | START model=Random Forest; strategy=No handling; outer_fold=49
+2026-09-28T12:57:07.201806+00:00 | FINISH model=Random Forest; strategy=No handling; outer_fold=49; elapsed_seconds=4.827
+2026-09-28T12:57:07.202214+00:00 | START model=Random Forest; strategy=Class weight; outer_fold=0
+2026-09-28T12:57:11.640883+00:00 | FINISH model=Random Forest; strategy=Class weight; outer_fold=0; elapsed_seconds=4.439
+2026-09-28T12:57:11.642069+00:00 | START model=Random Forest; strategy=Class weight; outer_fold=1
+2026-09-28T12:57:16.457311+00:00 | FINISH model=Random Forest; strategy=Class weight; outer_fold=1; elapsed_seconds=4.816
+2026-09-28T12:57:16.457873+00:00 | START model=Random Forest; strategy=Class weight; outer_fold=2
+2026-09-28T12:57:20.975248+00:00 | FINISH model=Random Forest; strategy=Class weight; outer_fold=2; elapsed_seconds=4.517
+2026-09-28T12:57:20.975807+00:00 | START model=Random Forest; strategy=Class weight; outer_fold=3
+2026-09-28T12:57:25.298743+00:00 | FINISH model=Random Forest; strategy=Class weight; outer_fold=3; elapsed_seconds=4.323
+2026-09-28T12:57:25.299173+00:00 | START model=Random Forest; strategy=Class weight; outer_fold=4
+2026-09-28T12:57:29.813548+00:00 | FINISH model=Random Forest; strategy=Class weight; outer_fold=4; elapsed_seconds=4.514
+2026-09-28T12:57:29.814159+00:00 | START model=Random Forest; strategy=Class weight; outer_fold=5
+2026-09-28T12:57:34.215894+00:00 | FINISH model=Random Forest; strategy=Class weight; outer_fold=5; elapsed_seconds=4.402
+2026-09-28T12:57:34.216706+00:00 | START model=Random Forest; strategy=Class weight; outer_fold=6
+2026-09-28T12:57:38.580584+00:00 | FINISH model=Random Forest; strategy=Class weight; outer_fold=6; elapsed_seconds=4.364
+2026-09-28T12:57:38.580960+00:00 | START model=Random Forest; strategy=Class weight; outer_fold=7
+2026-09-28T12:57:43.090946+00:00 | FINISH model=Random Forest; strategy=Class weight; outer_fold=7; elapsed_seconds=4.510
+2026-09-28T12:57:43.091391+00:00 | START model=Random Forest; strategy=Class weight; outer_fold=8
+2026-09-28T12:57:47.447289+00:00 | FINISH model=Random Forest; strategy=Class weight; outer_fold=8; elapsed_seconds=4.356
+2026-09-28T12:57:47.447744+00:00 | START model=Random Forest; strategy=Class weight; outer_fold=9
+2026-09-28T12:57:51.850543+00:00 | FINISH model=Random Forest; strategy=Class weight; outer_fold=9; elapsed_seconds=4.403
+2026-09-28T12:57:51.850907+00:00 | START model=Random Forest; strategy=Class weight; outer_fold=10
+2026-09-28T12:57:56.126375+00:00 | FINISH model=Random Forest; strategy=Class weight; outer_fold=10; elapsed_seconds=4.275
+2026-09-28T12:57:56.126861+00:00 | START model=Random Forest; strategy=Class weight; outer_fold=11
+2026-09-28T12:58:00.519337+00:00 | FINISH model=Random Forest; strategy=Class weight; outer_fold=11; elapsed_seconds=4.392
+2026-09-28T12:58:00.519806+00:00 | START model=Random Forest; strategy=Class weight; outer_fold=12
+2026-09-28T12:58:04.937743+00:00 | FINISH model=Random Forest; strategy=Class weight; outer_fold=12; elapsed_seconds=4.418
+2026-09-28T12:58:04.938097+00:00 | START model=Random Forest; strategy=Class weight; outer_fold=13
+2026-09-28T12:58:09.445780+00:00 | FINISH model=Random Forest; strategy=Class weight; outer_fold=13; elapsed_seconds=4.507
+2026-09-28T12:58:09.446472+00:00 | START model=Random Forest; strategy=Class weight; outer_fold=14
+2026-09-28T12:58:14.065440+00:00 | FINISH model=Random Forest; strategy=Class weight; outer_fold=14; elapsed_seconds=4.619
+2026-09-28T12:58:14.065803+00:00 | START model=Random Forest; strategy=Class weight; outer_fold=15
+2026-09-28T12:58:18.639264+00:00 | FINISH model=Random Forest; strategy=Class weight; outer_fold=15; elapsed_seconds=4.573
+2026-09-28T12:58:18.639585+00:00 | START model=Random Forest; strategy=Class weight; outer_fold=16
+2026-09-28T12:58:22.981081+00:00 | FINISH model=Random Forest; strategy=Class weight; outer_fold=16; elapsed_seconds=4.341
+2026-09-28T12:58:22.981437+00:00 | START model=Random Forest; strategy=Class weight; outer_fold=17
+2026-09-28T12:58:27.449534+00:00 | FINISH model=Random Forest; strategy=Class weight; outer_fold=17; elapsed_seconds=4.468
+2026-09-28T12:58:27.449929+00:00 | START model=Random Forest; strategy=Class weight; outer_fold=18
+2026-09-28T12:58:31.729820+00:00 | FINISH model=Random Forest; strategy=Class weight; outer_fold=18; elapsed_seconds=4.280
+2026-09-28T12:58:31.730459+00:00 | START model=Random Forest; strategy=Class weight; outer_fold=19
+2026-09-28T12:58:36.073002+00:00 | FINISH model=Random Forest; strategy=Class weight; outer_fold=19; elapsed_seconds=4.343
+2026-09-28T12:58:36.073479+00:00 | START model=Random Forest; strategy=Class weight; outer_fold=20
+2026-09-28T12:58:40.339941+00:00 | FINISH model=Random Forest; strategy=Class weight; outer_fold=20; elapsed_seconds=4.266
+2026-09-28T12:58:40.340443+00:00 | START model=Random Forest; strategy=Class weight; outer_fold=21
+2026-09-28T12:58:44.865045+00:00 | FINISH model=Random Forest; strategy=Class weight; outer_fold=21; elapsed_seconds=4.524
+2026-09-28T12:58:44.865517+00:00 | START model=Random Forest; strategy=Class weight; outer_fold=22
+2026-09-28T12:58:49.178178+00:00 | FINISH model=Random Forest; strategy=Class weight; outer_fold=22; elapsed_seconds=4.313
+2026-09-28T12:58:49.178741+00:00 | START model=Random Forest; strategy=Class weight; outer_fold=23
+2026-09-28T12:58:54.006780+00:00 | FINISH model=Random Forest; strategy=Class weight; outer_fold=23; elapsed_seconds=4.828
+2026-09-28T12:58:54.007392+00:00 | START model=Random Forest; strategy=Class weight; outer_fold=24
+2026-09-28T12:58:58.572367+00:00 | FINISH model=Random Forest; strategy=Class weight; outer_fold=24; elapsed_seconds=4.565
+2026-09-28T12:58:58.572948+00:00 | START model=Random Forest; strategy=Class weight; outer_fold=25
+2026-09-28T12:59:03.176191+00:00 | FINISH model=Random Forest; strategy=Class weight; outer_fold=25; elapsed_seconds=4.603
+2026-09-28T12:59:03.176612+00:00 | START model=Random Forest; strategy=Class weight; outer_fold=26
+2026-09-28T12:59:07.741660+00:00 | FINISH model=Random Forest; strategy=Class weight; outer_fold=26; elapsed_seconds=4.565
+2026-09-28T12:59:07.742168+00:00 | START model=Random Forest; strategy=Class weight; outer_fold=27
+2026-09-28T12:59:12.388447+00:00 | FINISH model=Random Forest; strategy=Class weight; outer_fold=27; elapsed_seconds=4.646
+2026-09-28T12:59:12.388926+00:00 | START model=Random Forest; strategy=Class weight; outer_fold=28
+2026-09-28T12:59:16.798955+00:00 | FINISH model=Random Forest; strategy=Class weight; outer_fold=28; elapsed_seconds=4.410
+2026-09-28T12:59:16.799762+00:00 | START model=Random Forest; strategy=Class weight; outer_fold=29
+2026-09-28T12:59:21.800692+00:00 | FINISH model=Random Forest; strategy=Class weight; outer_fold=29; elapsed_seconds=5.001
+2026-09-28T12:59:21.801217+00:00 | START model=Random Forest; strategy=Class weight; outer_fold=30
+2026-09-28T12:59:26.178583+00:00 | FINISH model=Random Forest; strategy=Class weight; outer_fold=30; elapsed_seconds=4.377
+2026-09-28T12:59:26.178902+00:00 | START model=Random Forest; strategy=Class weight; outer_fold=31
+2026-09-28T12:59:30.722689+00:00 | FINISH model=Random Forest; strategy=Class weight; outer_fold=31; elapsed_seconds=4.544
+2026-09-28T12:59:30.723093+00:00 | START model=Random Forest; strategy=Class weight; outer_fold=32
+2026-09-28T12:59:35.278136+00:00 | FINISH model=Random Forest; strategy=Class weight; outer_fold=32; elapsed_seconds=4.555
+2026-09-28T12:59:35.278497+00:00 | START model=Random Forest; strategy=Class weight; outer_fold=33
+2026-09-28T12:59:40.041125+00:00 | FINISH model=Random Forest; strategy=Class weight; outer_fold=33; elapsed_seconds=4.763
+2026-09-28T12:59:40.041527+00:00 | START model=Random Forest; strategy=Class weight; outer_fold=34
+2026-09-28T12:59:44.985930+00:00 | FINISH model=Random Forest; strategy=Class weight; outer_fold=34; elapsed_seconds=4.944
+2026-09-28T12:59:44.986372+00:00 | START model=Random Forest; strategy=Class weight; outer_fold=35
+2026-09-28T12:59:49.627127+00:00 | FINISH model=Random Forest; strategy=Class weight; outer_fold=35; elapsed_seconds=4.641
+2026-09-28T12:59:49.627503+00:00 | START model=Random Forest; strategy=Class weight; outer_fold=36
+2026-09-28T12:59:54.213852+00:00 | FINISH model=Random Forest; strategy=Class weight; outer_fold=36; elapsed_seconds=4.586
+2026-09-28T12:59:54.214237+00:00 | START model=Random Forest; strategy=Class weight; outer_fold=37
+2026-09-28T12:59:58.697174+00:00 | FINISH model=Random Forest; strategy=Class weight; outer_fold=37; elapsed_seconds=4.483
+2026-09-28T12:59:58.697699+00:00 | START model=Random Forest; strategy=Class weight; outer_fold=38
+2026-09-28T13:00:03.242702+00:00 | FINISH model=Random Forest; strategy=Class weight; outer_fold=38; elapsed_seconds=4.545
+2026-09-28T13:00:03.243308+00:00 | START model=Random Forest; strategy=Class weight; outer_fold=39
+2026-09-28T13:00:07.684585+00:00 | FINISH model=Random Forest; strategy=Class weight; outer_fold=39; elapsed_seconds=4.441
+2026-09-28T13:00:07.684912+00:00 | START model=Random Forest; strategy=Class weight; outer_fold=40
+2026-09-28T13:00:11.724367+00:00 | FINISH model=Random Forest; strategy=Class weight; outer_fold=40; elapsed_seconds=4.039
+2026-09-28T13:00:11.724717+00:00 | START model=Random Forest; strategy=Class weight; outer_fold=41
+2026-09-28T13:00:16.146901+00:00 | FINISH model=Random Forest; strategy=Class weight; outer_fold=41; elapsed_seconds=4.422
+2026-09-28T13:00:16.147359+00:00 | START model=Random Forest; strategy=Class weight; outer_fold=42
+2026-09-28T13:00:20.034167+00:00 | FINISH model=Random Forest; strategy=Class weight; outer_fold=42; elapsed_seconds=3.887
+2026-09-28T13:00:20.034516+00:00 | START model=Random Forest; strategy=Class weight; outer_fold=43
+2026-09-28T13:00:23.988057+00:00 | FINISH model=Random Forest; strategy=Class weight; outer_fold=43; elapsed_seconds=3.954
+2026-09-28T13:00:23.988597+00:00 | START model=Random Forest; strategy=Class weight; outer_fold=44
+2026-09-28T13:00:27.921354+00:00 | FINISH model=Random Forest; strategy=Class weight; outer_fold=44; elapsed_seconds=3.933
+2026-09-28T13:00:27.921805+00:00 | START model=Random Forest; strategy=Class weight; outer_fold=45
+2026-09-28T13:00:32.119120+00:00 | FINISH model=Random Forest; strategy=Class weight; outer_fold=45; elapsed_seconds=4.197
+2026-09-28T13:00:32.119481+00:00 | START model=Random Forest; strategy=Class weight; outer_fold=46
+2026-09-28T13:00:35.966419+00:00 | FINISH model=Random Forest; strategy=Class weight; outer_fold=46; elapsed_seconds=3.847
+2026-09-28T13:00:35.966880+00:00 | START model=Random Forest; strategy=Class weight; outer_fold=47
+2026-09-28T13:00:40.552198+00:00 | FINISH model=Random Forest; strategy=Class weight; outer_fold=47; elapsed_seconds=4.585
+2026-09-28T13:00:40.552589+00:00 | START model=Random Forest; strategy=Class weight; outer_fold=48
+2026-09-28T13:00:45.302525+00:00 | FINISH model=Random Forest; strategy=Class weight; outer_fold=48; elapsed_seconds=4.750
+2026-09-28T13:00:45.303054+00:00 | START model=Random Forest; strategy=Class weight; outer_fold=49
+2026-09-28T13:00:50.333258+00:00 | FINISH model=Random Forest; strategy=Class weight; outer_fold=49; elapsed_seconds=5.030
+2026-09-28T13:00:50.333577+00:00 | START model=Random Forest; strategy=SMOTE-NC; outer_fold=0
+2026-09-28T13:00:58.576753+00:00 | FINISH model=Random Forest; strategy=SMOTE-NC; outer_fold=0; elapsed_seconds=8.243
+2026-09-28T13:00:58.577393+00:00 | START model=Random Forest; strategy=SMOTE-NC; outer_fold=1
+2026-09-28T13:01:06.842570+00:00 | FINISH model=Random Forest; strategy=SMOTE-NC; outer_fold=1; elapsed_seconds=8.265
+2026-09-28T13:01:06.843066+00:00 | START model=Random Forest; strategy=SMOTE-NC; outer_fold=2
+2026-09-28T13:01:14.729878+00:00 | FINISH model=Random Forest; strategy=SMOTE-NC; outer_fold=2; elapsed_seconds=7.887
+2026-09-28T13:01:14.730164+00:00 | START model=Random Forest; strategy=SMOTE-NC; outer_fold=3
+2026-09-28T13:01:22.817955+00:00 | FINISH model=Random Forest; strategy=SMOTE-NC; outer_fold=3; elapsed_seconds=8.088
+2026-09-28T13:01:22.818524+00:00 | START model=Random Forest; strategy=SMOTE-NC; outer_fold=4
+2026-09-28T13:01:31.498149+00:00 | FINISH model=Random Forest; strategy=SMOTE-NC; outer_fold=4; elapsed_seconds=8.680
+2026-09-28T13:01:31.498483+00:00 | START model=Random Forest; strategy=SMOTE-NC; outer_fold=5
+2026-09-28T13:01:39.067790+00:00 | FINISH model=Random Forest; strategy=SMOTE-NC; outer_fold=5; elapsed_seconds=7.569
+2026-09-28T13:01:39.068164+00:00 | START model=Random Forest; strategy=SMOTE-NC; outer_fold=6
+2026-09-28T13:01:46.911484+00:00 | FINISH model=Random Forest; strategy=SMOTE-NC; outer_fold=6; elapsed_seconds=7.843
+2026-09-28T13:01:46.912025+00:00 | START model=Random Forest; strategy=SMOTE-NC; outer_fold=7
+2026-09-28T13:01:54.806190+00:00 | FINISH model=Random Forest; strategy=SMOTE-NC; outer_fold=7; elapsed_seconds=7.894
+2026-09-28T13:01:54.806550+00:00 | START model=Random Forest; strategy=SMOTE-NC; outer_fold=8
+2026-09-28T13:02:02.594822+00:00 | FINISH model=Random Forest; strategy=SMOTE-NC; outer_fold=8; elapsed_seconds=7.788
+2026-09-28T13:02:02.595182+00:00 | START model=Random Forest; strategy=SMOTE-NC; outer_fold=9
+2026-09-28T13:02:10.314975+00:00 | FINISH model=Random Forest; strategy=SMOTE-NC; outer_fold=9; elapsed_seconds=7.720
+2026-09-28T13:02:10.315440+00:00 | START model=Random Forest; strategy=SMOTE-NC; outer_fold=10
+2026-09-28T13:02:18.334680+00:00 | FINISH model=Random Forest; strategy=SMOTE-NC; outer_fold=10; elapsed_seconds=8.019
+2026-09-28T13:02:18.335060+00:00 | START model=Random Forest; strategy=SMOTE-NC; outer_fold=11
+2026-09-28T13:02:26.225549+00:00 | FINISH model=Random Forest; strategy=SMOTE-NC; outer_fold=11; elapsed_seconds=7.890
+2026-09-28T13:02:26.226305+00:00 | START model=Random Forest; strategy=SMOTE-NC; outer_fold=12
+2026-09-28T13:02:34.131218+00:00 | FINISH model=Random Forest; strategy=SMOTE-NC; outer_fold=12; elapsed_seconds=7.905
+2026-09-28T13:02:34.131562+00:00 | START model=Random Forest; strategy=SMOTE-NC; outer_fold=13
+2026-09-28T13:02:41.911217+00:00 | FINISH model=Random Forest; strategy=SMOTE-NC; outer_fold=13; elapsed_seconds=7.780
+2026-09-28T13:02:41.911579+00:00 | START model=Random Forest; strategy=SMOTE-NC; outer_fold=14
+2026-09-28T13:02:49.926698+00:00 | FINISH model=Random Forest; strategy=SMOTE-NC; outer_fold=14; elapsed_seconds=8.015
+2026-09-28T13:02:49.927078+00:00 | START model=Random Forest; strategy=SMOTE-NC; outer_fold=15
+2026-09-28T13:02:57.610475+00:00 | FINISH model=Random Forest; strategy=SMOTE-NC; outer_fold=15; elapsed_seconds=7.683
+2026-09-28T13:02:57.610830+00:00 | START model=Random Forest; strategy=SMOTE-NC; outer_fold=16
+2026-09-28T13:03:05.220488+00:00 | FINISH model=Random Forest; strategy=SMOTE-NC; outer_fold=16; elapsed_seconds=7.610
+2026-09-28T13:03:05.220960+00:00 | START model=Random Forest; strategy=SMOTE-NC; outer_fold=17
+2026-09-28T13:03:12.525131+00:00 | FINISH model=Random Forest; strategy=SMOTE-NC; outer_fold=17; elapsed_seconds=7.304
+2026-09-28T13:03:12.525551+00:00 | START model=Random Forest; strategy=SMOTE-NC; outer_fold=18
+2026-09-28T13:03:20.042512+00:00 | FINISH model=Random Forest; strategy=SMOTE-NC; outer_fold=18; elapsed_seconds=7.517
+2026-09-28T13:03:20.042957+00:00 | START model=Random Forest; strategy=SMOTE-NC; outer_fold=19
+2026-09-28T13:03:27.729392+00:00 | FINISH model=Random Forest; strategy=SMOTE-NC; outer_fold=19; elapsed_seconds=7.686
+2026-09-28T13:03:27.729931+00:00 | START model=Random Forest; strategy=SMOTE-NC; outer_fold=20
+2026-09-28T13:03:35.519711+00:00 | FINISH model=Random Forest; strategy=SMOTE-NC; outer_fold=20; elapsed_seconds=7.790
+2026-09-28T13:03:35.520119+00:00 | START model=Random Forest; strategy=SMOTE-NC; outer_fold=21
+2026-09-28T13:03:43.212171+00:00 | FINISH model=Random Forest; strategy=SMOTE-NC; outer_fold=21; elapsed_seconds=7.692
+2026-09-28T13:03:43.212584+00:00 | START model=Random Forest; strategy=SMOTE-NC; outer_fold=22
+2026-09-28T13:03:50.801850+00:00 | FINISH model=Random Forest; strategy=SMOTE-NC; outer_fold=22; elapsed_seconds=7.589
+2026-09-28T13:03:50.802320+00:00 | START model=Random Forest; strategy=SMOTE-NC; outer_fold=23
+2026-09-28T13:03:58.450026+00:00 | FINISH model=Random Forest; strategy=SMOTE-NC; outer_fold=23; elapsed_seconds=7.648
+2026-09-28T13:03:58.450688+00:00 | START model=Random Forest; strategy=SMOTE-NC; outer_fold=24
+2026-09-28T13:04:06.430924+00:00 | FINISH model=Random Forest; strategy=SMOTE-NC; outer_fold=24; elapsed_seconds=7.980
+2026-09-28T13:04:06.431315+00:00 | START model=Random Forest; strategy=SMOTE-NC; outer_fold=25
+2026-09-28T13:04:14.488216+00:00 | FINISH model=Random Forest; strategy=SMOTE-NC; outer_fold=25; elapsed_seconds=8.057
+2026-09-28T13:04:14.488544+00:00 | START model=Random Forest; strategy=SMOTE-NC; outer_fold=26
+2026-09-28T13:04:22.487973+00:00 | FINISH model=Random Forest; strategy=SMOTE-NC; outer_fold=26; elapsed_seconds=7.999
+2026-09-28T13:04:22.488349+00:00 | START model=Random Forest; strategy=SMOTE-NC; outer_fold=27
+2026-09-28T13:04:30.390662+00:00 | FINISH model=Random Forest; strategy=SMOTE-NC; outer_fold=27; elapsed_seconds=7.902
+2026-09-28T13:04:30.391156+00:00 | START model=Random Forest; strategy=SMOTE-NC; outer_fold=28
+2026-09-28T13:04:38.155374+00:00 | FINISH model=Random Forest; strategy=SMOTE-NC; outer_fold=28; elapsed_seconds=7.764
+2026-09-28T13:04:38.155873+00:00 | START model=Random Forest; strategy=SMOTE-NC; outer_fold=29
+2026-09-28T13:04:46.304387+00:00 | FINISH model=Random Forest; strategy=SMOTE-NC; outer_fold=29; elapsed_seconds=8.148
+2026-09-28T13:04:46.305322+00:00 | START model=Random Forest; strategy=SMOTE-NC; outer_fold=30
+2026-09-28T13:04:54.295958+00:00 | FINISH model=Random Forest; strategy=SMOTE-NC; outer_fold=30; elapsed_seconds=7.991
+2026-09-28T13:04:54.296315+00:00 | START model=Random Forest; strategy=SMOTE-NC; outer_fold=31
+2026-09-28T13:05:02.592542+00:00 | FINISH model=Random Forest; strategy=SMOTE-NC; outer_fold=31; elapsed_seconds=8.296
+2026-09-28T13:05:02.593225+00:00 | START model=Random Forest; strategy=SMOTE-NC; outer_fold=32
+2026-09-28T13:05:10.694344+00:00 | FINISH model=Random Forest; strategy=SMOTE-NC; outer_fold=32; elapsed_seconds=8.101
+2026-09-28T13:05:10.694801+00:00 | START model=Random Forest; strategy=SMOTE-NC; outer_fold=33
+2026-09-28T13:05:18.830367+00:00 | FINISH model=Random Forest; strategy=SMOTE-NC; outer_fold=33; elapsed_seconds=8.136
+2026-09-28T13:05:18.830735+00:00 | START model=Random Forest; strategy=SMOTE-NC; outer_fold=34
+2026-09-28T13:05:26.734630+00:00 | FINISH model=Random Forest; strategy=SMOTE-NC; outer_fold=34; elapsed_seconds=7.904
+2026-09-28T13:05:26.734979+00:00 | START model=Random Forest; strategy=SMOTE-NC; outer_fold=35
+2026-09-28T13:05:33.979479+00:00 | FINISH model=Random Forest; strategy=SMOTE-NC; outer_fold=35; elapsed_seconds=7.244
+2026-09-28T13:05:33.979900+00:00 | START model=Random Forest; strategy=SMOTE-NC; outer_fold=36
+2026-09-28T13:05:40.733111+00:00 | FINISH model=Random Forest; strategy=SMOTE-NC; outer_fold=36; elapsed_seconds=6.753
+2026-09-28T13:05:40.733499+00:00 | START model=Random Forest; strategy=SMOTE-NC; outer_fold=37
+2026-09-28T13:05:47.833105+00:00 | FINISH model=Random Forest; strategy=SMOTE-NC; outer_fold=37; elapsed_seconds=7.100
+2026-09-28T13:05:47.833564+00:00 | START model=Random Forest; strategy=SMOTE-NC; outer_fold=38
+2026-09-28T13:05:56.227704+00:00 | FINISH model=Random Forest; strategy=SMOTE-NC; outer_fold=38; elapsed_seconds=8.394
+2026-09-28T13:05:56.228020+00:00 | START model=Random Forest; strategy=SMOTE-NC; outer_fold=39
+2026-09-28T13:06:04.175739+00:00 | FINISH model=Random Forest; strategy=SMOTE-NC; outer_fold=39; elapsed_seconds=7.948
+2026-09-28T13:06:04.176128+00:00 | START model=Random Forest; strategy=SMOTE-NC; outer_fold=40
+2026-09-28T13:06:11.952292+00:00 | FINISH model=Random Forest; strategy=SMOTE-NC; outer_fold=40; elapsed_seconds=7.776
+2026-09-28T13:06:11.952763+00:00 | START model=Random Forest; strategy=SMOTE-NC; outer_fold=41
+2026-09-28T13:06:19.754987+00:00 | FINISH model=Random Forest; strategy=SMOTE-NC; outer_fold=41; elapsed_seconds=7.802
+2026-09-28T13:06:19.755337+00:00 | START model=Random Forest; strategy=SMOTE-NC; outer_fold=42
+2026-09-28T13:06:27.270247+00:00 | FINISH model=Random Forest; strategy=SMOTE-NC; outer_fold=42; elapsed_seconds=7.515
+2026-09-28T13:06:27.270633+00:00 | START model=Random Forest; strategy=SMOTE-NC; outer_fold=43
+2026-09-28T13:06:35.001173+00:00 | FINISH model=Random Forest; strategy=SMOTE-NC; outer_fold=43; elapsed_seconds=7.730
+2026-09-28T13:06:35.001506+00:00 | START model=Random Forest; strategy=SMOTE-NC; outer_fold=44
+2026-09-28T13:06:42.363586+00:00 | FINISH model=Random Forest; strategy=SMOTE-NC; outer_fold=44; elapsed_seconds=7.362
+2026-09-28T13:06:42.363928+00:00 | START model=Random Forest; strategy=SMOTE-NC; outer_fold=45
+2026-09-28T13:06:49.870470+00:00 | FINISH model=Random Forest; strategy=SMOTE-NC; outer_fold=45; elapsed_seconds=7.507
+2026-09-28T13:06:49.870901+00:00 | START model=Random Forest; strategy=SMOTE-NC; outer_fold=46
+2026-09-28T13:06:57.576976+00:00 | FINISH model=Random Forest; strategy=SMOTE-NC; outer_fold=46; elapsed_seconds=7.706
+2026-09-28T13:06:57.577291+00:00 | START model=Random Forest; strategy=SMOTE-NC; outer_fold=47
+2026-09-28T13:07:05.050080+00:00 | FINISH model=Random Forest; strategy=SMOTE-NC; outer_fold=47; elapsed_seconds=7.473
+2026-09-28T13:07:05.050453+00:00 | START model=Random Forest; strategy=SMOTE-NC; outer_fold=48
+2026-09-28T13:07:12.386912+00:00 | FINISH model=Random Forest; strategy=SMOTE-NC; outer_fold=48; elapsed_seconds=7.336
+2026-09-28T13:07:12.387275+00:00 | START model=Random Forest; strategy=SMOTE-NC; outer_fold=49
+2026-09-28T13:07:19.636758+00:00 | FINISH model=Random Forest; strategy=SMOTE-NC; outer_fold=49; elapsed_seconds=7.249
+2026-09-28T13:07:19.637290+00:00 | START model=Random Forest; strategy=Random undersampling; outer_fold=0
+2026-09-28T13:07:22.428370+00:00 | FINISH model=Random Forest; strategy=Random undersampling; outer_fold=0; elapsed_seconds=2.791
+2026-09-28T13:07:22.428748+00:00 | START model=Random Forest; strategy=Random undersampling; outer_fold=1
+2026-09-28T13:07:25.363609+00:00 | FINISH model=Random Forest; strategy=Random undersampling; outer_fold=1; elapsed_seconds=2.935
+2026-09-28T13:07:25.364000+00:00 | START model=Random Forest; strategy=Random undersampling; outer_fold=2
+2026-09-28T13:07:28.369394+00:00 | FINISH model=Random Forest; strategy=Random undersampling; outer_fold=2; elapsed_seconds=3.005
+2026-09-28T13:07:28.369867+00:00 | START model=Random Forest; strategy=Random undersampling; outer_fold=3
+2026-09-28T13:07:30.994761+00:00 | FINISH model=Random Forest; strategy=Random undersampling; outer_fold=3; elapsed_seconds=2.625
+2026-09-28T13:07:30.995195+00:00 | START model=Random Forest; strategy=Random undersampling; outer_fold=4
+2026-09-28T13:07:33.567874+00:00 | FINISH model=Random Forest; strategy=Random undersampling; outer_fold=4; elapsed_seconds=2.573
+2026-09-28T13:07:33.568194+00:00 | START model=Random Forest; strategy=Random undersampling; outer_fold=5
+2026-09-28T13:07:36.074593+00:00 | FINISH model=Random Forest; strategy=Random undersampling; outer_fold=5; elapsed_seconds=2.506
+2026-09-28T13:07:36.074932+00:00 | START model=Random Forest; strategy=Random undersampling; outer_fold=6
+2026-09-28T13:07:38.705969+00:00 | FINISH model=Random Forest; strategy=Random undersampling; outer_fold=6; elapsed_seconds=2.631
+2026-09-28T13:07:38.706412+00:00 | START model=Random Forest; strategy=Random undersampling; outer_fold=7
+2026-09-28T13:07:41.265787+00:00 | FINISH model=Random Forest; strategy=Random undersampling; outer_fold=7; elapsed_seconds=2.559
+2026-09-28T13:07:41.266100+00:00 | START model=Random Forest; strategy=Random undersampling; outer_fold=8
+2026-09-28T13:07:43.892116+00:00 | FINISH model=Random Forest; strategy=Random undersampling; outer_fold=8; elapsed_seconds=2.626
+2026-09-28T13:07:43.892622+00:00 | START model=Random Forest; strategy=Random undersampling; outer_fold=9
+2026-09-28T13:07:46.389538+00:00 | FINISH model=Random Forest; strategy=Random undersampling; outer_fold=9; elapsed_seconds=2.497
+2026-09-28T13:07:46.389840+00:00 | START model=Random Forest; strategy=Random undersampling; outer_fold=10
+2026-09-28T13:07:49.115175+00:00 | FINISH model=Random Forest; strategy=Random undersampling; outer_fold=10; elapsed_seconds=2.725
+2026-09-28T13:07:49.115487+00:00 | START model=Random Forest; strategy=Random undersampling; outer_fold=11
+2026-09-28T13:07:51.829956+00:00 | FINISH model=Random Forest; strategy=Random undersampling; outer_fold=11; elapsed_seconds=2.714
+2026-09-28T13:07:51.830436+00:00 | START model=Random Forest; strategy=Random undersampling; outer_fold=12
+2026-09-28T13:07:54.881463+00:00 | FINISH model=Random Forest; strategy=Random undersampling; outer_fold=12; elapsed_seconds=3.051
+2026-09-28T13:07:54.881835+00:00 | START model=Random Forest; strategy=Random undersampling; outer_fold=13
+2026-09-28T13:07:57.967454+00:00 | FINISH model=Random Forest; strategy=Random undersampling; outer_fold=13; elapsed_seconds=3.086
+2026-09-28T13:07:57.967884+00:00 | START model=Random Forest; strategy=Random undersampling; outer_fold=14
+2026-09-28T13:08:01.070902+00:00 | FINISH model=Random Forest; strategy=Random undersampling; outer_fold=14; elapsed_seconds=3.103
+2026-09-28T13:08:01.071254+00:00 | START model=Random Forest; strategy=Random undersampling; outer_fold=15
+2026-09-28T13:08:04.156976+00:00 | FINISH model=Random Forest; strategy=Random undersampling; outer_fold=15; elapsed_seconds=3.086
+2026-09-28T13:08:04.157349+00:00 | START model=Random Forest; strategy=Random undersampling; outer_fold=16
+2026-09-28T13:08:07.031290+00:00 | FINISH model=Random Forest; strategy=Random undersampling; outer_fold=16; elapsed_seconds=2.874
+2026-09-28T13:08:07.031673+00:00 | START model=Random Forest; strategy=Random undersampling; outer_fold=17
+2026-09-28T13:08:09.863872+00:00 | FINISH model=Random Forest; strategy=Random undersampling; outer_fold=17; elapsed_seconds=2.832
+2026-09-28T13:08:09.864392+00:00 | START model=Random Forest; strategy=Random undersampling; outer_fold=18
+2026-09-28T13:08:12.647095+00:00 | FINISH model=Random Forest; strategy=Random undersampling; outer_fold=18; elapsed_seconds=2.783
+2026-09-28T13:08:12.647478+00:00 | START model=Random Forest; strategy=Random undersampling; outer_fold=19
+2026-09-28T13:08:15.479199+00:00 | FINISH model=Random Forest; strategy=Random undersampling; outer_fold=19; elapsed_seconds=2.832
+2026-09-28T13:08:15.479553+00:00 | START model=Random Forest; strategy=Random undersampling; outer_fold=20
+2026-09-28T13:08:18.374982+00:00 | FINISH model=Random Forest; strategy=Random undersampling; outer_fold=20; elapsed_seconds=2.895
+2026-09-28T13:08:18.375451+00:00 | START model=Random Forest; strategy=Random undersampling; outer_fold=21
+2026-09-28T13:08:21.255472+00:00 | FINISH model=Random Forest; strategy=Random undersampling; outer_fold=21; elapsed_seconds=2.880
+2026-09-28T13:08:21.256005+00:00 | START model=Random Forest; strategy=Random undersampling; outer_fold=22
+2026-09-28T13:08:24.149911+00:00 | FINISH model=Random Forest; strategy=Random undersampling; outer_fold=22; elapsed_seconds=2.894
+2026-09-28T13:08:24.150266+00:00 | START model=Random Forest; strategy=Random undersampling; outer_fold=23
+2026-09-28T13:08:27.269654+00:00 | FINISH model=Random Forest; strategy=Random undersampling; outer_fold=23; elapsed_seconds=3.119
+2026-09-28T13:08:27.270033+00:00 | START model=Random Forest; strategy=Random undersampling; outer_fold=24
+2026-09-28T13:08:30.262763+00:00 | FINISH model=Random Forest; strategy=Random undersampling; outer_fold=24; elapsed_seconds=2.993
+2026-09-28T13:08:30.263176+00:00 | START model=Random Forest; strategy=Random undersampling; outer_fold=25
+2026-09-28T13:08:33.169126+00:00 | FINISH model=Random Forest; strategy=Random undersampling; outer_fold=25; elapsed_seconds=2.906
+2026-09-28T13:08:33.169540+00:00 | START model=Random Forest; strategy=Random undersampling; outer_fold=26
+2026-09-28T13:08:36.100693+00:00 | FINISH model=Random Forest; strategy=Random undersampling; outer_fold=26; elapsed_seconds=2.931
+2026-09-28T13:08:36.101042+00:00 | START model=Random Forest; strategy=Random undersampling; outer_fold=27
+2026-09-28T13:08:39.216250+00:00 | FINISH model=Random Forest; strategy=Random undersampling; outer_fold=27; elapsed_seconds=3.115
+2026-09-28T13:08:39.216581+00:00 | START model=Random Forest; strategy=Random undersampling; outer_fold=28
+2026-09-28T13:08:42.313939+00:00 | FINISH model=Random Forest; strategy=Random undersampling; outer_fold=28; elapsed_seconds=3.097
+2026-09-28T13:08:42.314448+00:00 | START model=Random Forest; strategy=Random undersampling; outer_fold=29
+2026-09-28T13:08:45.398516+00:00 | FINISH model=Random Forest; strategy=Random undersampling; outer_fold=29; elapsed_seconds=3.084
+2026-09-28T13:08:45.399060+00:00 | START model=Random Forest; strategy=Random undersampling; outer_fold=30
+2026-09-28T13:08:48.335661+00:00 | FINISH model=Random Forest; strategy=Random undersampling; outer_fold=30; elapsed_seconds=2.937
+2026-09-28T13:08:48.336065+00:00 | START model=Random Forest; strategy=Random undersampling; outer_fold=31
+2026-09-28T13:08:51.505784+00:00 | FINISH model=Random Forest; strategy=Random undersampling; outer_fold=31; elapsed_seconds=3.170
+2026-09-28T13:08:51.506384+00:00 | START model=Random Forest; strategy=Random undersampling; outer_fold=32
+2026-09-28T13:08:54.390197+00:00 | FINISH model=Random Forest; strategy=Random undersampling; outer_fold=32; elapsed_seconds=2.884
+2026-09-28T13:08:54.390689+00:00 | START model=Random Forest; strategy=Random undersampling; outer_fold=33
+2026-09-28T13:08:57.577319+00:00 | FINISH model=Random Forest; strategy=Random undersampling; outer_fold=33; elapsed_seconds=3.187
+2026-09-28T13:08:57.577694+00:00 | START model=Random Forest; strategy=Random undersampling; outer_fold=34
+2026-09-28T13:09:00.610834+00:00 | FINISH model=Random Forest; strategy=Random undersampling; outer_fold=34; elapsed_seconds=3.033
+2026-09-28T13:09:00.611343+00:00 | START model=Random Forest; strategy=Random undersampling; outer_fold=35
+2026-09-28T13:09:03.556967+00:00 | FINISH model=Random Forest; strategy=Random undersampling; outer_fold=35; elapsed_seconds=2.946
+2026-09-28T13:09:03.557404+00:00 | START model=Random Forest; strategy=Random undersampling; outer_fold=36
+2026-09-28T13:09:06.519188+00:00 | FINISH model=Random Forest; strategy=Random undersampling; outer_fold=36; elapsed_seconds=2.962
+2026-09-28T13:09:06.519756+00:00 | START model=Random Forest; strategy=Random undersampling; outer_fold=37
+2026-09-28T13:09:09.464977+00:00 | FINISH model=Random Forest; strategy=Random undersampling; outer_fold=37; elapsed_seconds=2.945
+2026-09-28T13:09:09.465393+00:00 | START model=Random Forest; strategy=Random undersampling; outer_fold=38
+2026-09-28T13:09:12.175869+00:00 | FINISH model=Random Forest; strategy=Random undersampling; outer_fold=38; elapsed_seconds=2.710
+2026-09-28T13:09:12.176427+00:00 | START model=Random Forest; strategy=Random undersampling; outer_fold=39
+2026-09-28T13:09:14.907881+00:00 | FINISH model=Random Forest; strategy=Random undersampling; outer_fold=39; elapsed_seconds=2.732
+2026-09-28T13:09:14.908354+00:00 | START model=Random Forest; strategy=Random undersampling; outer_fold=40
+2026-09-28T13:09:17.751207+00:00 | FINISH model=Random Forest; strategy=Random undersampling; outer_fold=40; elapsed_seconds=2.843
+2026-09-28T13:09:17.751732+00:00 | START model=Random Forest; strategy=Random undersampling; outer_fold=41
+2026-09-28T13:09:20.619303+00:00 | FINISH model=Random Forest; strategy=Random undersampling; outer_fold=41; elapsed_seconds=2.868
+2026-09-28T13:09:20.619714+00:00 | START model=Random Forest; strategy=Random undersampling; outer_fold=42
+2026-09-28T13:09:23.537384+00:00 | FINISH model=Random Forest; strategy=Random undersampling; outer_fold=42; elapsed_seconds=2.918
+2026-09-28T13:09:23.537869+00:00 | START model=Random Forest; strategy=Random undersampling; outer_fold=43
+2026-09-28T13:09:26.360850+00:00 | FINISH model=Random Forest; strategy=Random undersampling; outer_fold=43; elapsed_seconds=2.823
+2026-09-28T13:09:26.361309+00:00 | START model=Random Forest; strategy=Random undersampling; outer_fold=44
+2026-09-28T13:09:29.271391+00:00 | FINISH model=Random Forest; strategy=Random undersampling; outer_fold=44; elapsed_seconds=2.910
+2026-09-28T13:09:29.271713+00:00 | START model=Random Forest; strategy=Random undersampling; outer_fold=45
+2026-09-28T13:09:31.864784+00:00 | FINISH model=Random Forest; strategy=Random undersampling; outer_fold=45; elapsed_seconds=2.593
+2026-09-28T13:09:31.865223+00:00 | START model=Random Forest; strategy=Random undersampling; outer_fold=46
+2026-09-28T13:09:34.294514+00:00 | FINISH model=Random Forest; strategy=Random undersampling; outer_fold=46; elapsed_seconds=2.429
+2026-09-28T13:09:34.294838+00:00 | START model=Random Forest; strategy=Random undersampling; outer_fold=47
+2026-09-28T13:09:36.758146+00:00 | FINISH model=Random Forest; strategy=Random undersampling; outer_fold=47; elapsed_seconds=2.463
+2026-09-28T13:09:36.758450+00:00 | START model=Random Forest; strategy=Random undersampling; outer_fold=48
+2026-09-28T13:09:39.229885+00:00 | FINISH model=Random Forest; strategy=Random undersampling; outer_fold=48; elapsed_seconds=2.471
+2026-09-28T13:09:39.230349+00:00 | START model=Random Forest; strategy=Random undersampling; outer_fold=49
+2026-09-28T13:09:41.660308+00:00 | FINISH model=Random Forest; strategy=Random undersampling; outer_fold=49; elapsed_seconds=2.430
+2026-09-28T13:09:41.660667+00:00 | START model=Random Forest; strategy=Threshold tuning; outer_fold=0
+2026-09-28T13:09:55.777068+00:00 | FINISH model=Random Forest; strategy=Threshold tuning; outer_fold=0; elapsed_seconds=14.116
+2026-09-28T13:09:55.777498+00:00 | START model=Random Forest; strategy=Threshold tuning; outer_fold=1
+2026-09-28T13:10:11.123155+00:00 | FINISH model=Random Forest; strategy=Threshold tuning; outer_fold=1; elapsed_seconds=15.346
+2026-09-28T13:10:11.123577+00:00 | START model=Random Forest; strategy=Threshold tuning; outer_fold=2
+2026-09-28T13:10:25.875371+00:00 | FINISH model=Random Forest; strategy=Threshold tuning; outer_fold=2; elapsed_seconds=14.752
+2026-09-28T13:10:25.875733+00:00 | START model=Random Forest; strategy=Threshold tuning; outer_fold=3
+2026-09-28T13:10:41.489221+00:00 | FINISH model=Random Forest; strategy=Threshold tuning; outer_fold=3; elapsed_seconds=15.613
+2026-09-28T13:10:41.489664+00:00 | START model=Random Forest; strategy=Threshold tuning; outer_fold=4
+2026-09-28T13:10:57.247655+00:00 | FINISH model=Random Forest; strategy=Threshold tuning; outer_fold=4; elapsed_seconds=15.758
+2026-09-28T13:10:57.248090+00:00 | START model=Random Forest; strategy=Threshold tuning; outer_fold=5
+2026-09-28T13:11:12.907391+00:00 | FINISH model=Random Forest; strategy=Threshold tuning; outer_fold=5; elapsed_seconds=15.659
+2026-09-28T13:11:12.907757+00:00 | START model=Random Forest; strategy=Threshold tuning; outer_fold=6
+2026-09-28T13:11:28.629747+00:00 | FINISH model=Random Forest; strategy=Threshold tuning; outer_fold=6; elapsed_seconds=15.722
+2026-09-28T13:11:28.630080+00:00 | START model=Random Forest; strategy=Threshold tuning; outer_fold=7
+2026-09-28T13:11:43.595300+00:00 | FINISH model=Random Forest; strategy=Threshold tuning; outer_fold=7; elapsed_seconds=14.965
+2026-09-28T13:11:43.595692+00:00 | START model=Random Forest; strategy=Threshold tuning; outer_fold=8
+2026-09-28T13:11:57.713078+00:00 | FINISH model=Random Forest; strategy=Threshold tuning; outer_fold=8; elapsed_seconds=14.117
+2026-09-28T13:11:57.713480+00:00 | START model=Random Forest; strategy=Threshold tuning; outer_fold=9
+2026-09-28T13:12:11.555737+00:00 | FINISH model=Random Forest; strategy=Threshold tuning; outer_fold=9; elapsed_seconds=13.842
+2026-09-28T13:12:11.556122+00:00 | START model=Random Forest; strategy=Threshold tuning; outer_fold=10
+2026-09-28T13:12:26.240138+00:00 | FINISH model=Random Forest; strategy=Threshold tuning; outer_fold=10; elapsed_seconds=14.684
+2026-09-28T13:12:26.240461+00:00 | START model=Random Forest; strategy=Threshold tuning; outer_fold=11
+2026-09-28T13:12:40.231664+00:00 | FINISH model=Random Forest; strategy=Threshold tuning; outer_fold=11; elapsed_seconds=13.991
+2026-09-28T13:12:40.232075+00:00 | START model=Random Forest; strategy=Threshold tuning; outer_fold=12
+2026-09-28T13:12:53.946989+00:00 | FINISH model=Random Forest; strategy=Threshold tuning; outer_fold=12; elapsed_seconds=13.715
+2026-09-28T13:12:53.947321+00:00 | START model=Random Forest; strategy=Threshold tuning; outer_fold=13
+2026-09-28T13:13:08.083813+00:00 | FINISH model=Random Forest; strategy=Threshold tuning; outer_fold=13; elapsed_seconds=14.136
+2026-09-28T13:13:08.084305+00:00 | START model=Random Forest; strategy=Threshold tuning; outer_fold=14
+2026-09-28T13:13:21.945086+00:00 | FINISH model=Random Forest; strategy=Threshold tuning; outer_fold=14; elapsed_seconds=13.861
+2026-09-28T13:13:21.945455+00:00 | START model=Random Forest; strategy=Threshold tuning; outer_fold=15
+2026-09-28T13:13:35.610226+00:00 | FINISH model=Random Forest; strategy=Threshold tuning; outer_fold=15; elapsed_seconds=13.665
+2026-09-28T13:13:35.610927+00:00 | START model=Random Forest; strategy=Threshold tuning; outer_fold=16
+2026-09-28T13:13:49.719276+00:00 | FINISH model=Random Forest; strategy=Threshold tuning; outer_fold=16; elapsed_seconds=14.109
+2026-09-28T13:13:49.719666+00:00 | START model=Random Forest; strategy=Threshold tuning; outer_fold=17
+2026-09-28T13:14:04.161177+00:00 | FINISH model=Random Forest; strategy=Threshold tuning; outer_fold=17; elapsed_seconds=14.441
+2026-09-28T13:14:04.161466+00:00 | START model=Random Forest; strategy=Threshold tuning; outer_fold=18
+2026-09-28T13:14:18.380741+00:00 | FINISH model=Random Forest; strategy=Threshold tuning; outer_fold=18; elapsed_seconds=14.219
+2026-09-28T13:14:18.381071+00:00 | START model=Random Forest; strategy=Threshold tuning; outer_fold=19
+2026-09-28T13:14:32.357448+00:00 | FINISH model=Random Forest; strategy=Threshold tuning; outer_fold=19; elapsed_seconds=13.976
+2026-09-28T13:14:32.357930+00:00 | START model=Random Forest; strategy=Threshold tuning; outer_fold=20
+2026-09-28T13:14:47.263106+00:00 | FINISH model=Random Forest; strategy=Threshold tuning; outer_fold=20; elapsed_seconds=14.905
+2026-09-28T13:14:47.263589+00:00 | START model=Random Forest; strategy=Threshold tuning; outer_fold=21
+2026-09-28T13:15:01.064197+00:00 | FINISH model=Random Forest; strategy=Threshold tuning; outer_fold=21; elapsed_seconds=13.801
+2026-09-28T13:15:01.064701+00:00 | START model=Random Forest; strategy=Threshold tuning; outer_fold=22
+2026-09-28T13:15:14.853639+00:00 | FINISH model=Random Forest; strategy=Threshold tuning; outer_fold=22; elapsed_seconds=13.789
+2026-09-28T13:15:14.854064+00:00 | START model=Random Forest; strategy=Threshold tuning; outer_fold=23
+2026-09-28T13:15:28.724537+00:00 | FINISH model=Random Forest; strategy=Threshold tuning; outer_fold=23; elapsed_seconds=13.870
+2026-09-28T13:15:28.725362+00:00 | START model=Random Forest; strategy=Threshold tuning; outer_fold=24
+2026-09-28T13:15:42.817658+00:00 | FINISH model=Random Forest; strategy=Threshold tuning; outer_fold=24; elapsed_seconds=14.092
+2026-09-28T13:15:42.818423+00:00 | START model=Random Forest; strategy=Threshold tuning; outer_fold=25
+2026-09-28T13:15:56.359061+00:00 | FINISH model=Random Forest; strategy=Threshold tuning; outer_fold=25; elapsed_seconds=13.541
+2026-09-28T13:15:56.359429+00:00 | START model=Random Forest; strategy=Threshold tuning; outer_fold=26
+2026-09-28T13:16:10.342206+00:00 | FINISH model=Random Forest; strategy=Threshold tuning; outer_fold=26; elapsed_seconds=13.983
+2026-09-28T13:16:10.342565+00:00 | START model=Random Forest; strategy=Threshold tuning; outer_fold=27
+2026-09-28T13:16:24.360141+00:00 | FINISH model=Random Forest; strategy=Threshold tuning; outer_fold=27; elapsed_seconds=14.017
+2026-09-28T13:16:24.360660+00:00 | START model=Random Forest; strategy=Threshold tuning; outer_fold=28
+2026-09-28T13:16:38.066559+00:00 | FINISH model=Random Forest; strategy=Threshold tuning; outer_fold=28; elapsed_seconds=13.706
+2026-09-28T13:16:38.066956+00:00 | START model=Random Forest; strategy=Threshold tuning; outer_fold=29
+2026-09-28T13:16:51.686380+00:00 | FINISH model=Random Forest; strategy=Threshold tuning; outer_fold=29; elapsed_seconds=13.619
+2026-09-28T13:16:51.686838+00:00 | START model=Random Forest; strategy=Threshold tuning; outer_fold=30
+2026-09-28T13:17:05.763144+00:00 | FINISH model=Random Forest; strategy=Threshold tuning; outer_fold=30; elapsed_seconds=14.076
+2026-09-28T13:17:05.763543+00:00 | START model=Random Forest; strategy=Threshold tuning; outer_fold=31
+2026-09-28T13:17:19.935936+00:00 | FINISH model=Random Forest; strategy=Threshold tuning; outer_fold=31; elapsed_seconds=14.172
+2026-09-28T13:17:19.936360+00:00 | START model=Random Forest; strategy=Threshold tuning; outer_fold=32
+2026-09-28T13:17:33.500601+00:00 | FINISH model=Random Forest; strategy=Threshold tuning; outer_fold=32; elapsed_seconds=13.564
+2026-09-28T13:17:33.500989+00:00 | START model=Random Forest; strategy=Threshold tuning; outer_fold=33
+2026-09-28T13:17:47.663380+00:00 | FINISH model=Random Forest; strategy=Threshold tuning; outer_fold=33; elapsed_seconds=14.162
+2026-09-28T13:17:47.663687+00:00 | START model=Random Forest; strategy=Threshold tuning; outer_fold=34
+2026-09-28T13:18:01.670822+00:00 | FINISH model=Random Forest; strategy=Threshold tuning; outer_fold=34; elapsed_seconds=14.007
+2026-09-28T13:18:01.671387+00:00 | START model=Random Forest; strategy=Threshold tuning; outer_fold=35
+2026-09-28T13:18:15.340459+00:00 | FINISH model=Random Forest; strategy=Threshold tuning; outer_fold=35; elapsed_seconds=13.669
+2026-09-28T13:18:15.340799+00:00 | START model=Random Forest; strategy=Threshold tuning; outer_fold=36
+2026-09-28T13:18:29.328755+00:00 | FINISH model=Random Forest; strategy=Threshold tuning; outer_fold=36; elapsed_seconds=13.988
+2026-09-28T13:18:29.329093+00:00 | START model=Random Forest; strategy=Threshold tuning; outer_fold=37
+2026-09-28T13:18:43.298697+00:00 | FINISH model=Random Forest; strategy=Threshold tuning; outer_fold=37; elapsed_seconds=13.970
+2026-09-28T13:18:43.299264+00:00 | START model=Random Forest; strategy=Threshold tuning; outer_fold=38
+2026-09-28T13:18:57.586878+00:00 | FINISH model=Random Forest; strategy=Threshold tuning; outer_fold=38; elapsed_seconds=14.288
+2026-09-28T13:18:57.587221+00:00 | START model=Random Forest; strategy=Threshold tuning; outer_fold=39
+2026-09-28T13:19:11.852444+00:00 | FINISH model=Random Forest; strategy=Threshold tuning; outer_fold=39; elapsed_seconds=14.265
+2026-09-28T13:19:11.852830+00:00 | START model=Random Forest; strategy=Threshold tuning; outer_fold=40
+2026-09-28T13:19:25.643768+00:00 | FINISH model=Random Forest; strategy=Threshold tuning; outer_fold=40; elapsed_seconds=13.791
+2026-09-28T13:19:25.644097+00:00 | START model=Random Forest; strategy=Threshold tuning; outer_fold=41
+2026-09-28T13:19:39.519175+00:00 | FINISH model=Random Forest; strategy=Threshold tuning; outer_fold=41; elapsed_seconds=13.875
+2026-09-28T13:19:39.519674+00:00 | START model=Random Forest; strategy=Threshold tuning; outer_fold=42
+2026-09-28T13:19:54.102618+00:00 | FINISH model=Random Forest; strategy=Threshold tuning; outer_fold=42; elapsed_seconds=14.583
+2026-09-28T13:19:54.103204+00:00 | START model=Random Forest; strategy=Threshold tuning; outer_fold=43
+2026-09-28T13:20:08.297245+00:00 | FINISH model=Random Forest; strategy=Threshold tuning; outer_fold=43; elapsed_seconds=14.194
+2026-09-28T13:20:08.297874+00:00 | START model=Random Forest; strategy=Threshold tuning; outer_fold=44
+2026-09-28T13:20:22.268087+00:00 | FINISH model=Random Forest; strategy=Threshold tuning; outer_fold=44; elapsed_seconds=13.970
+2026-09-28T13:20:22.268508+00:00 | START model=Random Forest; strategy=Threshold tuning; outer_fold=45
+2026-09-28T13:20:36.424529+00:00 | FINISH model=Random Forest; strategy=Threshold tuning; outer_fold=45; elapsed_seconds=14.156
+2026-09-28T13:20:36.425065+00:00 | START model=Random Forest; strategy=Threshold tuning; outer_fold=46
+2026-09-28T13:20:50.874548+00:00 | FINISH model=Random Forest; strategy=Threshold tuning; outer_fold=46; elapsed_seconds=14.449
+2026-09-28T13:20:50.875006+00:00 | START model=Random Forest; strategy=Threshold tuning; outer_fold=47
+2026-09-28T13:21:05.521536+00:00 | FINISH model=Random Forest; strategy=Threshold tuning; outer_fold=47; elapsed_seconds=14.646
+2026-09-28T13:21:05.522306+00:00 | START model=Random Forest; strategy=Threshold tuning; outer_fold=48
+2026-09-28T13:21:23.127522+00:00 | FINISH model=Random Forest; strategy=Threshold tuning; outer_fold=48; elapsed_seconds=17.605
+2026-09-28T13:21:23.127976+00:00 | START model=Random Forest; strategy=Threshold tuning; outer_fold=49
+2026-09-28T13:21:39.968276+00:00 | FINISH model=Random Forest; strategy=Threshold tuning; outer_fold=49; elapsed_seconds=16.840
+2026-09-28T13:21:39.968638+00:00 | START model=Random Forest; strategy=Calibrated sigmoid + threshold; outer_fold=0
+2026-09-28T13:22:15.908201+00:00 | FINISH model=Random Forest; strategy=Calibrated sigmoid + threshold; outer_fold=0; elapsed_seconds=35.939
+2026-09-28T13:22:15.908881+00:00 | START model=Random Forest; strategy=Calibrated sigmoid + threshold; outer_fold=1
+2026-09-28T13:22:51.613290+00:00 | FINISH model=Random Forest; strategy=Calibrated sigmoid + threshold; outer_fold=1; elapsed_seconds=35.704
+2026-09-28T13:22:51.613863+00:00 | START model=Random Forest; strategy=Calibrated sigmoid + threshold; outer_fold=2
+2026-09-28T13:23:25.696934+00:00 | FINISH model=Random Forest; strategy=Calibrated sigmoid + threshold; outer_fold=2; elapsed_seconds=34.083
+2026-09-28T13:23:25.699483+00:00 | START model=Random Forest; strategy=Calibrated sigmoid + threshold; outer_fold=3
+2026-09-28T13:23:59.499939+00:00 | FINISH model=Random Forest; strategy=Calibrated sigmoid + threshold; outer_fold=3; elapsed_seconds=33.800
+2026-09-28T13:23:59.500338+00:00 | START model=Random Forest; strategy=Calibrated sigmoid + threshold; outer_fold=4
+2026-09-28T13:24:33.587240+00:00 | FINISH model=Random Forest; strategy=Calibrated sigmoid + threshold; outer_fold=4; elapsed_seconds=34.087
+2026-09-28T13:24:33.587626+00:00 | START model=Random Forest; strategy=Calibrated sigmoid + threshold; outer_fold=5
+2026-09-28T13:25:06.526845+00:00 | FINISH model=Random Forest; strategy=Calibrated sigmoid + threshold; outer_fold=5; elapsed_seconds=32.939
+2026-09-28T13:25:06.527239+00:00 | START model=Random Forest; strategy=Calibrated sigmoid + threshold; outer_fold=6
+2026-09-28T13:25:39.527135+00:00 | FINISH model=Random Forest; strategy=Calibrated sigmoid + threshold; outer_fold=6; elapsed_seconds=33.000
+2026-09-28T13:25:39.527538+00:00 | START model=Random Forest; strategy=Calibrated sigmoid + threshold; outer_fold=7
+2026-09-28T13:26:12.626882+00:00 | FINISH model=Random Forest; strategy=Calibrated sigmoid + threshold; outer_fold=7; elapsed_seconds=33.099
+2026-09-28T13:26:12.627314+00:00 | START model=Random Forest; strategy=Calibrated sigmoid + threshold; outer_fold=8
+2026-09-28T13:26:46.110537+00:00 | FINISH model=Random Forest; strategy=Calibrated sigmoid + threshold; outer_fold=8; elapsed_seconds=33.483
+2026-09-28T13:26:46.111159+00:00 | START model=Random Forest; strategy=Calibrated sigmoid + threshold; outer_fold=9
+2026-09-28T13:27:26.445906+00:00 | FINISH model=Random Forest; strategy=Calibrated sigmoid + threshold; outer_fold=9; elapsed_seconds=40.335
+2026-09-28T13:27:26.446377+00:00 | START model=Random Forest; strategy=Calibrated sigmoid + threshold; outer_fold=10
+2026-09-28T13:28:05.075600+00:00 | FINISH model=Random Forest; strategy=Calibrated sigmoid + threshold; outer_fold=10; elapsed_seconds=38.629
+2026-09-28T13:28:05.076220+00:00 | START model=Random Forest; strategy=Calibrated sigmoid + threshold; outer_fold=11
+2026-09-28T13:28:42.976415+00:00 | FINISH model=Random Forest; strategy=Calibrated sigmoid + threshold; outer_fold=11; elapsed_seconds=37.900
+2026-09-28T13:28:42.977387+00:00 | START model=Random Forest; strategy=Calibrated sigmoid + threshold; outer_fold=12
+2026-09-28T13:29:21.476101+00:00 | FINISH model=Random Forest; strategy=Calibrated sigmoid + threshold; outer_fold=12; elapsed_seconds=38.499
+2026-09-28T13:29:21.476700+00:00 | START model=Random Forest; strategy=Calibrated sigmoid + threshold; outer_fold=13
+2026-09-28T13:29:59.076864+00:00 | FINISH model=Random Forest; strategy=Calibrated sigmoid + threshold; outer_fold=13; elapsed_seconds=37.600
+2026-09-28T13:29:59.077756+00:00 | START model=Random Forest; strategy=Calibrated sigmoid + threshold; outer_fold=14
+2026-09-28T13:30:36.038028+00:00 | FINISH model=Random Forest; strategy=Calibrated sigmoid + threshold; outer_fold=14; elapsed_seconds=36.960
+2026-09-28T13:30:36.038497+00:00 | START model=Random Forest; strategy=Calibrated sigmoid + threshold; outer_fold=15
+2026-09-28T13:31:15.884039+00:00 | FINISH model=Random Forest; strategy=Calibrated sigmoid + threshold; outer_fold=15; elapsed_seconds=39.846
+2026-09-28T13:31:15.884417+00:00 | START model=Random Forest; strategy=Calibrated sigmoid + threshold; outer_fold=16
+2026-09-28T13:31:54.883834+00:00 | FINISH model=Random Forest; strategy=Calibrated sigmoid + threshold; outer_fold=16; elapsed_seconds=38.999
+2026-09-28T13:31:54.884317+00:00 | START model=Random Forest; strategy=Calibrated sigmoid + threshold; outer_fold=17
+2026-09-28T13:32:32.929154+00:00 | FINISH model=Random Forest; strategy=Calibrated sigmoid + threshold; outer_fold=17; elapsed_seconds=38.045
+2026-09-28T13:32:32.929637+00:00 | START model=Random Forest; strategy=Calibrated sigmoid + threshold; outer_fold=18
+2026-09-28T13:33:10.901260+00:00 | FINISH model=Random Forest; strategy=Calibrated sigmoid + threshold; outer_fold=18; elapsed_seconds=37.972
+2026-09-28T13:33:10.901692+00:00 | START model=Random Forest; strategy=Calibrated sigmoid + threshold; outer_fold=19
+2026-09-28T13:33:49.638194+00:00 | FINISH model=Random Forest; strategy=Calibrated sigmoid + threshold; outer_fold=19; elapsed_seconds=38.736
+2026-09-28T13:33:49.638798+00:00 | START model=Random Forest; strategy=Calibrated sigmoid + threshold; outer_fold=20
+2026-09-28T13:34:29.633922+00:00 | FINISH model=Random Forest; strategy=Calibrated sigmoid + threshold; outer_fold=20; elapsed_seconds=39.995
+2026-09-28T13:34:29.634255+00:00 | START model=Random Forest; strategy=Calibrated sigmoid + threshold; outer_fold=21
+2026-09-28T13:35:07.773751+00:00 | FINISH model=Random Forest; strategy=Calibrated sigmoid + threshold; outer_fold=21; elapsed_seconds=38.139
+2026-09-28T13:35:07.774161+00:00 | START model=Random Forest; strategy=Calibrated sigmoid + threshold; outer_fold=22
+2026-09-28T13:35:47.049001+00:00 | FINISH model=Random Forest; strategy=Calibrated sigmoid + threshold; outer_fold=22; elapsed_seconds=39.275
+2026-09-28T13:35:47.049566+00:00 | START model=Random Forest; strategy=Calibrated sigmoid + threshold; outer_fold=23
+2026-09-28T13:36:24.775082+00:00 | FINISH model=Random Forest; strategy=Calibrated sigmoid + threshold; outer_fold=23; elapsed_seconds=37.726
+2026-09-28T13:36:24.775574+00:00 | START model=Random Forest; strategy=Calibrated sigmoid + threshold; outer_fold=24
+2026-09-28T13:37:01.374266+00:00 | FINISH model=Random Forest; strategy=Calibrated sigmoid + threshold; outer_fold=24; elapsed_seconds=36.599
+2026-09-28T13:37:01.374677+00:00 | START model=Random Forest; strategy=Calibrated sigmoid + threshold; outer_fold=25
+2026-09-28T13:37:37.718643+00:00 | FINISH model=Random Forest; strategy=Calibrated sigmoid + threshold; outer_fold=25; elapsed_seconds=36.344
+2026-09-28T13:37:37.719222+00:00 | START model=Random Forest; strategy=Calibrated sigmoid + threshold; outer_fold=26
+2026-09-28T13:38:24.190893+00:00 | FINISH model=Random Forest; strategy=Calibrated sigmoid + threshold; outer_fold=26; elapsed_seconds=46.472
+2026-09-28T13:38:24.191497+00:00 | START model=Random Forest; strategy=Calibrated sigmoid + threshold; outer_fold=27
+2026-09-28T13:39:07.810491+00:00 | FINISH model=Random Forest; strategy=Calibrated sigmoid + threshold; outer_fold=27; elapsed_seconds=43.619
+2026-09-28T13:39:07.811125+00:00 | START model=Random Forest; strategy=Calibrated sigmoid + threshold; outer_fold=28
+2026-09-28T13:39:50.988977+00:00 | FINISH model=Random Forest; strategy=Calibrated sigmoid + threshold; outer_fold=28; elapsed_seconds=43.178
+2026-09-28T13:39:50.989445+00:00 | START model=Random Forest; strategy=Calibrated sigmoid + threshold; outer_fold=29
+2026-09-28T13:40:30.118243+00:00 | FINISH model=Random Forest; strategy=Calibrated sigmoid + threshold; outer_fold=29; elapsed_seconds=39.129
+2026-09-28T13:40:30.118673+00:00 | START model=Random Forest; strategy=Calibrated sigmoid + threshold; outer_fold=30
+2026-09-28T13:41:08.432555+00:00 | FINISH model=Random Forest; strategy=Calibrated sigmoid + threshold; outer_fold=30; elapsed_seconds=38.314
+2026-09-28T13:41:08.433030+00:00 | START model=Random Forest; strategy=Calibrated sigmoid + threshold; outer_fold=31
+2026-09-28T13:41:45.923416+00:00 | FINISH model=Random Forest; strategy=Calibrated sigmoid + threshold; outer_fold=31; elapsed_seconds=37.490
+2026-09-28T13:41:45.924025+00:00 | START model=Random Forest; strategy=Calibrated sigmoid + threshold; outer_fold=32
+2026-09-28T13:42:23.261559+00:00 | FINISH model=Random Forest; strategy=Calibrated sigmoid + threshold; outer_fold=32; elapsed_seconds=37.338
+2026-09-28T13:42:23.261912+00:00 | START model=Random Forest; strategy=Calibrated sigmoid + threshold; outer_fold=33
+2026-09-28T13:42:59.988715+00:00 | FINISH model=Random Forest; strategy=Calibrated sigmoid + threshold; outer_fold=33; elapsed_seconds=36.727
+2026-09-28T13:42:59.989274+00:00 | START model=Random Forest; strategy=Calibrated sigmoid + threshold; outer_fold=34
+2026-09-28T13:43:38.258657+00:00 | FINISH model=Random Forest; strategy=Calibrated sigmoid + threshold; outer_fold=34; elapsed_seconds=38.269
+2026-09-28T13:43:38.259160+00:00 | START model=Random Forest; strategy=Calibrated sigmoid + threshold; outer_fold=35
+2026-09-28T13:44:17.665739+00:00 | FINISH model=Random Forest; strategy=Calibrated sigmoid + threshold; outer_fold=35; elapsed_seconds=39.406
+2026-09-28T13:44:17.666216+00:00 | START model=Random Forest; strategy=Calibrated sigmoid + threshold; outer_fold=36
+2026-09-28T13:44:59.519147+00:00 | FINISH model=Random Forest; strategy=Calibrated sigmoid + threshold; outer_fold=36; elapsed_seconds=41.853
+2026-09-28T13:44:59.519706+00:00 | START model=Random Forest; strategy=Calibrated sigmoid + threshold; outer_fold=37
+2026-09-28T13:45:43.779948+00:00 | FINISH model=Random Forest; strategy=Calibrated sigmoid + threshold; outer_fold=37; elapsed_seconds=44.260
+2026-09-28T13:45:43.781402+00:00 | START model=Random Forest; strategy=Calibrated sigmoid + threshold; outer_fold=38
+2026-09-28T13:46:25.881538+00:00 | FINISH model=Random Forest; strategy=Calibrated sigmoid + threshold; outer_fold=38; elapsed_seconds=42.100
+2026-09-28T13:46:25.882099+00:00 | START model=Random Forest; strategy=Calibrated sigmoid + threshold; outer_fold=39
+2026-09-28T13:47:07.461120+00:00 | FINISH model=Random Forest; strategy=Calibrated sigmoid + threshold; outer_fold=39; elapsed_seconds=41.579
+2026-09-28T13:47:07.461494+00:00 | START model=Random Forest; strategy=Calibrated sigmoid + threshold; outer_fold=40
+2026-09-28T13:47:47.620863+00:00 | FINISH model=Random Forest; strategy=Calibrated sigmoid + threshold; outer_fold=40; elapsed_seconds=40.159
+2026-09-28T13:47:47.621370+00:00 | START model=Random Forest; strategy=Calibrated sigmoid + threshold; outer_fold=41
+2026-09-28T13:48:32.578963+00:00 | FINISH model=Random Forest; strategy=Calibrated sigmoid + threshold; outer_fold=41; elapsed_seconds=44.958
+2026-09-28T13:48:32.579466+00:00 | START model=Random Forest; strategy=Calibrated sigmoid + threshold; outer_fold=42
+2026-09-28T13:49:17.031224+00:00 | FINISH model=Random Forest; strategy=Calibrated sigmoid + threshold; outer_fold=42; elapsed_seconds=44.452
+2026-09-28T13:49:17.031924+00:00 | START model=Random Forest; strategy=Calibrated sigmoid + threshold; outer_fold=43
+2026-09-28T13:50:00.676038+00:00 | FINISH model=Random Forest; strategy=Calibrated sigmoid + threshold; outer_fold=43; elapsed_seconds=43.644
+2026-09-28T13:50:00.676533+00:00 | START model=Random Forest; strategy=Calibrated sigmoid + threshold; outer_fold=44
+2026-09-28T13:50:46.350277+00:00 | FINISH model=Random Forest; strategy=Calibrated sigmoid + threshold; outer_fold=44; elapsed_seconds=45.674
+2026-09-28T13:50:46.350741+00:00 | START model=Random Forest; strategy=Calibrated sigmoid + threshold; outer_fold=45
+2026-09-28T13:51:36.937605+00:00 | FINISH model=Random Forest; strategy=Calibrated sigmoid + threshold; outer_fold=45; elapsed_seconds=50.587
+2026-09-28T13:51:36.938470+00:00 | START model=Random Forest; strategy=Calibrated sigmoid + threshold; outer_fold=46
+2026-09-28T13:52:29.531064+00:00 | FINISH model=Random Forest; strategy=Calibrated sigmoid + threshold; outer_fold=46; elapsed_seconds=52.593
+2026-09-28T13:52:29.531425+00:00 | START model=Random Forest; strategy=Calibrated sigmoid + threshold; outer_fold=47
+2026-09-28T13:53:13.168180+00:00 | FINISH model=Random Forest; strategy=Calibrated sigmoid + threshold; outer_fold=47; elapsed_seconds=43.637
+2026-09-28T13:53:13.168700+00:00 | START model=Random Forest; strategy=Calibrated sigmoid + threshold; outer_fold=48
+2026-09-28T13:53:53.762987+00:00 | FINISH model=Random Forest; strategy=Calibrated sigmoid + threshold; outer_fold=48; elapsed_seconds=40.594
+2026-09-28T13:53:53.763469+00:00 | START model=Random Forest; strategy=Calibrated sigmoid + threshold; outer_fold=49
+2026-09-28T13:54:34.048167+00:00 | FINISH model=Random Forest; strategy=Calibrated sigmoid + threshold; outer_fold=49; elapsed_seconds=40.285
+2026-09-28T13:54:34.048708+00:00 | START model=Random Forest; strategy=Calibrated isotonic + threshold; outer_fold=0
+2026-09-28T13:55:16.661068+00:00 | FINISH model=Random Forest; strategy=Calibrated isotonic + threshold; outer_fold=0; elapsed_seconds=42.612
+2026-09-28T13:55:16.661432+00:00 | START model=Random Forest; strategy=Calibrated isotonic + threshold; outer_fold=1
+2026-09-28T13:55:52.478663+00:00 | FINISH model=Random Forest; strategy=Calibrated isotonic + threshold; outer_fold=1; elapsed_seconds=35.817
+2026-09-28T13:55:52.479159+00:00 | START model=Random Forest; strategy=Calibrated isotonic + threshold; outer_fold=2
+2026-09-28T13:56:35.760669+00:00 | FINISH model=Random Forest; strategy=Calibrated isotonic + threshold; outer_fold=2; elapsed_seconds=43.281
+2026-09-28T13:56:35.761019+00:00 | START model=Random Forest; strategy=Calibrated isotonic + threshold; outer_fold=3
+2026-09-28T13:57:14.508364+00:00 | FINISH model=Random Forest; strategy=Calibrated isotonic + threshold; outer_fold=3; elapsed_seconds=38.747
+2026-09-28T13:57:14.508725+00:00 | START model=Random Forest; strategy=Calibrated isotonic + threshold; outer_fold=4
+2026-09-28T13:57:53.039748+00:00 | FINISH model=Random Forest; strategy=Calibrated isotonic + threshold; outer_fold=4; elapsed_seconds=38.531
+2026-09-28T13:57:53.040243+00:00 | START model=Random Forest; strategy=Calibrated isotonic + threshold; outer_fold=5
+2026-09-28T13:58:34.186007+00:00 | FINISH model=Random Forest; strategy=Calibrated isotonic + threshold; outer_fold=5; elapsed_seconds=41.146
+2026-09-28T13:58:34.186351+00:00 | START model=Random Forest; strategy=Calibrated isotonic + threshold; outer_fold=6
+2026-09-28T13:59:15.560954+00:00 | FINISH model=Random Forest; strategy=Calibrated isotonic + threshold; outer_fold=6; elapsed_seconds=41.375
+2026-09-28T13:59:15.561552+00:00 | START model=Random Forest; strategy=Calibrated isotonic + threshold; outer_fold=7
+2026-09-28T14:00:01.785120+00:00 | FINISH model=Random Forest; strategy=Calibrated isotonic + threshold; outer_fold=7; elapsed_seconds=46.224
+2026-09-28T14:00:01.785996+00:00 | START model=Random Forest; strategy=Calibrated isotonic + threshold; outer_fold=8
+2026-09-28T14:00:45.113825+00:00 | FINISH model=Random Forest; strategy=Calibrated isotonic + threshold; outer_fold=8; elapsed_seconds=43.328
+2026-09-28T14:00:45.114328+00:00 | START model=Random Forest; strategy=Calibrated isotonic + threshold; outer_fold=9
+2026-09-28T14:01:27.641405+00:00 | FINISH model=Random Forest; strategy=Calibrated isotonic + threshold; outer_fold=9; elapsed_seconds=42.527
+2026-09-28T14:01:27.641808+00:00 | START model=Random Forest; strategy=Calibrated isotonic + threshold; outer_fold=10
+2026-09-28T14:02:08.914726+00:00 | FINISH model=Random Forest; strategy=Calibrated isotonic + threshold; outer_fold=10; elapsed_seconds=41.273
+2026-09-28T14:02:08.915308+00:00 | START model=Random Forest; strategy=Calibrated isotonic + threshold; outer_fold=11
+2026-09-28T14:02:48.608946+00:00 | FINISH model=Random Forest; strategy=Calibrated isotonic + threshold; outer_fold=11; elapsed_seconds=39.694
+2026-09-28T14:02:48.609607+00:00 | START model=Random Forest; strategy=Calibrated isotonic + threshold; outer_fold=12
+2026-09-28T14:03:30.145253+00:00 | FINISH model=Random Forest; strategy=Calibrated isotonic + threshold; outer_fold=12; elapsed_seconds=41.536
+2026-09-28T14:03:30.145846+00:00 | START model=Random Forest; strategy=Calibrated isotonic + threshold; outer_fold=13
+2026-09-28T14:04:11.238659+00:00 | FINISH model=Random Forest; strategy=Calibrated isotonic + threshold; outer_fold=13; elapsed_seconds=41.093
+2026-09-28T14:04:11.240432+00:00 | START model=Random Forest; strategy=Calibrated isotonic + threshold; outer_fold=14
+2026-09-28T14:04:52.713734+00:00 | FINISH model=Random Forest; strategy=Calibrated isotonic + threshold; outer_fold=14; elapsed_seconds=41.473
+2026-09-28T14:04:52.714215+00:00 | START model=Random Forest; strategy=Calibrated isotonic + threshold; outer_fold=15
+2026-09-28T14:05:35.132401+00:00 | FINISH model=Random Forest; strategy=Calibrated isotonic + threshold; outer_fold=15; elapsed_seconds=42.418
+2026-09-28T14:05:35.132793+00:00 | START model=Random Forest; strategy=Calibrated isotonic + threshold; outer_fold=16
+2026-09-28T14:06:17.664990+00:00 | FINISH model=Random Forest; strategy=Calibrated isotonic + threshold; outer_fold=16; elapsed_seconds=42.532
+2026-09-28T14:06:17.665323+00:00 | START model=Random Forest; strategy=Calibrated isotonic + threshold; outer_fold=17
+2026-09-28T14:06:58.053755+00:00 | FINISH model=Random Forest; strategy=Calibrated isotonic + threshold; outer_fold=17; elapsed_seconds=40.388
+2026-09-28T14:06:58.054808+00:00 | START model=Random Forest; strategy=Calibrated isotonic + threshold; outer_fold=18
+2026-09-28T14:07:41.075926+00:00 | FINISH model=Random Forest; strategy=Calibrated isotonic + threshold; outer_fold=18; elapsed_seconds=43.021
+2026-09-28T14:07:41.076415+00:00 | START model=Random Forest; strategy=Calibrated isotonic + threshold; outer_fold=19
+2026-09-28T14:08:22.013411+00:00 | FINISH model=Random Forest; strategy=Calibrated isotonic + threshold; outer_fold=19; elapsed_seconds=40.937
+2026-09-28T14:08:22.013837+00:00 | START model=Random Forest; strategy=Calibrated isotonic + threshold; outer_fold=20
+2026-09-28T14:09:03.043198+00:00 | FINISH model=Random Forest; strategy=Calibrated isotonic + threshold; outer_fold=20; elapsed_seconds=41.029
+2026-09-28T14:09:03.043812+00:00 | START model=Random Forest; strategy=Calibrated isotonic + threshold; outer_fold=21
+2026-09-28T14:09:45.714114+00:00 | FINISH model=Random Forest; strategy=Calibrated isotonic + threshold; outer_fold=21; elapsed_seconds=42.670
+2026-09-28T14:09:45.714720+00:00 | START model=Random Forest; strategy=Calibrated isotonic + threshold; outer_fold=22
+2026-09-28T14:10:26.436262+00:00 | FINISH model=Random Forest; strategy=Calibrated isotonic + threshold; outer_fold=22; elapsed_seconds=40.722
+2026-09-28T14:10:26.436712+00:00 | START model=Random Forest; strategy=Calibrated isotonic + threshold; outer_fold=23
+2026-09-28T14:11:07.134998+00:00 | FINISH model=Random Forest; strategy=Calibrated isotonic + threshold; outer_fold=23; elapsed_seconds=40.698
+2026-09-28T14:11:07.135438+00:00 | START model=Random Forest; strategy=Calibrated isotonic + threshold; outer_fold=24
+2026-09-28T14:11:46.560124+00:00 | FINISH model=Random Forest; strategy=Calibrated isotonic + threshold; outer_fold=24; elapsed_seconds=39.425
+2026-09-28T14:11:46.560557+00:00 | START model=Random Forest; strategy=Calibrated isotonic + threshold; outer_fold=25
+2026-09-28T14:12:23.747448+00:00 | FINISH model=Random Forest; strategy=Calibrated isotonic + threshold; outer_fold=25; elapsed_seconds=37.187
+2026-09-28T14:12:23.747795+00:00 | START model=Random Forest; strategy=Calibrated isotonic + threshold; outer_fold=26
+2026-09-28T14:13:01.439414+00:00 | FINISH model=Random Forest; strategy=Calibrated isotonic + threshold; outer_fold=26; elapsed_seconds=37.692
+2026-09-28T14:13:01.440435+00:00 | START model=Random Forest; strategy=Calibrated isotonic + threshold; outer_fold=27
+2026-09-28T14:13:44.202223+00:00 | FINISH model=Random Forest; strategy=Calibrated isotonic + threshold; outer_fold=27; elapsed_seconds=42.762
+2026-09-28T14:13:44.202629+00:00 | START model=Random Forest; strategy=Calibrated isotonic + threshold; outer_fold=28
+2026-09-28T14:14:27.038161+00:00 | FINISH model=Random Forest; strategy=Calibrated isotonic + threshold; outer_fold=28; elapsed_seconds=42.836
+2026-09-28T14:14:27.038753+00:00 | START model=Random Forest; strategy=Calibrated isotonic + threshold; outer_fold=29
+2026-09-28T14:15:08.851882+00:00 | FINISH model=Random Forest; strategy=Calibrated isotonic + threshold; outer_fold=29; elapsed_seconds=41.813
+2026-09-28T14:15:08.852254+00:00 | START model=Random Forest; strategy=Calibrated isotonic + threshold; outer_fold=30
+2026-09-28T14:15:49.961319+00:00 | FINISH model=Random Forest; strategy=Calibrated isotonic + threshold; outer_fold=30; elapsed_seconds=41.109
+2026-09-28T14:15:49.961665+00:00 | START model=Random Forest; strategy=Calibrated isotonic + threshold; outer_fold=31
+2026-09-28T14:16:31.286147+00:00 | FINISH model=Random Forest; strategy=Calibrated isotonic + threshold; outer_fold=31; elapsed_seconds=41.324
+2026-09-28T14:16:31.286433+00:00 | START model=Random Forest; strategy=Calibrated isotonic + threshold; outer_fold=32
+2026-09-28T14:17:10.842358+00:00 | FINISH model=Random Forest; strategy=Calibrated isotonic + threshold; outer_fold=32; elapsed_seconds=39.556
+2026-09-28T14:17:10.842715+00:00 | START model=Random Forest; strategy=Calibrated isotonic + threshold; outer_fold=33
+2026-09-28T14:17:51.891006+00:00 | FINISH model=Random Forest; strategy=Calibrated isotonic + threshold; outer_fold=33; elapsed_seconds=41.048
+2026-09-28T14:17:51.891405+00:00 | START model=Random Forest; strategy=Calibrated isotonic + threshold; outer_fold=34
+2026-09-28T14:18:35.483514+00:00 | FINISH model=Random Forest; strategy=Calibrated isotonic + threshold; outer_fold=34; elapsed_seconds=43.592
+2026-09-28T14:18:35.484066+00:00 | START model=Random Forest; strategy=Calibrated isotonic + threshold; outer_fold=35
+2026-09-28T14:19:18.646024+00:00 | FINISH model=Random Forest; strategy=Calibrated isotonic + threshold; outer_fold=35; elapsed_seconds=43.162
+2026-09-28T14:19:18.646586+00:00 | START model=Random Forest; strategy=Calibrated isotonic + threshold; outer_fold=36
+2026-09-28T14:20:03.230164+00:00 | FINISH model=Random Forest; strategy=Calibrated isotonic + threshold; outer_fold=36; elapsed_seconds=44.584
+2026-09-28T14:20:03.230556+00:00 | START model=Random Forest; strategy=Calibrated isotonic + threshold; outer_fold=37
+2026-09-28T14:20:45.772129+00:00 | FINISH model=Random Forest; strategy=Calibrated isotonic + threshold; outer_fold=37; elapsed_seconds=42.542
+2026-09-28T14:20:45.772626+00:00 | START model=Random Forest; strategy=Calibrated isotonic + threshold; outer_fold=38
+2026-09-28T14:21:26.971994+00:00 | FINISH model=Random Forest; strategy=Calibrated isotonic + threshold; outer_fold=38; elapsed_seconds=41.199
+2026-09-28T14:21:26.972472+00:00 | START model=Random Forest; strategy=Calibrated isotonic + threshold; outer_fold=39
+2026-09-28T14:22:09.997423+00:00 | FINISH model=Random Forest; strategy=Calibrated isotonic + threshold; outer_fold=39; elapsed_seconds=43.025
+2026-09-28T14:22:09.997854+00:00 | START model=Random Forest; strategy=Calibrated isotonic + threshold; outer_fold=40
+2026-09-28T14:22:51.576420+00:00 | FINISH model=Random Forest; strategy=Calibrated isotonic + threshold; outer_fold=40; elapsed_seconds=41.578
+2026-09-28T14:22:51.576794+00:00 | START model=Random Forest; strategy=Calibrated isotonic + threshold; outer_fold=41
+2026-09-28T14:23:32.840611+00:00 | FINISH model=Random Forest; strategy=Calibrated isotonic + threshold; outer_fold=41; elapsed_seconds=41.264
+2026-09-28T14:23:32.840923+00:00 | START model=Random Forest; strategy=Calibrated isotonic + threshold; outer_fold=42
+2026-09-28T14:24:13.908881+00:00 | FINISH model=Random Forest; strategy=Calibrated isotonic + threshold; outer_fold=42; elapsed_seconds=41.068
+2026-09-28T14:24:13.909254+00:00 | START model=Random Forest; strategy=Calibrated isotonic + threshold; outer_fold=43

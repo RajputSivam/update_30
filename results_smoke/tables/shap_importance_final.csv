@@ -1,0 +1,52 @@
+feature,mean_abs_shap
+OverTime_No,0.5008705629873054
+EnvironmentSatisfaction,0.4015732876831523
+YearsSinceLastPromotion,0.3714563856220865
+NumCompaniesWorked,0.3677459641058574
+TotalWorkingYears,0.3298933267628216
+JobSatisfaction,0.31765730340691356
+YearsWithCurrManager,0.30328358966163055
+Age,0.29506550630283457
+Department_Research & Development,0.2875942003018226
+YearsInCurrentRole,0.2719182532032813
+JobInvolvement,0.27014815100794726
+DistanceFromHome,0.25353553358748626
+OverTime_Yes,0.24413041228753285
+StockOptionLevel,0.22935056616444405
+RelationshipSatisfaction,0.21899632192381285
+Gender_Female,0.21432024259740834
+JobRole_Laboratory Technician,0.20092072389551463
+WorkLifeBalance,0.1973799894969546
+MaritalStatus_Married,0.19369657793334893
+BusinessTravel_Travel_Frequently,0.18629471698297886
+EducationField_Medical,0.16378320036427382
+DailyRate,0.1553949684066185
+TrainingTimesLastYear,0.14733381299953419
+MaritalStatus_Divorced,0.1457885629939439
+MonthlyIncome,0.1289670160837892
+BusinessTravel_Non-Travel,0.12394781545006106
+JobRole_Research Scientist,0.11343568183028338
+BusinessTravel_Travel_Rarely,0.10915889853348114
+MaritalStatus_Single,0.1010907276927324
+EducationField_Life Sciences,0.09401250608256376
+YearsAtCompany,0.09124571276416034
+PercentSalaryHike,0.09032201155669944
+JobRole_Healthcare Representative,0.08504275697260012
+JobRole_Sales Executive,0.07537282512613151
+Gender_Male,0.07350923135857634
+JobRole_Sales Representative,0.0669480151574377
+JobLevel,0.06199184606880742
+JobRole_Research Director,0.0587419828605316
+Department_Sales,0.03987941366846391
+PerformanceRating,0.039635520850923624
+EducationField_Other,0.036568594307334376
+JobRole_Manufacturing Director,0.0344171512327677
+EducationField_Technical Degree,0.032040313986983
+MonthlyRate,0.015204723580509902
+HourlyRate,0.012300837770216635
+EducationField_Human Resources,0.009860826261208645
+Department_Human Resources,0.007416216365052158
+Education,0.0055321968850316925
+EducationField_Marketing,0.0034462265154074074
+JobRole_Human Resources,0.00326497520428679
+JobRole_Manager,0.0011838282372269547

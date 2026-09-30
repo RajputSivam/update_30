@@ -1,0 +1,146 @@
+\begin{tabular}{llllrrr}
+\toprule
+data_scope & fn_cost_to_fp_cost & model & strategy & total_cost & cost_per_employee_fold & cheapest_development_configuration \\
+\midrule
+development CV aggregate & 1:1 & LightGBM & Calibrated isotonic + threshold & 279.000 & 0.021 & False \\
+development CV aggregate & 1:1 & LightGBM & Calibrated sigmoid + threshold & 288.000 & 0.022 & False \\
+development CV aggregate & 1:1 & LightGBM & Class weight & 261.000 & 0.020 & False \\
+development CV aggregate & 1:1 & LightGBM & No handling & 242.000 & 0.018 & False \\
+development CV aggregate & 1:1 & LightGBM & Random undersampling & 570.000 & 0.043 & False \\
+development CV aggregate & 1:1 & LightGBM & SMOTE-NC & 262.000 & 0.020 & False \\
+development CV aggregate & 1:1 & LightGBM & Threshold tuning & 440.000 & 0.033 & False \\
+development CV aggregate & 1:1 & Logistic Regression & Calibrated isotonic + threshold & 254.000 & 0.019 & False \\
+development CV aggregate & 1:1 & Logistic Regression & Calibrated sigmoid + threshold & 244.000 & 0.019 & False \\
+development CV aggregate & 1:1 & Logistic Regression & Class weight & 459.000 & 0.035 & False \\
+development CV aggregate & 1:1 & Logistic Regression & No handling & 223.000 & 0.017 & True \\
+development CV aggregate & 1:1 & Logistic Regression & Random undersampling & 526.000 & 0.040 & False \\
+development CV aggregate & 1:1 & Logistic Regression & SMOTE-NC & 411.000 & 0.031 & False \\
+development CV aggregate & 1:1 & Logistic Regression & Threshold tuning & 241.000 & 0.018 & False \\
+development CV aggregate & 1:1 & Random Forest & Calibrated isotonic + threshold & 332.000 & 0.025 & False \\
+development CV aggregate & 1:1 & Random Forest & Calibrated sigmoid + threshold & 320.000 & 0.024 & False \\
+development CV aggregate & 1:1 & Random Forest & Class weight & 307.000 & 0.023 & False \\
+development CV aggregate & 1:1 & Random Forest & No handling & 260.000 & 0.020 & False \\
+development CV aggregate & 1:1 & Random Forest & Random undersampling & 462.000 & 0.035 & False \\
+development CV aggregate & 1:1 & Random Forest & SMOTE-NC & 277.000 & 0.021 & False \\
+development CV aggregate & 1:1 & Random Forest & Threshold tuning & 315.000 & 0.024 & False \\
+development CV aggregate & 1:1 & Stacking & Calibrated isotonic + threshold & 303.000 & 0.023 & False \\
+development CV aggregate & 1:1 & Stacking & Calibrated sigmoid + threshold & 294.000 & 0.022 & False \\
+development CV aggregate & 1:1 & Stacking & Class weight & 378.000 & 0.029 & False \\
+development CV aggregate & 1:1 & Stacking & No handling & 237.000 & 0.018 & False \\
+development CV aggregate & 1:1 & Stacking & Random undersampling & 271.000 & 0.021 & False \\
+development CV aggregate & 1:1 & Stacking & SMOTE-NC & 244.000 & 0.019 & False \\
+development CV aggregate & 1:1 & Stacking & Threshold tuning & 311.000 & 0.024 & False \\
+development CV aggregate & 1:1 & XGBoost & Calibrated isotonic + threshold & 285.000 & 0.022 & False \\
+development CV aggregate & 1:1 & XGBoost & Calibrated sigmoid + threshold & 273.000 & 0.021 & False \\
+development CV aggregate & 1:1 & XGBoost & Class weight & 294.000 & 0.022 & False \\
+development CV aggregate & 1:1 & XGBoost & No handling & 230.000 & 0.017 & False \\
+development CV aggregate & 1:1 & XGBoost & Random undersampling & 504.000 & 0.038 & False \\
+development CV aggregate & 1:1 & XGBoost & SMOTE-NC & 256.000 & 0.019 & False \\
+development CV aggregate & 1:1 & XGBoost & Threshold tuning & 262.000 & 0.020 & False \\
+development CV aggregate & 3:1 & LightGBM & Calibrated isotonic + threshold & 569.000 & 0.043 & False \\
+development CV aggregate & 3:1 & LightGBM & Calibrated sigmoid + threshold & 538.000 & 0.041 & False \\
+development CV aggregate & 3:1 & LightGBM & Class weight & 593.000 & 0.045 & False \\
+development CV aggregate & 3:1 & LightGBM & No handling & 636.000 & 0.048 & False \\
+development CV aggregate & 3:1 & LightGBM & Random undersampling & 750.000 & 0.057 & False \\
+development CV aggregate & 3:1 & LightGBM & SMOTE-NC & 636.000 & 0.048 & False \\
+development CV aggregate & 3:1 & LightGBM & Threshold tuning & 690.000 & 0.052 & False \\
+development CV aggregate & 3:1 & Logistic Regression & Calibrated isotonic + threshold & 514.000 & 0.039 & True \\
+development CV aggregate & 3:1 & Logistic Regression & Calibrated sigmoid + threshold & 516.000 & 0.039 & False \\
+development CV aggregate & 3:1 & Logistic Regression & Class weight & 621.000 & 0.047 & False \\
+development CV aggregate & 3:1 & Logistic Regression & No handling & 611.000 & 0.046 & False \\
+development CV aggregate & 3:1 & Logistic Regression & Random undersampling & 680.000 & 0.052 & False \\
+development CV aggregate & 3:1 & Logistic Regression & SMOTE-NC & 625.000 & 0.047 & False \\
+development CV aggregate & 3:1 & Logistic Regression & Threshold tuning & 529.000 & 0.040 & False \\
+development CV aggregate & 3:1 & Random Forest & Calibrated isotonic + threshold & 626.000 & 0.048 & False \\
+development CV aggregate & 3:1 & Random Forest & Calibrated sigmoid + threshold & 620.000 & 0.047 & False \\
+development CV aggregate & 3:1 & Random Forest & Class weight & 633.000 & 0.048 & False \\
+development CV aggregate & 3:1 & Random Forest & No handling & 742.000 & 0.056 & False \\
+development CV aggregate & 3:1 & Random Forest & Random undersampling & 656.000 & 0.050 & False \\
+development CV aggregate & 3:1 & Random Forest & SMOTE-NC & 663.000 & 0.050 & False \\
+development CV aggregate & 3:1 & Random Forest & Threshold tuning & 591.000 & 0.045 & False \\
+development CV aggregate & 3:1 & Stacking & Calibrated isotonic + threshold & 567.000 & 0.043 & False \\
+development CV aggregate & 3:1 & Stacking & Calibrated sigmoid + threshold & 602.000 & 0.046 & False \\
+development CV aggregate & 3:1 & Stacking & Class weight & 608.000 & 0.046 & False \\
+development CV aggregate & 3:1 & Stacking & No handling & 637.000 & 0.048 & False \\
+development CV aggregate & 3:1 & Stacking & Random undersampling & 793.000 & 0.060 & False \\
+development CV aggregate & 3:1 & Stacking & SMOTE-NC & 658.000 & 0.050 & False \\
+development CV aggregate & 3:1 & Stacking & Threshold tuning & 575.000 & 0.044 & False \\
+development CV aggregate & 3:1 & XGBoost & Calibrated isotonic + threshold & 579.000 & 0.044 & False \\
+development CV aggregate & 3:1 & XGBoost & Calibrated sigmoid + threshold & 555.000 & 0.042 & False \\
+development CV aggregate & 3:1 & XGBoost & Class weight & 570.000 & 0.043 & False \\
+development CV aggregate & 3:1 & XGBoost & No handling & 616.000 & 0.047 & False \\
+development CV aggregate & 3:1 & XGBoost & Random undersampling & 684.000 & 0.052 & False \\
+development CV aggregate & 3:1 & XGBoost & SMOTE-NC & 598.000 & 0.045 & False \\
+development CV aggregate & 3:1 & XGBoost & Threshold tuning & 558.000 & 0.042 & False \\
+development CV aggregate & 5:1 & LightGBM & Calibrated isotonic + threshold & 859.000 & 0.065 & False \\
+development CV aggregate & 5:1 & LightGBM & Calibrated sigmoid + threshold & 788.000 & 0.060 & False \\
+development CV aggregate & 5:1 & LightGBM & Class weight & 925.000 & 0.070 & False \\
+development CV aggregate & 5:1 & LightGBM & No handling & 1030.000 & 0.078 & False \\
+development CV aggregate & 5:1 & LightGBM & Random undersampling & 930.000 & 0.071 & False \\
+development CV aggregate & 5:1 & LightGBM & SMOTE-NC & 1010.000 & 0.077 & False \\
+development CV aggregate & 5:1 & LightGBM & Threshold tuning & 940.000 & 0.071 & False \\
+development CV aggregate & 5:1 & Logistic Regression & Calibrated isotonic + threshold & 774.000 & 0.059 & True \\
+development CV aggregate & 5:1 & Logistic Regression & Calibrated sigmoid + threshold & 788.000 & 0.060 & False \\
+development CV aggregate & 5:1 & Logistic Regression & Class weight & 783.000 & 0.059 & False \\
+development CV aggregate & 5:1 & Logistic Regression & No handling & 999.000 & 0.076 & False \\
+development CV aggregate & 5:1 & Logistic Regression & Random undersampling & 834.000 & 0.063 & False \\
+development CV aggregate & 5:1 & Logistic Regression & SMOTE-NC & 839.000 & 0.064 & False \\
+development CV aggregate & 5:1 & Logistic Regression & Threshold tuning & 817.000 & 0.062 & False \\
+development CV aggregate & 5:1 & Random Forest & Calibrated isotonic + threshold & 920.000 & 0.070 & False \\
+development CV aggregate & 5:1 & Random Forest & Calibrated sigmoid + threshold & 920.000 & 0.070 & False \\
+development CV aggregate & 5:1 & Random Forest & Class weight & 959.000 & 0.073 & False \\
+development CV aggregate & 5:1 & Random Forest & No handling & 1224.000 & 0.093 & False \\
+development CV aggregate & 5:1 & Random Forest & Random undersampling & 850.000 & 0.065 & False \\
+development CV aggregate & 5:1 & Random Forest & SMOTE-NC & 1049.000 & 0.080 & False \\
+development CV aggregate & 5:1 & Random Forest & Threshold tuning & 867.000 & 0.066 & False \\
+development CV aggregate & 5:1 & Stacking & Calibrated isotonic + threshold & 831.000 & 0.063 & False \\
+development CV aggregate & 5:1 & Stacking & Calibrated sigmoid + threshold & 910.000 & 0.069 & False \\
+development CV aggregate & 5:1 & Stacking & Class weight & 838.000 & 0.064 & False \\
+development CV aggregate & 5:1 & Stacking & No handling & 1037.000 & 0.079 & False \\
+development CV aggregate & 5:1 & Stacking & Random undersampling & 1315.000 & 0.100 & False \\
+development CV aggregate & 5:1 & Stacking & SMOTE-NC & 1072.000 & 0.081 & False \\
+development CV aggregate & 5:1 & Stacking & Threshold tuning & 839.000 & 0.064 & False \\
+development CV aggregate & 5:1 & XGBoost & Calibrated isotonic + threshold & 873.000 & 0.066 & False \\
+development CV aggregate & 5:1 & XGBoost & Calibrated sigmoid + threshold & 837.000 & 0.064 & False \\
+development CV aggregate & 5:1 & XGBoost & Class weight & 846.000 & 0.064 & False \\
+development CV aggregate & 5:1 & XGBoost & No handling & 1002.000 & 0.076 & False \\
+development CV aggregate & 5:1 & XGBoost & Random undersampling & 864.000 & 0.066 & False \\
+development CV aggregate & 5:1 & XGBoost & SMOTE-NC & 940.000 & 0.071 & False \\
+development CV aggregate & 5:1 & XGBoost & Threshold tuning & 854.000 & 0.065 & False \\
+development CV aggregate & 10:1 & LightGBM & Calibrated isotonic + threshold & 1584.000 & 0.120 & False \\
+development CV aggregate & 10:1 & LightGBM & Calibrated sigmoid + threshold & 1413.000 & 0.107 & False \\
+development CV aggregate & 10:1 & LightGBM & Class weight & 1755.000 & 0.133 & False \\
+development CV aggregate & 10:1 & LightGBM & No handling & 2015.000 & 0.153 & False \\
+development CV aggregate & 10:1 & LightGBM & Random undersampling & 1380.000 & 0.105 & False \\
+development CV aggregate & 10:1 & LightGBM & SMOTE-NC & 1945.000 & 0.148 & False \\
+development CV aggregate & 10:1 & LightGBM & Threshold tuning & 1565.000 & 0.119 & False \\
+development CV aggregate & 10:1 & Logistic Regression & Calibrated isotonic + threshold & 1424.000 & 0.108 & False \\
+development CV aggregate & 10:1 & Logistic Regression & Calibrated sigmoid + threshold & 1468.000 & 0.112 & False \\
+development CV aggregate & 10:1 & Logistic Regression & Class weight & 1188.000 & 0.090 & True \\
+development CV aggregate & 10:1 & Logistic Regression & No handling & 1969.000 & 0.150 & False \\
+development CV aggregate & 10:1 & Logistic Regression & Random undersampling & 1219.000 & 0.093 & False \\
+development CV aggregate & 10:1 & Logistic Regression & SMOTE-NC & 1374.000 & 0.104 & False \\
+development CV aggregate & 10:1 & Logistic Regression & Threshold tuning & 1537.000 & 0.117 & False \\
+development CV aggregate & 10:1 & Random Forest & Calibrated isotonic + threshold & 1655.000 & 0.126 & False \\
+development CV aggregate & 10:1 & Random Forest & Calibrated sigmoid + threshold & 1670.000 & 0.127 & False \\
+development CV aggregate & 10:1 & Random Forest & Class weight & 1774.000 & 0.135 & False \\
+development CV aggregate & 10:1 & Random Forest & No handling & 2429.000 & 0.185 & False \\
+development CV aggregate & 10:1 & Random Forest & Random undersampling & 1335.000 & 0.101 & False \\
+development CV aggregate & 10:1 & Random Forest & SMOTE-NC & 2014.000 & 0.153 & False \\
+development CV aggregate & 10:1 & Random Forest & Threshold tuning & 1557.000 & 0.118 & False \\
+development CV aggregate & 10:1 & Stacking & Calibrated isotonic + threshold & 1491.000 & 0.113 & False \\
+development CV aggregate & 10:1 & Stacking & Calibrated sigmoid + threshold & 1680.000 & 0.128 & False \\
+development CV aggregate & 10:1 & Stacking & Class weight & 1413.000 & 0.107 & False \\
+development CV aggregate & 10:1 & Stacking & No handling & 2037.000 & 0.155 & False \\
+development CV aggregate & 10:1 & Stacking & Random undersampling & 2620.000 & 0.199 & False \\
+development CV aggregate & 10:1 & Stacking & SMOTE-NC & 2107.000 & 0.160 & False \\
+development CV aggregate & 10:1 & Stacking & Threshold tuning & 1499.000 & 0.114 & False \\
+development CV aggregate & 10:1 & XGBoost & Calibrated isotonic + threshold & 1608.000 & 0.122 & False \\
+development CV aggregate & 10:1 & XGBoost & Calibrated sigmoid + threshold & 1542.000 & 0.117 & False \\
+development CV aggregate & 10:1 & XGBoost & Class weight & 1536.000 & 0.117 & False \\
+development CV aggregate & 10:1 & XGBoost & No handling & 1967.000 & 0.149 & False \\
+development CV aggregate & 10:1 & XGBoost & Random undersampling & 1314.000 & 0.100 & False \\
+development CV aggregate & 10:1 & XGBoost & SMOTE-NC & 1795.000 & 0.136 & False \\
+development CV aggregate & 10:1 & XGBoost & Threshold tuning & 1594.000 & 0.121 & False \\
+\bottomrule
+\end{tabular}
