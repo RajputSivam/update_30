@@ -1,5 +1,5 @@
-| comparison_split                     | model_a                                | model_b                                |   a_correct_b_wrong |   a_wrong_b_correct |   mcnemar_exact_p_value |
-|:-------------------------------------|:---------------------------------------|:---------------------------------------|--------------------:|--------------------:|------------------------:|
-| development-only; not final hold-out | Logistic Regression / No handling      | Logistic Regression / Threshold tuning |                  11 |                   3 |                0.057373 |
-| development-only; not final hold-out | Logistic Regression / No handling      | Stacking / SMOTE-NC                    |                  13 |                   6 |                0.167068 |
-| development-only; not final hold-out | Logistic Regression / Threshold tuning | Stacking / SMOTE-NC                    |                  14 |                  15 |                1        |
+| comparison_split                     | model_a                                              | model_b                                |   a_correct_b_wrong |   a_wrong_b_correct |   mcnemar_exact_p_value |
+|:-------------------------------------|:-----------------------------------------------------|:---------------------------------------|--------------------:|--------------------:|------------------------:|
+| development-only; not final hold-out | Logistic Regression / Calibrated sigmoid + threshold | Logistic Regression / No handling      |                   8 |                  11 |                0.647606 |
+| development-only; not final hold-out | Logistic Regression / Calibrated sigmoid + threshold | Logistic Regression / Threshold tuning |                   0 |                   2 |                0.5      |
+| development-only; not final hold-out | Logistic Regression / No handling                    | Logistic Regression / Threshold tuning |                  11 |                  10 |                1        |

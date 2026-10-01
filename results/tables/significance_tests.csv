@@ -1,211 +1,211 @@
 model,comparison,metric,wilcoxon_statistic,p_value,bh_q_value
-Logistic Regression,No handling vs Class weight,pr_auc,0.0,0.5,0.7894736842105263
-Logistic Regression,No handling vs Class weight,f1,0.0,0.5,0.7894736842105263
-Logistic Regression,No handling vs SMOTE-NC,pr_auc,0.0,0.5,0.7894736842105263
-Logistic Regression,No handling vs SMOTE-NC,f1,0.0,0.5,0.7894736842105263
-Logistic Regression,No handling vs Random undersampling,pr_auc,0.0,0.5,0.7894736842105263
-Logistic Regression,No handling vs Random undersampling,f1,1.0,1.0,1.0
-Logistic Regression,No handling vs Threshold tuning,pr_auc,1.5,1.0,1.0
-Logistic Regression,No handling vs Threshold tuning,f1,0.0,0.5,0.7894736842105263
-Logistic Regression,No handling vs Calibrated sigmoid + threshold,pr_auc,1.0,1.0,1.0
-Logistic Regression,No handling vs Calibrated sigmoid + threshold,f1,0.0,0.5,0.7894736842105263
-Logistic Regression,No handling vs Calibrated isotonic + threshold,pr_auc,1.0,1.0,1.0
-Logistic Regression,No handling vs Calibrated isotonic + threshold,f1,0.0,0.5,0.7894736842105263
-Logistic Regression,Class weight vs SMOTE-NC,pr_auc,1.0,1.0,1.0
-Logistic Regression,Class weight vs SMOTE-NC,f1,0.0,0.5,0.7894736842105263
-Logistic Regression,Class weight vs Random undersampling,pr_auc,1.0,1.0,1.0
-Logistic Regression,Class weight vs Random undersampling,f1,1.0,1.0,1.0
-Logistic Regression,Class weight vs Threshold tuning,pr_auc,0.0,0.5,0.7894736842105263
-Logistic Regression,Class weight vs Threshold tuning,f1,0.0,0.5,0.7894736842105263
-Logistic Regression,Class weight vs Calibrated sigmoid + threshold,pr_auc,1.0,1.0,1.0
-Logistic Regression,Class weight vs Calibrated sigmoid + threshold,f1,0.0,0.5,0.7894736842105263
-Logistic Regression,Class weight vs Calibrated isotonic + threshold,pr_auc,1.0,1.0,1.0
-Logistic Regression,Class weight vs Calibrated isotonic + threshold,f1,0.0,0.5,0.7894736842105263
-Logistic Regression,SMOTE-NC vs Random undersampling,pr_auc,1.0,1.0,1.0
-Logistic Regression,SMOTE-NC vs Random undersampling,f1,0.0,0.5,0.7894736842105263
-Logistic Regression,SMOTE-NC vs Threshold tuning,pr_auc,0.0,0.5,0.7894736842105263
-Logistic Regression,SMOTE-NC vs Threshold tuning,f1,0.0,0.5,0.7894736842105263
-Logistic Regression,SMOTE-NC vs Calibrated sigmoid + threshold,pr_auc,0.0,0.5,0.7894736842105263
-Logistic Regression,SMOTE-NC vs Calibrated sigmoid + threshold,f1,1.0,1.0,1.0
-Logistic Regression,SMOTE-NC vs Calibrated isotonic + threshold,pr_auc,0.0,0.5,0.7894736842105263
-Logistic Regression,SMOTE-NC vs Calibrated isotonic + threshold,f1,1.0,1.0,1.0
-Logistic Regression,Random undersampling vs Threshold tuning,pr_auc,0.0,0.5,0.7894736842105263
-Logistic Regression,Random undersampling vs Threshold tuning,f1,0.0,0.5,0.7894736842105263
-Logistic Regression,Random undersampling vs Calibrated sigmoid + threshold,pr_auc,1.0,1.0,1.0
-Logistic Regression,Random undersampling vs Calibrated sigmoid + threshold,f1,0.0,0.5,0.7894736842105263
-Logistic Regression,Random undersampling vs Calibrated isotonic + threshold,pr_auc,1.0,1.0,1.0
-Logistic Regression,Random undersampling vs Calibrated isotonic + threshold,f1,0.0,0.5,0.7894736842105263
-Logistic Regression,Threshold tuning vs Calibrated sigmoid + threshold,pr_auc,1.0,1.0,1.0
-Logistic Regression,Threshold tuning vs Calibrated sigmoid + threshold,f1,1.0,1.0,1.0
-Logistic Regression,Threshold tuning vs Calibrated isotonic + threshold,pr_auc,1.0,1.0,1.0
-Logistic Regression,Threshold tuning vs Calibrated isotonic + threshold,f1,1.0,1.0,1.0
-Logistic Regression,Calibrated sigmoid + threshold vs Calibrated isotonic + threshold,pr_auc,1.0,1.0,1.0
-Logistic Regression,Calibrated sigmoid + threshold vs Calibrated isotonic + threshold,f1,0.0,0.5,0.7894736842105263
-Random Forest,No handling vs Class weight,pr_auc,0.0,0.5,0.7894736842105263
-Random Forest,No handling vs Class weight,f1,0.0,0.5,0.7894736842105263
-Random Forest,No handling vs SMOTE-NC,pr_auc,1.0,1.0,1.0
-Random Forest,No handling vs SMOTE-NC,f1,0.0,0.5,0.7894736842105263
-Random Forest,No handling vs Random undersampling,pr_auc,0.0,0.5,0.7894736842105263
-Random Forest,No handling vs Random undersampling,f1,0.0,0.5,0.7894736842105263
-Random Forest,No handling vs Threshold tuning,pr_auc,1.5,1.0,1.0
-Random Forest,No handling vs Threshold tuning,f1,0.0,0.5,0.7894736842105263
-Random Forest,No handling vs Calibrated sigmoid + threshold,pr_auc,1.0,1.0,1.0
-Random Forest,No handling vs Calibrated sigmoid + threshold,f1,0.0,0.5,0.7894736842105263
-Random Forest,No handling vs Calibrated isotonic + threshold,pr_auc,0.0,0.5,0.7894736842105263
-Random Forest,No handling vs Calibrated isotonic + threshold,f1,0.0,0.5,0.7894736842105263
-Random Forest,Class weight vs SMOTE-NC,pr_auc,1.0,1.0,1.0
-Random Forest,Class weight vs SMOTE-NC,f1,0.0,0.5,0.7894736842105263
-Random Forest,Class weight vs Random undersampling,pr_auc,0.0,0.5,0.7894736842105263
-Random Forest,Class weight vs Random undersampling,f1,0.0,0.5,0.7894736842105263
-Random Forest,Class weight vs Threshold tuning,pr_auc,0.0,0.5,0.7894736842105263
-Random Forest,Class weight vs Threshold tuning,f1,0.0,0.5,0.7894736842105263
-Random Forest,Class weight vs Calibrated sigmoid + threshold,pr_auc,1.0,1.0,1.0
-Random Forest,Class weight vs Calibrated sigmoid + threshold,f1,0.0,0.5,0.7894736842105263
-Random Forest,Class weight vs Calibrated isotonic + threshold,pr_auc,0.0,0.5,0.7894736842105263
-Random Forest,Class weight vs Calibrated isotonic + threshold,f1,1.0,1.0,1.0
-Random Forest,SMOTE-NC vs Random undersampling,pr_auc,0.0,0.5,0.7894736842105263
-Random Forest,SMOTE-NC vs Random undersampling,f1,0.0,0.5,0.7894736842105263
-Random Forest,SMOTE-NC vs Threshold tuning,pr_auc,1.0,1.0,1.0
-Random Forest,SMOTE-NC vs Threshold tuning,f1,0.0,0.5,0.7894736842105263
-Random Forest,SMOTE-NC vs Calibrated sigmoid + threshold,pr_auc,1.0,1.0,1.0
-Random Forest,SMOTE-NC vs Calibrated sigmoid + threshold,f1,0.0,0.5,0.7894736842105263
-Random Forest,SMOTE-NC vs Calibrated isotonic + threshold,pr_auc,1.0,1.0,1.0
-Random Forest,SMOTE-NC vs Calibrated isotonic + threshold,f1,1.0,1.0,1.0
-Random Forest,Random undersampling vs Threshold tuning,pr_auc,0.0,0.5,0.7894736842105263
-Random Forest,Random undersampling vs Threshold tuning,f1,0.0,0.5,0.7894736842105263
-Random Forest,Random undersampling vs Calibrated sigmoid + threshold,pr_auc,1.0,1.0,1.0
-Random Forest,Random undersampling vs Calibrated sigmoid + threshold,f1,0.0,0.5,0.7894736842105263
-Random Forest,Random undersampling vs Calibrated isotonic + threshold,pr_auc,1.0,1.0,1.0
-Random Forest,Random undersampling vs Calibrated isotonic + threshold,f1,1.0,1.0,1.0
-Random Forest,Threshold tuning vs Calibrated sigmoid + threshold,pr_auc,1.0,1.0,1.0
-Random Forest,Threshold tuning vs Calibrated sigmoid + threshold,f1,1.0,1.0,1.0
-Random Forest,Threshold tuning vs Calibrated isotonic + threshold,pr_auc,0.0,0.5,0.7894736842105263
-Random Forest,Threshold tuning vs Calibrated isotonic + threshold,f1,1.0,1.0,1.0
-Random Forest,Calibrated sigmoid + threshold vs Calibrated isotonic + threshold,pr_auc,0.0,0.5,0.7894736842105263
-Random Forest,Calibrated sigmoid + threshold vs Calibrated isotonic + threshold,f1,1.0,1.0,1.0
-XGBoost,No handling vs Class weight,pr_auc,1.0,1.0,1.0
-XGBoost,No handling vs Class weight,f1,0.0,0.5,0.7894736842105263
-XGBoost,No handling vs SMOTE-NC,pr_auc,1.0,1.0,1.0
-XGBoost,No handling vs SMOTE-NC,f1,0.0,0.5,0.7894736842105263
-XGBoost,No handling vs Random undersampling,pr_auc,0.0,0.5,0.7894736842105263
-XGBoost,No handling vs Random undersampling,f1,0.0,0.5,0.7894736842105263
-XGBoost,No handling vs Threshold tuning,pr_auc,1.5,1.0,1.0
-XGBoost,No handling vs Threshold tuning,f1,0.0,0.5,0.7894736842105263
-XGBoost,No handling vs Calibrated sigmoid + threshold,pr_auc,0.0,0.5,0.7894736842105263
-XGBoost,No handling vs Calibrated sigmoid + threshold,f1,0.0,0.5,0.7894736842105263
-XGBoost,No handling vs Calibrated isotonic + threshold,pr_auc,0.0,0.5,0.7894736842105263
-XGBoost,No handling vs Calibrated isotonic + threshold,f1,1.0,1.0,1.0
-XGBoost,Class weight vs SMOTE-NC,pr_auc,1.0,1.0,1.0
-XGBoost,Class weight vs SMOTE-NC,f1,0.0,0.5,0.7894736842105263
-XGBoost,Class weight vs Random undersampling,pr_auc,0.0,0.5,0.7894736842105263
-XGBoost,Class weight vs Random undersampling,f1,0.0,0.5,0.7894736842105263
-XGBoost,Class weight vs Threshold tuning,pr_auc,1.0,1.0,1.0
-XGBoost,Class weight vs Threshold tuning,f1,1.0,1.0,1.0
-XGBoost,Class weight vs Calibrated sigmoid + threshold,pr_auc,0.0,0.5,0.7894736842105263
-XGBoost,Class weight vs Calibrated sigmoid + threshold,f1,1.0,1.0,1.0
-XGBoost,Class weight vs Calibrated isotonic + threshold,pr_auc,0.0,0.5,0.7894736842105263
-XGBoost,Class weight vs Calibrated isotonic + threshold,f1,0.0,0.5,0.7894736842105263
-XGBoost,SMOTE-NC vs Random undersampling,pr_auc,0.0,0.5,0.7894736842105263
-XGBoost,SMOTE-NC vs Random undersampling,f1,1.0,1.0,1.0
-XGBoost,SMOTE-NC vs Threshold tuning,pr_auc,1.0,1.0,1.0
-XGBoost,SMOTE-NC vs Threshold tuning,f1,0.0,0.5,0.7894736842105263
-XGBoost,SMOTE-NC vs Calibrated sigmoid + threshold,pr_auc,0.0,0.5,0.7894736842105263
-XGBoost,SMOTE-NC vs Calibrated sigmoid + threshold,f1,1.0,1.0,1.0
-XGBoost,SMOTE-NC vs Calibrated isotonic + threshold,pr_auc,0.0,0.5,0.7894736842105263
-XGBoost,SMOTE-NC vs Calibrated isotonic + threshold,f1,0.0,0.5,0.7894736842105263
-XGBoost,Random undersampling vs Threshold tuning,pr_auc,0.0,0.5,0.7894736842105263
-XGBoost,Random undersampling vs Threshold tuning,f1,0.0,0.5,0.7894736842105263
-XGBoost,Random undersampling vs Calibrated sigmoid + threshold,pr_auc,0.0,0.5,0.7894736842105263
-XGBoost,Random undersampling vs Calibrated sigmoid + threshold,f1,1.0,1.0,1.0
-XGBoost,Random undersampling vs Calibrated isotonic + threshold,pr_auc,0.0,0.5,0.7894736842105263
-XGBoost,Random undersampling vs Calibrated isotonic + threshold,f1,1.0,1.0,1.0
-XGBoost,Threshold tuning vs Calibrated sigmoid + threshold,pr_auc,0.0,0.5,0.7894736842105263
-XGBoost,Threshold tuning vs Calibrated sigmoid + threshold,f1,0.0,0.5,0.7894736842105263
-XGBoost,Threshold tuning vs Calibrated isotonic + threshold,pr_auc,0.0,0.5,0.7894736842105263
-XGBoost,Threshold tuning vs Calibrated isotonic + threshold,f1,0.0,0.5,0.7894736842105263
-XGBoost,Calibrated sigmoid + threshold vs Calibrated isotonic + threshold,pr_auc,0.0,0.5,0.7894736842105263
-XGBoost,Calibrated sigmoid + threshold vs Calibrated isotonic + threshold,f1,1.0,1.0,1.0
-LightGBM,No handling vs Class weight,pr_auc,1.0,1.0,1.0
-LightGBM,No handling vs Class weight,f1,0.0,0.5,0.7894736842105263
-LightGBM,No handling vs SMOTE-NC,pr_auc,1.0,1.0,1.0
-LightGBM,No handling vs SMOTE-NC,f1,1.0,1.0,1.0
-LightGBM,No handling vs Random undersampling,pr_auc,0.0,0.5,0.7894736842105263
-LightGBM,No handling vs Random undersampling,f1,1.0,1.0,1.0
-LightGBM,No handling vs Threshold tuning,pr_auc,1.5,1.0,1.0
-LightGBM,No handling vs Threshold tuning,f1,0.0,0.5,0.7894736842105263
-LightGBM,No handling vs Calibrated sigmoid + threshold,pr_auc,0.0,0.5,0.7894736842105263
-LightGBM,No handling vs Calibrated sigmoid + threshold,f1,1.0,1.0,1.0
-LightGBM,No handling vs Calibrated isotonic + threshold,pr_auc,0.0,0.5,0.7894736842105263
-LightGBM,No handling vs Calibrated isotonic + threshold,f1,0.0,0.5,0.7894736842105263
-LightGBM,Class weight vs SMOTE-NC,pr_auc,1.0,1.0,1.0
-LightGBM,Class weight vs SMOTE-NC,f1,1.0,1.0,1.0
-LightGBM,Class weight vs Random undersampling,pr_auc,0.0,0.5,0.7894736842105263
-LightGBM,Class weight vs Random undersampling,f1,0.0,0.5,0.7894736842105263
-LightGBM,Class weight vs Threshold tuning,pr_auc,1.0,1.0,1.0
-LightGBM,Class weight vs Threshold tuning,f1,1.0,1.0,1.0
-LightGBM,Class weight vs Calibrated sigmoid + threshold,pr_auc,0.0,0.5,0.7894736842105263
-LightGBM,Class weight vs Calibrated sigmoid + threshold,f1,1.0,1.0,1.0
-LightGBM,Class weight vs Calibrated isotonic + threshold,pr_auc,0.0,0.5,0.7894736842105263
-LightGBM,Class weight vs Calibrated isotonic + threshold,f1,1.0,1.0,1.0
-LightGBM,SMOTE-NC vs Random undersampling,pr_auc,0.0,0.5,0.7894736842105263
-LightGBM,SMOTE-NC vs Random undersampling,f1,0.0,0.5,0.7894736842105263
-LightGBM,SMOTE-NC vs Threshold tuning,pr_auc,1.0,1.0,1.0
-LightGBM,SMOTE-NC vs Threshold tuning,f1,1.0,1.0,1.0
-LightGBM,SMOTE-NC vs Calibrated sigmoid + threshold,pr_auc,0.0,0.5,0.7894736842105263
-LightGBM,SMOTE-NC vs Calibrated sigmoid + threshold,f1,0.0,0.5,0.7894736842105263
-LightGBM,SMOTE-NC vs Calibrated isotonic + threshold,pr_auc,0.0,0.5,0.7894736842105263
-LightGBM,SMOTE-NC vs Calibrated isotonic + threshold,f1,1.0,1.0,1.0
-LightGBM,Random undersampling vs Threshold tuning,pr_auc,0.0,0.5,0.7894736842105263
-LightGBM,Random undersampling vs Threshold tuning,f1,1.0,1.0,1.0
-LightGBM,Random undersampling vs Calibrated sigmoid + threshold,pr_auc,0.0,0.5,0.7894736842105263
-LightGBM,Random undersampling vs Calibrated sigmoid + threshold,f1,0.0,0.5,0.7894736842105263
-LightGBM,Random undersampling vs Calibrated isotonic + threshold,pr_auc,0.0,0.5,0.7894736842105263
-LightGBM,Random undersampling vs Calibrated isotonic + threshold,f1,0.0,0.5,0.7894736842105263
-LightGBM,Threshold tuning vs Calibrated sigmoid + threshold,pr_auc,0.0,0.5,0.7894736842105263
-LightGBM,Threshold tuning vs Calibrated sigmoid + threshold,f1,1.0,1.0,1.0
-LightGBM,Threshold tuning vs Calibrated isotonic + threshold,pr_auc,0.0,0.5,0.7894736842105263
-LightGBM,Threshold tuning vs Calibrated isotonic + threshold,f1,1.0,1.0,1.0
-LightGBM,Calibrated sigmoid + threshold vs Calibrated isotonic + threshold,pr_auc,0.0,0.5,0.7894736842105263
-LightGBM,Calibrated sigmoid + threshold vs Calibrated isotonic + threshold,f1,0.0,0.5,0.7894736842105263
-Stacking,No handling vs Class weight,pr_auc,1.0,1.0,1.0
-Stacking,No handling vs Class weight,f1,0.0,0.5,0.7894736842105263
-Stacking,No handling vs SMOTE-NC,pr_auc,0.0,0.5,0.7894736842105263
-Stacking,No handling vs SMOTE-NC,f1,1.0,1.0,1.0
-Stacking,No handling vs Random undersampling,pr_auc,0.0,0.5,0.7894736842105263
-Stacking,No handling vs Random undersampling,f1,0.0,0.5,0.7894736842105263
-Stacking,No handling vs Threshold tuning,pr_auc,1.5,1.0,1.0
-Stacking,No handling vs Threshold tuning,f1,0.0,0.5,0.7894736842105263
-Stacking,No handling vs Calibrated sigmoid + threshold,pr_auc,1.0,1.0,1.0
-Stacking,No handling vs Calibrated sigmoid + threshold,f1,0.0,0.5,0.7894736842105263
-Stacking,No handling vs Calibrated isotonic + threshold,pr_auc,0.0,0.5,0.7894736842105263
-Stacking,No handling vs Calibrated isotonic + threshold,f1,0.0,0.5,0.7894736842105263
-Stacking,Class weight vs SMOTE-NC,pr_auc,0.0,0.5,0.7894736842105263
-Stacking,Class weight vs SMOTE-NC,f1,0.0,0.5,0.7894736842105263
-Stacking,Class weight vs Random undersampling,pr_auc,0.0,0.5,0.7894736842105263
-Stacking,Class weight vs Random undersampling,f1,0.0,0.5,0.7894736842105263
-Stacking,Class weight vs Threshold tuning,pr_auc,1.0,1.0,1.0
-Stacking,Class weight vs Threshold tuning,f1,0.0,0.5,0.7894736842105263
-Stacking,Class weight vs Calibrated sigmoid + threshold,pr_auc,0.0,0.5,0.7894736842105263
-Stacking,Class weight vs Calibrated sigmoid + threshold,f1,1.0,1.0,1.0
-Stacking,Class weight vs Calibrated isotonic + threshold,pr_auc,0.0,0.5,0.7894736842105263
-Stacking,Class weight vs Calibrated isotonic + threshold,f1,0.0,0.5,0.7894736842105263
-Stacking,SMOTE-NC vs Random undersampling,pr_auc,0.0,0.5,0.7894736842105263
-Stacking,SMOTE-NC vs Random undersampling,f1,0.0,0.5,0.7894736842105263
-Stacking,SMOTE-NC vs Threshold tuning,pr_auc,0.0,0.5,0.7894736842105263
-Stacking,SMOTE-NC vs Threshold tuning,f1,0.0,0.5,0.7894736842105263
-Stacking,SMOTE-NC vs Calibrated sigmoid + threshold,pr_auc,0.0,0.5,0.7894736842105263
-Stacking,SMOTE-NC vs Calibrated sigmoid + threshold,f1,0.0,0.5,0.7894736842105263
-Stacking,SMOTE-NC vs Calibrated isotonic + threshold,pr_auc,0.0,0.5,0.7894736842105263
-Stacking,SMOTE-NC vs Calibrated isotonic + threshold,f1,0.0,0.5,0.7894736842105263
-Stacking,Random undersampling vs Threshold tuning,pr_auc,0.0,0.5,0.7894736842105263
-Stacking,Random undersampling vs Threshold tuning,f1,0.0,0.5,0.7894736842105263
-Stacking,Random undersampling vs Calibrated sigmoid + threshold,pr_auc,0.0,0.5,0.7894736842105263
-Stacking,Random undersampling vs Calibrated sigmoid + threshold,f1,0.0,0.5,0.7894736842105263
-Stacking,Random undersampling vs Calibrated isotonic + threshold,pr_auc,1.0,1.0,1.0
-Stacking,Random undersampling vs Calibrated isotonic + threshold,f1,0.0,0.5,0.7894736842105263
-Stacking,Threshold tuning vs Calibrated sigmoid + threshold,pr_auc,1.0,1.0,1.0
-Stacking,Threshold tuning vs Calibrated sigmoid + threshold,f1,0.0,0.5,0.7894736842105263
-Stacking,Threshold tuning vs Calibrated isotonic + threshold,pr_auc,0.0,0.5,0.7894736842105263
-Stacking,Threshold tuning vs Calibrated isotonic + threshold,f1,0.0,0.5,0.7894736842105263
-Stacking,Calibrated sigmoid + threshold vs Calibrated isotonic + threshold,pr_auc,1.0,1.0,1.0
-Stacking,Calibrated sigmoid + threshold vs Calibrated isotonic + threshold,f1,0.0,0.5,0.7894736842105263
+Logistic Regression,No handling vs Class weight,pr_auc,175.0,1.9767201369091936e-06,5.765433732651815e-06
+Logistic Regression,No handling vs Class weight,f1,399.5,0.02159138421223346,0.035702288854874226
+Logistic Regression,No handling vs SMOTE-NC,pr_auc,166.0,1.1326234101716182e-06,3.4978075902358796e-06
+Logistic Regression,No handling vs SMOTE-NC,f1,366.0,0.008085622213709343,0.014389666651516626
+Logistic Regression,No handling vs Random undersampling,pr_auc,22.0,9.521272659185342e-13,1.332978172285948e-11
+Logistic Regression,No handling vs Random undersampling,f1,625.5,0.9077798683161526,0.920936098291749
+Logistic Regression,No handling vs Threshold tuning,pr_auc,584.5,0.6089143464848256,0.7025934767132602
+Logistic Regression,No handling vs Threshold tuning,f1,42.0,2.022026990289305e-11,1.8461985563511047e-10
+Logistic Regression,No handling vs Calibrated sigmoid + threshold,pr_auc,601.0,0.7304479390240814,0.7747175110861471
+Logistic Regression,No handling vs Calibrated sigmoid + threshold,f1,75.0,8.855280952957401e-10,5.635178788245618e-09
+Logistic Regression,No handling vs Calibrated isotonic + threshold,pr_auc,138.0,1.7394549622906652e-07,6.298026587604132e-07
+Logistic Regression,No handling vs Calibrated isotonic + threshold,f1,75.5,5.789804193978582e-08,2.4813446545622495e-07
+Logistic Regression,Class weight vs SMOTE-NC,pr_auc,345.0,0.004178445711550793,0.007697136837067251
+Logistic Regression,Class weight vs SMOTE-NC,f1,589.5,0.6431082253817728,0.7292147899299358
+Logistic Regression,Class weight vs Random undersampling,pr_auc,133.0,1.2141019567479816e-07,4.846584364280882e-07
+Logistic Regression,Class weight vs Random undersampling,f1,145.5,2.0400782779892045e-06,5.868718333941547e-06
+Logistic Regression,Class weight vs Threshold tuning,pr_auc,172.0,1.6455253124547653e-06,4.936575937364296e-06
+Logistic Regression,Class weight vs Threshold tuning,f1,54.0,9.07522945681194e-11,7.329993022809643e-10
+Logistic Regression,Class weight vs Calibrated sigmoid + threshold,pr_auc,212.0,1.603124333549033e-05,4.0078108338725826e-05
+Logistic Regression,Class weight vs Calibrated sigmoid + threshold,f1,36.0,8.842704346534447e-12,8.842704346534447e-11
+Logistic Regression,Class weight vs Calibrated isotonic + threshold,pr_auc,591.0,0.6596977023333945,0.7407244141616312
+Logistic Regression,Class weight vs Calibrated isotonic + threshold,f1,49.0,1.3391919779288126e-08,6.692523496627833e-08
+Logistic Regression,SMOTE-NC vs Random undersampling,pr_auc,330.0,0.002525686043762576,0.004866000634771935
+Logistic Regression,SMOTE-NC vs Random undersampling,f1,178.0,2.36936675790389e-06,6.634226922130893e-06
+Logistic Regression,SMOTE-NC vs Threshold tuning,pr_auc,191.0,5.070202146129077e-06,1.3477752540343115e-05
+Logistic Regression,SMOTE-NC vs Threshold tuning,f1,51.0,6.337863567296154e-11,5.545630621384134e-10
+Logistic Regression,SMOTE-NC vs Calibrated sigmoid + threshold,pr_auc,200.0,8.398093875428003e-06,2.150731358341318e-05
+Logistic Regression,SMOTE-NC vs Calibrated sigmoid + threshold,f1,27.0,2.239985974483716e-12,2.939981591509877e-11
+Logistic Regression,SMOTE-NC vs Calibrated isotonic + threshold,pr_auc,469.0,0.10525460779046192,0.1483454203758188
+Logistic Regression,SMOTE-NC vs Calibrated isotonic + threshold,f1,52.0,7.151434999741468e-11,6.007205399782833e-10
+Logistic Regression,Random undersampling vs Threshold tuning,pr_auc,29.0,3.0890845437170356e-12,3.6039319676698746e-11
+Logistic Regression,Random undersampling vs Threshold tuning,f1,22.0,9.521272659185342e-13,1.332978172285948e-11
+Logistic Regression,Random undersampling vs Calibrated sigmoid + threshold,pr_auc,40.0,1.5448975432263978e-11,1.4746749276251978e-10
+Logistic Regression,Random undersampling vs Calibrated sigmoid + threshold,f1,13.0,1.5631940186722204e-13,2.9842794901924208e-12
+Logistic Regression,Random undersampling vs Calibrated isotonic + threshold,pr_auc,158.0,6.78354924232849e-07,2.1916082167522814e-06
+Logistic Regression,Random undersampling vs Calibrated isotonic + threshold,f1,17.0,3.6770586575585185e-13,5.9398639852868375e-12
+Logistic Regression,Threshold tuning vs Calibrated sigmoid + threshold,pr_auc,624.0,0.9010179923007229,0.9185134872968534
+Logistic Regression,Threshold tuning vs Calibrated sigmoid + threshold,f1,622.0,0.8858855663449852,0.9119410241786612
+Logistic Regression,Threshold tuning vs Calibrated isotonic + threshold,pr_auc,156.0,5.951474850718341e-07,1.9528276853919557e-06
+Logistic Regression,Threshold tuning vs Calibrated isotonic + threshold,f1,556.5,0.4342641924634575,0.5364440024548592
+Logistic Regression,Calibrated sigmoid + threshold vs Calibrated isotonic + threshold,pr_auc,134.0,1.3054913772236887e-07,4.984603440308629e-07
+Logistic Regression,Calibrated sigmoid + threshold vs Calibrated isotonic + threshold,f1,600.0,0.7173519866295903,0.7685914142459896
+Random Forest,No handling vs Class weight,pr_auc,474.0,0.11619549807268115,0.16159638804809962
+Random Forest,No handling vs Class weight,f1,2.0,5.329070518200751e-15,1.5987211554602254e-13
+Random Forest,No handling vs SMOTE-NC,pr_auc,592.0,0.6666519727454681,0.7407244141616312
+Random Forest,No handling vs SMOTE-NC,f1,6.0,2.4868995751603507e-14,6.52811138479592e-13
+Random Forest,No handling vs Random undersampling,pr_auc,325.0,0.0021224348550905603,0.0041269566626760896
+Random Forest,No handling vs Random undersampling,f1,15.0,2.433608869978343e-13,4.2588155224621005e-12
+Random Forest,No handling vs Threshold tuning,pr_auc,578.0,0.5720861414815896,0.6787462695544284
+Random Forest,No handling vs Threshold tuning,f1,0.0,1.7763568394002505e-15,1.2434497875801753e-13
+Random Forest,No handling vs Calibrated sigmoid + threshold,pr_auc,225.0,3.128163219123792e-05,7.464934954727231e-05
+Random Forest,No handling vs Calibrated sigmoid + threshold,f1,0.0,1.7763568394002505e-15,1.2434497875801753e-13
+Random Forest,No handling vs Calibrated isotonic + threshold,pr_auc,579.0,0.5786292137562761,0.6826524431956066
+Random Forest,No handling vs Calibrated isotonic + threshold,f1,0.0,1.7763568394002505e-15,1.2434497875801753e-13
+Random Forest,Class weight vs SMOTE-NC,pr_auc,541.0,0.35718707191412413,0.45186316326485587
+Random Forest,Class weight vs SMOTE-NC,f1,347.5,0.0051189614334378915,0.009267085353637562
+Random Forest,Class weight vs Random undersampling,pr_auc,399.0,0.020665866669398625,0.03444311111566437
+Random Forest,Class weight vs Random undersampling,f1,265.0,0.000202796732962085,0.00044361785335456094
+Random Forest,Class weight vs Threshold tuning,pr_auc,415.0,0.031261656763490464,0.048271675884801454
+Random Forest,Class weight vs Threshold tuning,f1,336.5,0.0036650650423073,0.0068719969543261875
+Random Forest,Class weight vs Calibrated sigmoid + threshold,pr_auc,222.0,2.6885878247284722e-05,6.489694749344588e-05
+Random Forest,Class weight vs Calibrated sigmoid + threshold,f1,390.5,0.01710886421880665,0.028742891887595174
+Random Forest,Class weight vs Calibrated isotonic + threshold,pr_auc,451.0,0.07237748012944856,0.10555049185544581
+Random Forest,Class weight vs Calibrated isotonic + threshold,f1,409.5,0.027739738024556992,0.043150703593755314
+Random Forest,SMOTE-NC vs Random undersampling,pr_auc,406.0,0.024847675451864504,0.039530392764329896
+Random Forest,SMOTE-NC vs Random undersampling,f1,570.0,0.5210251168620434,0.6288234169024662
+Random Forest,SMOTE-NC vs Threshold tuning,pr_auc,550.0,0.4042577575813002,0.5053221969766253
+Random Forest,SMOTE-NC vs Threshold tuning,f1,203.0,9.898605478397826e-06,2.5044664463416187e-05
+Random Forest,SMOTE-NC vs Calibrated sigmoid + threshold,pr_auc,403.0,0.022974872408266123,0.03769315004481161
+Random Forest,SMOTE-NC vs Calibrated sigmoid + threshold,f1,248.5,0.00017325470840188494,0.000387058391110594
+Random Forest,SMOTE-NC vs Calibrated isotonic + threshold,pr_auc,578.0,0.5720861414815896,0.6787462695544284
+Random Forest,SMOTE-NC vs Calibrated isotonic + threshold,f1,199.0,7.946967700789287e-06,2.060324959463889e-05
+Random Forest,Random undersampling vs Threshold tuning,pr_auc,311.0,0.001282241835095732,0.002564483670191464
+Random Forest,Random undersampling vs Threshold tuning,f1,89.5,1.2231855776518416e-07,4.846584364280882e-07
+Random Forest,Random undersampling vs Calibrated sigmoid + threshold,pr_auc,137.0,1.6198182883897516e-07,5.967751588804348e-07
+Random Forest,Random undersampling vs Calibrated sigmoid + threshold,f1,134.0,1.3054913772236887e-07,4.984603440308629e-07
+Random Forest,Random undersampling vs Calibrated isotonic + threshold,pr_auc,280.0,0.0003825853095680287,0.0008034291500928603
+Random Forest,Random undersampling vs Calibrated isotonic + threshold,f1,131.0,1.0490046520317264e-07,4.405819538533251e-07
+Random Forest,Threshold tuning vs Calibrated sigmoid + threshold,pr_auc,268.0,0.0002308749851795966,0.0004998324421413946
+Random Forest,Threshold tuning vs Calibrated sigmoid + threshold,f1,613.0,0.8130362987288426,0.8494409091196863
+Random Forest,Threshold tuning vs Calibrated isotonic + threshold,pr_auc,635.0,0.9847343420165711,0.9847343420165711
+Random Forest,Threshold tuning vs Calibrated isotonic + threshold,f1,557.0,0.43709562238576116,0.5367840976667242
+Random Forest,Calibrated sigmoid + threshold vs Calibrated isotonic + threshold,pr_auc,292.0,0.0006207713421488847,0.001278058645600645
+Random Forest,Calibrated sigmoid + threshold vs Calibrated isotonic + threshold,f1,592.0,0.6666519727454681,0.7407244141616312
+XGBoost,No handling vs Class weight,pr_auc,464.0,0.09513333936720869,0.13590477052458386
+XGBoost,No handling vs Class weight,f1,257.5,0.00024422024865681743,0.0005233291042646088
+XGBoost,No handling vs SMOTE-NC,pr_auc,405.0,0.02420949942225903,0.03910765291287997
+XGBoost,No handling vs SMOTE-NC,f1,214.5,4.439359447120527e-05,0.000104748930774754
+XGBoost,No handling vs Random undersampling,pr_auc,113.0,2.6378053519238165e-08,1.230975830897781e-07
+XGBoost,No handling vs Random undersampling,f1,628.5,0.9307672881116182,0.9397169735742299
+XGBoost,No handling vs Threshold tuning,pr_auc,580.0,0.5852066143769612,0.6865552459171053
+XGBoost,No handling vs Threshold tuning,f1,226.5,7.263126305814832e-05,0.00016947294713567942
+XGBoost,No handling vs Calibrated sigmoid + threshold,pr_auc,519.0,0.2571237847552261,0.33330860986788574
+XGBoost,No handling vs Calibrated sigmoid + threshold,f1,152.0,2.776534988846245e-06,7.672004574443572e-06
+XGBoost,No handling vs Calibrated isotonic + threshold,pr_auc,601.0,0.7304479390240814,0.7747175110861471
+XGBoost,No handling vs Calibrated isotonic + threshold,f1,164.0,9.979758868183808e-07,3.1279841228635816e-06
+XGBoost,Class weight vs SMOTE-NC,pr_auc,573.0,0.5398998476772991,0.647879817212759
+XGBoost,Class weight vs SMOTE-NC,f1,617.0,0.8482444441392172,0.8818382835110673
+XGBoost,Class weight vs Random undersampling,pr_auc,182.0,3.006746544187422e-06,8.200217847783877e-06
+XGBoost,Class weight vs Random undersampling,f1,105.0,1.370373858833318e-08,6.692523496627833e-08
+XGBoost,Class weight vs Threshold tuning,pr_auc,551.0,0.40970358186013023,0.5090991253883275
+XGBoost,Class weight vs Threshold tuning,f1,623.0,0.893447016970665,0.9152384076284861
+XGBoost,Class weight vs Calibrated sigmoid + threshold,pr_auc,345.0,0.004178445711550793,0.007697136837067251
+XGBoost,Class weight vs Calibrated sigmoid + threshold,f1,463.0,0.0932040847757225,0.13406066988288853
+XGBoost,Class weight vs Calibrated isotonic + threshold,pr_auc,372.0,0.009674503529771172,0.01707265328783148
+XGBoost,Class weight vs Calibrated isotonic + threshold,f1,407.5,0.026401524113330292,0.04137552286417434
+XGBoost,SMOTE-NC vs Random undersampling,pr_auc,222.0,2.6885878247284722e-05,6.489694749344588e-05
+XGBoost,SMOTE-NC vs Random undersampling,f1,123.0,5.7649630846867694e-08,2.4813446545622495e-07
+XGBoost,SMOTE-NC vs Threshold tuning,pr_auc,540.0,0.35217499509373695,0.44822272102839245
+XGBoost,SMOTE-NC vs Threshold tuning,f1,596.0,0.6947463342363385,0.7597200265385252
+XGBoost,SMOTE-NC vs Calibrated sigmoid + threshold,pr_auc,378.0,0.011529687649083797,0.019684832571606484
+XGBoost,SMOTE-NC vs Calibrated sigmoid + threshold,f1,548.0,0.38760246289647093,0.48740429466023294
+XGBoost,SMOTE-NC vs Calibrated isotonic + threshold,pr_auc,404.0,0.023585311964122724,0.0383946938950835
+XGBoost,SMOTE-NC vs Calibrated isotonic + threshold,f1,507.5,0.20950288836709752,0.27497254098181545
+XGBoost,Random undersampling vs Threshold tuning,pr_auc,172.0,1.6455253124547653e-06,4.936575937364296e-06
+XGBoost,Random undersampling vs Threshold tuning,f1,132.0,1.1287300338835848e-07,4.647711904226526e-07
+XGBoost,Random undersampling vs Calibrated sigmoid + threshold,pr_auc,77.0,1.080529443697742e-09,6.673858328721347e-09
+XGBoost,Random undersampling vs Calibrated sigmoid + threshold,f1,60.0,1.8094681308866711e-10,1.4073641018007441e-09
+XGBoost,Random undersampling vs Calibrated isotonic + threshold,pr_auc,74.0,8.008242957657785e-10,5.424938777768177e-09
+XGBoost,Random undersampling vs Calibrated isotonic + threshold,f1,30.5,4.640552737186553e-09,2.4987591661773746e-08
+XGBoost,Threshold tuning vs Calibrated sigmoid + threshold,pr_auc,456.0,0.08054833435456032,0.11665620837557013
+XGBoost,Threshold tuning vs Calibrated sigmoid + threshold,f1,535.5,0.32480367384327,0.41590714333589457
+XGBoost,Threshold tuning vs Calibrated isotonic + threshold,pr_auc,469.0,0.10525460779046192,0.1483454203758188
+XGBoost,Threshold tuning vs Calibrated isotonic + threshold,f1,429.0,0.04414405981976628,0.06717574320399217
+XGBoost,Calibrated sigmoid + threshold vs Calibrated isotonic + threshold,pr_auc,597.0,0.7018365959451138,0.7597200265385252
+XGBoost,Calibrated sigmoid + threshold vs Calibrated isotonic + threshold,f1,570.0,0.5210251168620434,0.6288234169024662
+LightGBM,No handling vs Class weight,pr_auc,598.0,0.7089524432753507,0.7634872466042238
+LightGBM,No handling vs Class weight,f1,118.0,5.305093204287961e-07,1.7683644014293204e-06
+LightGBM,No handling vs SMOTE-NC,pr_auc,481.0,0.1329605561585705,0.1824948810019595
+LightGBM,No handling vs SMOTE-NC,f1,241.5,0.00013198729649344096,0.0002980358307916409
+LightGBM,No handling vs Random undersampling,pr_auc,101.0,9.772863407420118e-09,5.130753288895562e-08
+LightGBM,No handling vs Random undersampling,f1,433.0,0.04830953815983641,0.07246430723975461
+LightGBM,No handling vs Threshold tuning,pr_auc,629.0,0.9389922173111831,0.9434850030399448
+LightGBM,No handling vs Threshold tuning,f1,161.5,4.32830942329487e-06,1.165314075502465e-05
+LightGBM,No handling vs Calibrated sigmoid + threshold,pr_auc,334.0,0.002896310240339872,0.005529319549739756
+LightGBM,No handling vs Calibrated sigmoid + threshold,f1,119.0,4.2364032282193875e-08,1.934010169404503e-07
+LightGBM,No handling vs Calibrated isotonic + threshold,pr_auc,407.0,0.025500083179634814,0.040263289231002336
+LightGBM,No handling vs Calibrated isotonic + threshold,f1,110.0,2.070065541204258e-08,9.879858264838504e-08
+LightGBM,Class weight vs SMOTE-NC,pr_auc,520.0,0.26120880915335754,0.336526686639295
+LightGBM,Class weight vs SMOTE-NC,f1,434.5,0.05004074002460719,0.07452876173877666
+LightGBM,Class weight vs Random undersampling,pr_auc,89.0,3.3822118439275073e-09,1.8691170716441487e-08
+LightGBM,Class weight vs Random undersampling,f1,75.0,8.855280952957401e-10,5.635178788245618e-09
+LightGBM,Class weight vs Threshold tuning,pr_auc,585.0,0.6185935400423848,0.7098614393929005
+LightGBM,Class weight vs Threshold tuning,f1,582.5,0.5954649182413339,0.6908708996170172
+LightGBM,Class weight vs Calibrated sigmoid + threshold,pr_auc,249.0,9.915398697479816e-05,0.00022632975287725665
+LightGBM,Class weight vs Calibrated sigmoid + threshold,f1,486.5,0.1449383971771389,0.1976432688779167
+LightGBM,Class weight vs Calibrated isotonic + threshold,pr_auc,416.0,0.03205348601661129,0.049133080755389566
+LightGBM,Class weight vs Calibrated isotonic + threshold,f1,472.5,0.11120708901662912,0.1556899246232808
+LightGBM,SMOTE-NC vs Random undersampling,pr_auc,163.0,9.364108866094512e-07,2.9794891846664355e-06
+LightGBM,SMOTE-NC vs Random undersampling,f1,173.0,1.7496796758109667e-06,5.175108900285958e-06
+LightGBM,SMOTE-NC vs Threshold tuning,pr_auc,495.0,0.17191424676435396,0.23142302449047647
+LightGBM,SMOTE-NC vs Threshold tuning,f1,481.5,0.13208990086724973,0.18249262619817397
+LightGBM,SMOTE-NC vs Calibrated sigmoid + threshold,pr_auc,337.0,0.0032054206503495664,0.00606430933849918
+LightGBM,SMOTE-NC vs Calibrated sigmoid + threshold,f1,378.0,0.011529687649083797,0.019684832571606484
+LightGBM,SMOTE-NC vs Calibrated isotonic + threshold,pr_auc,378.0,0.011529687649083797,0.019684832571606484
+LightGBM,SMOTE-NC vs Calibrated isotonic + threshold,f1,347.0,0.004459422606641894,0.008143293455606937
+LightGBM,Random undersampling vs Threshold tuning,pr_auc,61.0,2.0232171493717033e-10,1.5174128620287775e-09
+LightGBM,Random undersampling vs Threshold tuning,f1,31.0,4.218847493575595e-12,4.4297898682543746e-11
+LightGBM,Random undersampling vs Calibrated sigmoid + threshold,pr_auc,30.0,3.6148861681795097e-12,3.9954005016720894e-11
+LightGBM,Random undersampling vs Calibrated sigmoid + threshold,f1,29.0,3.0890845437170356e-12,3.6039319676698746e-11
+LightGBM,Random undersampling vs Calibrated isotonic + threshold,pr_auc,68.0,4.3148595807451784e-10,3.1245534895051292e-09
+LightGBM,Random undersampling vs Calibrated isotonic + threshold,f1,11.0,1.4682403513921402e-09,8.809442108352842e-09
+LightGBM,Threshold tuning vs Calibrated sigmoid + threshold,pr_auc,303.0,0.0009504084140701252,0.0019190939130262143
+LightGBM,Threshold tuning vs Calibrated sigmoid + threshold,f1,497.0,0.1781010477908609,0.23822433144000502
+LightGBM,Threshold tuning vs Calibrated isotonic + threshold,pr_auc,391.0,0.016637745581261854,0.028176827194072492
+LightGBM,Threshold tuning vs Calibrated isotonic + threshold,f1,448.5,0.0680810976786385,0.09997923435324535
+LightGBM,Calibrated sigmoid + threshold vs Calibrated isotonic + threshold,pr_auc,505.0,0.20447619481721802,0.2717721576684543
+LightGBM,Calibrated sigmoid + threshold vs Calibrated isotonic + threshold,f1,611.5,0.8018255165128876,0.8419167923385319
+Stacking,No handling vs Class weight,pr_auc,495.0,0.17191424676435396,0.23142302449047647
+Stacking,No handling vs Class weight,f1,245.0,8.237559280566131e-05,0.0001900975218592184
+Stacking,No handling vs SMOTE-NC,pr_auc,609.0,0.7887529519630228,0.8323523613680139
+Stacking,No handling vs SMOTE-NC,f1,582.5,0.5954649182413339,0.6908708996170172
+Stacking,No handling vs Random undersampling,pr_auc,151.0,4.2698192537216073e-07,1.469937775871373e-06
+Stacking,No handling vs Random undersampling,f1,13.0,1.5631940186722204e-13,2.9842794901924208e-12
+Stacking,No handling vs Threshold tuning,pr_auc,506.0,0.20795951830847592,0.2746635147470437
+Stacking,No handling vs Threshold tuning,f1,101.0,2.230615252715885e-07,7.939478018141286e-07
+Stacking,No handling vs Calibrated sigmoid + threshold,pr_auc,281.0,0.00039864755038721,0.0008288711443694465
+Stacking,No handling vs Calibrated sigmoid + threshold,f1,104.0,2.604112396628445e-07,9.114393388199558e-07
+Stacking,No handling vs Calibrated isotonic + threshold,pr_auc,597.0,0.7018365959451138,0.7597200265385252
+Stacking,No handling vs Calibrated isotonic + threshold,f1,72.0,4.789292489522846e-08,2.1398966442548884e-07
+Stacking,Class weight vs SMOTE-NC,pr_auc,595.0,0.6876822045635382,0.7560903819808537
+Stacking,Class weight vs SMOTE-NC,f1,315.5,0.0018811994560959306,0.003726904582831561
+Stacking,Class weight vs Random undersampling,pr_auc,213.0,1.6896629077223224e-05,4.17446130143162e-05
+Stacking,Class weight vs Random undersampling,f1,12.0,1.2434497875801753e-13,2.9013828376870756e-12
+Stacking,Class weight vs Threshold tuning,pr_auc,430.0,0.045027510990479414,0.06802717487770271
+Stacking,Class weight vs Threshold tuning,f1,323.0,0.00197803909377825,0.0038821328008732006
+Stacking,Class weight vs Calibrated sigmoid + threshold,pr_auc,264.0,0.0001941578147395262,0.0004291909588979
+Stacking,Class weight vs Calibrated sigmoid + threshold,f1,259.5,0.0002633034879499733,0.000558522550196913
+Stacking,Class weight vs Calibrated isotonic + threshold,pr_auc,446.0,0.064886242135481,0.09595852710176768
+Stacking,Class weight vs Calibrated isotonic + threshold,f1,293.0,0.0006457255474483503,0.001316527815185957
+Stacking,SMOTE-NC vs Random undersampling,pr_auc,178.0,2.36936675790389e-06,6.634226922130893e-06
+Stacking,SMOTE-NC vs Random undersampling,f1,21.5,2.739550529387706e-09,1.5548800301930223e-08
+Stacking,SMOTE-NC vs Threshold tuning,pr_auc,561.0,0.46647302992520423,0.5695310249086796
+Stacking,SMOTE-NC vs Threshold tuning,f1,135.0,1.4032918471684752e-07,5.262344426881782e-07
+Stacking,SMOTE-NC vs Calibrated sigmoid + threshold,pr_auc,406.0,0.024847675451864504,0.039530392764329896
+Stacking,SMOTE-NC vs Calibrated sigmoid + threshold,f1,169.5,6.250481223685573e-06,1.640751321217463e-05
+Stacking,SMOTE-NC vs Calibrated isotonic + threshold,pr_auc,587.0,0.6321732707310517,0.7215021024647872
+Stacking,SMOTE-NC vs Calibrated isotonic + threshold,f1,102.0,1.0642100534141719e-08,5.450831980901856e-08
+Stacking,Random undersampling vs Threshold tuning,pr_auc,154.0,5.215646012857178e-07,1.766589778548399e-06
+Stacking,Random undersampling vs Threshold tuning,f1,1.0,3.552713678800501e-15,1.4921397450962104e-13
+Stacking,Random undersampling vs Calibrated sigmoid + threshold,pr_auc,70.0,5.318447904301138e-10,3.7229135330107965e-09
+Stacking,Random undersampling vs Calibrated sigmoid + threshold,f1,2.0,5.329070518200751e-15,1.5987211554602254e-13
+Stacking,Random undersampling vs Calibrated isotonic + threshold,pr_auc,85.0,2.3344064459251967e-09,1.3617370934563647e-08
+Stacking,Random undersampling vs Calibrated isotonic + threshold,f1,1.0,3.552713678800501e-15,1.4921397450962104e-13
+Stacking,Threshold tuning vs Calibrated sigmoid + threshold,pr_auc,358.0,0.006325487527247375,0.011353439151469647
+Stacking,Threshold tuning vs Calibrated sigmoid + threshold,f1,620.0,0.8658467364584339,0.8957035204742421
+Stacking,Threshold tuning vs Calibrated isotonic + threshold,pr_auc,589.0,0.645875956795086,0.7292147899299358
+Stacking,Threshold tuning vs Calibrated isotonic + threshold,f1,519.5,0.2546641508742403,0.3321706315750961
+Stacking,Calibrated sigmoid + threshold vs Calibrated isotonic + threshold,pr_auc,373.0,0.009964281765361349,0.01743749308938236
+Stacking,Calibrated sigmoid + threshold vs Calibrated isotonic + threshold,f1,593.5,0.6710231139489868,0.741657125943617

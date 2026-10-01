@@ -1,52 +1,52 @@
 feature,mean_abs_shap
-OverTime_No,0.5107511658990439
-YearsSinceLastPromotion,0.4643460193987464
-EnvironmentSatisfaction,0.38047575377259246
-NumCompaniesWorked,0.37109688700484456
-YearsWithCurrManager,0.3158248342826148
-JobSatisfaction,0.300799560523095
-JobInvolvement,0.30003137154735654
-Age,0.297301414226717
-TotalWorkingYears,0.29445681551981423
-Department_Research & Development,0.28116922348656864
-YearsInCurrentRole,0.2794398422916309
-StockOptionLevel,0.25569488795360307
-OverTime_Yes,0.24894633847833464
-RelationshipSatisfaction,0.23822677388609534
-DistanceFromHome,0.23020445269689654
-Gender_Female,0.2158287229188843
-MaritalStatus_Married,0.19404273941099034
-JobRole_Laboratory Technician,0.18817348763628247
-WorkLifeBalance,0.18465376388331417
-BusinessTravel_Travel_Frequently,0.17036452740723687
-EducationField_Medical,0.16190866193999676
-TrainingTimesLastYear,0.15406300157403224
-BusinessTravel_Non-Travel,0.14824902879814977
-MaritalStatus_Divorced,0.14241032222141173
-DailyRate,0.13366912303467154
-MonthlyIncome,0.12958951135621358
-JobRole_Research Scientist,0.12678105616325774
-BusinessTravel_Travel_Rarely,0.10645116320993638
-MaritalStatus_Single,0.10431500981426438
-EducationField_Life Sciences,0.09541188032736515
-YearsAtCompany,0.08318277692880724
-PercentSalaryHike,0.08162044075789243
-JobRole_Sales Executive,0.07537282512613168
-Gender_Male,0.07402662172547476
-JobRole_Healthcare Representative,0.06853572400740487
-JobLevel,0.06294272832306794
-JobRole_Research Director,0.06027098120375367
-JobRole_Sales Representative,0.05450378755612726
-JobRole_Manufacturing Director,0.04865873105322342
-Department_Sales,0.03930095800945031
-EducationField_Technical Degree,0.03784387397890797
-PerformanceRating,0.03487245396755077
-EducationField_Other,0.02483052699880734
-MonthlyRate,0.01590239191730209
-HourlyRate,0.014015328853343851
-EducationField_Human Resources,0.008156933488132125
-Department_Human Resources,0.005222687581022652
-Education,0.004495992266858526
-EducationField_Marketing,0.003226679266356361
-JobRole_Human Resources,0.002418500151323542
-JobRole_Manager,0.0013374982487900703
+OverTime_No,0.5040040843055987
+TotalWorkingYears,0.44054135989151877
+NumCompaniesWorked,0.4137279500493795
+YearsWithCurrManager,0.351072275007093
+EnvironmentSatisfaction,0.3499416973763761
+YearsSinceLastPromotion,0.34878274452329755
+JobSatisfaction,0.32322684826180526
+MaritalStatus_Married,0.28396004018556836
+JobInvolvement,0.24784760227734148
+Department_Research & Development,0.24650206341082206
+OverTime_Yes,0.246162281025953
+PercentSalaryHike,0.24174425324479637
+BusinessTravel_Travel_Frequently,0.21763427628607226
+Age,0.21565336943341223
+EducationField_Medical,0.2092908421001394
+DistanceFromHome,0.2066490199572412
+MaritalStatus_Single,0.19605142138418177
+RelationshipSatisfaction,0.19264386930863064
+Gender_Female,0.18738803053035208
+YearsInCurrentRole,0.17493654491112512
+JobRole_Laboratory Technician,0.16593160699212114
+BusinessTravel_Travel_Rarely,0.16387827814857697
+TrainingTimesLastYear,0.16378850792436736
+MaritalStatus_Divorced,0.1611317688855131
+WorkLifeBalance,0.14913503135572193
+PerformanceRating,0.14313291335642975
+DailyRate,0.13828982361803896
+JobRole_Research Scientist,0.12452714575298662
+BusinessTravel_Non-Travel,0.11861583723776309
+Gender_Male,0.10167649794158373
+EducationField_Life Sciences,0.08694495619865768
+JobRole_Sales Executive,0.07694106744369145
+JobRole_Sales Representative,0.07689702857465866
+JobRole_Healthcare Representative,0.07061180726572772
+YearsAtCompany,0.06772193002320681
+Education,0.062185752354797674
+StockOptionLevel,0.052647422722227444
+Department_Sales,0.051796933808022166
+MonthlyIncome,0.0405643617133761
+HourlyRate,0.03980398683547991
+JobRole_Research Director,0.03648531318788187
+JobRole_Manufacturing Director,0.03643532265861264
+EducationField_Other,0.03609213590817775
+EducationField_Technical Degree,0.032343031990803885
+Department_Human Resources,0.02078352781520807
+JobRole_Human Resources,0.01507413677101494
+EducationField_Marketing,0.013284515250823197
+MonthlyRate,0.01175764835003968
+EducationField_Human Resources,0.010879147106756505
+JobLevel,0.01046975536381949
+JobRole_Manager,0.0009831871785677575
